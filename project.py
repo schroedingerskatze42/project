@@ -37,7 +37,9 @@ if __name__ == '__main__':
     for filename in os.listdir(PATH_ORIGINAL):
         y.append(image_path_to_array(os.path.join(PATH_ORIGINAL, filename)))
 
-    print 'Dataset loaded...'
+    print(X[0])
+    exit()
+    print('Dataset loaded...')
 
     train_x, test_x, train_y, test_y = train_test_split(X, y, test_size=TRAIN_RATIO)
 
@@ -45,8 +47,8 @@ if __name__ == '__main__':
     classifier = MLPRegressor(solver='lbfgs', alpha=1e-5,
                               hidden_layer_sizes=(5, 2), random_state=1)
 
-    print 'Start training...'
+    print('Start training...')
     classifier.fit(train_x, train_y)
-    print 'Training finished...'
+    print('Training finished...')
 
     print(classifier.score(test_x, test_y))
