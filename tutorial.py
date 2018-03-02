@@ -1,12 +1,9 @@
-import pandas as pd
 import math
 import quandl
 import datetime
 import numpy as np
 from sklearn import preprocessing
 from sklearn import model_selection
-from sklearn import svm
-from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 from matplotlib import style
 import pickle
