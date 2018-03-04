@@ -1,0 +1,991 @@
+P6
+128 192
+255
+QQQRRRRRRSSSTTTUUUVVVWWWWWWYYYZZZ[[[\\\\\\]]]^^^``````aaabbbbbbcccddddddffffffggghhhhhhjjjjjjkkkkkklllllllllnnnnnnnnnoooooooooooooooppppppppprrrrrrrrrsssssssssttttttttttttttttttttttttttttttttttttttttttuuuuuuuuuvvvvvvuuuuuuuuuttttttttttttttttttssssssssssssssssssssssssqqqqqqqqqqqqppppppnnnnnnmmmmmmmmmlllllljjjjjjiiiiiihhhhhhggggggeeeeeeeeeddddddccccccaaa``````___^^^]]]\\\\\\ZZZZZZZZZRRRRRRSSSTTTUUUVVVVVVWWWXXXZZZ[[[\\\\\\]]]^^^```aaaaaabbbccccccdddffffffgggggghhhhhhjjjjjjkkkkkkllllllnnnnnnoooooooooppppppppppppqqqrrrrrrrrrsssssssssssstttuuuuuuuuuvvvvvvvvvvvvuuuuuuuuuvvvvvvvvvvvvvvvvvvvvvvvvwwwwwwvvvvvvvvvvvvvvvvvvvvvvvvuuuuuutttttttttttttttsssssssssssssssqqqqqqqqqppppppooonnnnnnmmmmmmlllllljjjjjjiiiiiihhhhhhggggggfffeeeeeeddddddcccaaaaaa```___^^^]]]]]]\\\[[[[[[SSSTTTTTTUUUVVVWWWWWWXXXZZZ[[[\\\]]]]]]___```aaabbbbbbcccddddddfffgggggghhhhhhjjjjjjkkkkkklllmmmnnnnnnoooooopppqqqqqqrrrrrrrrrrrrsssssssssssstttttttttuuuuuuvvvvvvvvvvvvvvvwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwxxxxxxxxxxxxxxxxxxxxxwwwwwwwwwwwwwwwwwwvvvvvvvvvvvvvvvvvvuuuttttttttttttsssssssssqqqqqqpppppppppnnnnnnmmmmmmllllllkkkjjjiiiiiiiiihhhhhhhhhgggfffeeeddddddcccaaa```___^^^^^^]]]]]]\\\TTTUUUUUUVVVWWWXXXYYYZZZ[[[\\\]]]^^^___```aaabbbcccddddddfffgggggghhhiiijjjkkkkkkllllllmmmnnnnnnooooooqqqqqqrrrrrrrrrssssssssstttttttttttttttvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwxxxyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyxxxwwwwwwwwwwwwvvvvvvvvvvvvvvvuuuttttttssssssrrrrrrqqqqqqppppppoooooommmmmmllllllkkkkkkjjjiiiiiiiiihhhggggggeeedddcccbbbaaa```______^^^^^^VVVVVVWWWWWWYYYYYY[[[\\\\\\^^^^^^```aaabbbbbbccceeefffgggggghhhjjjjjjkkkkkklllmmmnnnnnnoooooopppqqqqqqrrrrrrsssttttttuuuuuuuuuuuuvvvuuuuuutttttttttuuuttttttttttttttttttttttttttttttuuuuuuuuuuuuvvvvvvwwwwwwxxxyyyyyyzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzyyyyyyyyyyyyyyyxxxxxxwwwwwwwwwvvvvvvvvvtttttttttsssrrrrrrqqqqqqppppppoooooonnnmmmmmmllllllkkkjjjjjjiiihhhgggfffeeedddcccbbbaaa``````___XXXXXXYYYZZZZZZ[[[\\\]]]___```aaabbbbbbccceeeffffffggghhhjjjjjjkkkllllllnnnnnnoooooopppppprrrrrrrrrsssssstttuuuuuuuuuvvvvvvvvvuuuuuuuuutttssssssrrrrrrqqqqqqoooooooooooooooooooooooooooppppppppprrrssssssuuuvvvwwwwwwxxxyyyzzzzzzzzzzzz{{{{{{||||||||||||{{{{{{zzzzzzzzzzzzyyyyyyyyyyyyxxxwwwwwwwwwvvvvvvuuutttttttttsssrrrqqqqqqppppppooooooooonnnmmmmmmlllkkkjjjiiihhhgggfffddddddccccccbbbbbbZZZZZZ[[[[[[\\\]]]^^^___```aaabbbdddeeeffffffggghhhiiijjjkkkllllllnnnoooooopppppprrrrrrrrrsssssstttuuuuuuuuuvvvvvvvvvvvvvvvuuutttsssrrrqqqooonnnmmmkkkjjjiiihhhhhhggggggggggggggggggggghhhiiijjjkkklllnnnoooppprrrsssuuuvvvwwwyyyzzzzzz{{{|||||||||}}}}}}||||||||||||||||||||||||zzzzzzzzzzzzxxxxxxxxxwwwwwwwwwvvvuuutttttttttssssssrrrqqqqqqppppppoooooonnnmmmlllkkkkkkiiihhhgggfffeeeddddddddd[[[\\\\\\]]]^^^___```aaabbbccceeeeeefffggghhhiiijjjkkklllmmmnnnoooooopppqqqrrrrrrssssssuuuuuuuuuuuuvvvvvvvvvvvvvvvuuuuuutttrrrpppnnnllljjjgggeeedddaaa```^^^\\\\\\[[[[[[[[[[[[[[[[[[[[[\\\]]]___```bbbcccfffhhhjjjlllooopppsssuuuvvvwwwyyyzzz||||||}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}||||||{{{{{{zzzzzzyyyxxxxxxwwwwwwwwwvvvvvvuuuttttttssssssrrrrrrqqqqqqpppooonnnmmmlllkkkkkkiiihhhggggggffffff]]]^^^^^^___```aaabbbcccdddeeefffgggiiiiiijjjkkkmmmmmmnnnooooooqqqqqqrrrssssssuuuuuuuuuvvvvvvvvvwwwvvvvvvuuuuuutttsssqqqnnnllliiifffccc```\\\ZZZVVVTTTRRRQQQNNNMMMMMMLLLLLLLLLLLLLLLMMMNNNOOOQQQSSSUUUWWWZZZ]]]```bbbfffiiikkknnnpppsssvvvwwwyyyzzz||||||}}}}}}~~~~~~}}}}}}}}}{{{{{{{{{zzzzzzzzzyyyxxxxxxwwwwwwwwwvvvuuuuuuttttttsssrrrqqqqqqpppooonnnmmmlllkkkjjjiiihhhhhhhhh___``````aaabbbcccdddeeefffgggiiiiiijjjkkklllmmmnnnooooooqqqqqqrrrssssssuuuuuuvvvvvvvvvwwwwwwwwwwwwuuuuuutttrrrpppmmmjjjgggccc___ZZZVVVRRRNNNKKKHHHEEECCCAAA@@@>>>======<<<<<<======>>>???AAACCCEEEGGGJJJMMMOOOSSSWWW[[[^^^bbbfffiiilllooorrruuuwwwyyyzzz|||}}}~~~€€€€€€~~~~~~}}}}}}|||{{{{{{zzzzzzzzzyyyxxxxxxwwwwwwwwwvvvvvvuuuttttttsssrrrqqqpppooonnnmmmlllkkkkkkjjjjjjaaaaaabbbcccdddeeeffffffhhhiiijjjkkklllmmmnnnnnnooopppqqqrrrssstttuuuuuuvvvvvvxxxxxxxxxwwwwwwwwwuuusssqqqooollliiieee```[[[WWWRRRMMMHHHDDD@@@<<<999777555333111000000////////////000000111333555777:::<<<???CCCFFFJJJNNNRRRWWW[[[___dddgggkkkooorrruuuwwwyyyzzz|||}}}€€€€€€€€€€€€€€€€€€~~~~~~}}}}}}}}}|||{{{{{{{{{zzzzzzzzzyyyxxxxxxwwwwwwvvvuuuttttttsssrrrqqqpppooonnnnnnlllllllllccccccdddeeeffffffhhhiiijjjjjjkkkmmmnnnnnnooopppqqqrrrssssssuuuuuuvvvvvvwwwxxxxxxxxxxxxwwwuuutttqqqoookkkhhhccc^^^YYYTTTNNNIIICCC>>>999666222///,,,***((('''%%%$$$$$$$$$######$$$$$$%%%&&&((()))+++...000333666:::>>>BBBFFFKKKPPPUUUYYY^^^bbbgggkkkooorrruuuxxxyyyzzz|||€€€€€€€€€€€€€€€€€€~~~~~~~~~}}}}}}|||{{{{{{{{{zzzzzzzzzxxxxxxxxxwwwwwwuuuttttttsssqqqppppppoooooonnnnnneeeeeefffggghhhiiijjjjjjkkkmmmnnnnnnooopppqqqrrrrrrssstttuuuvvvvvvxxxxxxxxxxxxxxxwwwwwwtttrrroookkkgggbbb]]]XXXRRRKKKFFF@@@:::666111---)))&&&###!!!      """$$$&&&))),,,///333777;;;???DDDIIINNNTTTYYY^^^cccgggkkkooorrruuuwwwyyy|||}}}€€€‚‚‚‚‚‚€€€€€€€€€~~~~~~~~~}}}}}}|||{{{{{{zzzzzzzzzxxxxxxwwwwwwvvvtttssssssqqqppppppppppppfffggghhhiiiiiijjjkkkmmmmmmnnnooopppqqqrrrrrrssstttuuuvvvvvvvvvxxxxxxxxxxxxxxxwwwuuusssppplllhhhccc]]]VVVPPPIIICCC===888222---)))%%%"""!!!###&&&***---111555:::???DDDJJJOOOUUUYYY^^^cccfffjjjnnnqqqtttvvvyyy|||~~~€€€€€€‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚€€€~~~~~~~~~}}}|||{{{{{{{{{zzzzzzxxxxxxwwwvvvuuutttsssrrrrrrrrrrrrhhhiiiiiijjjkkklllmmmnnnooopppqqqrrrrrrssstttuuuuuuvvvvvvxxxxxxxxxxxxxxxxxxwwwtttqqqmmmiiiddd^^^WWWPPPIIIBBB;;;666000+++'''###"""%%%)))---111555:::@@@EEEKKKPPPUUUYYY\\\```dddgggkkkooossswwwzzz}}}‚‚‚‚‚‚‚‚‚ƒƒƒƒƒƒƒƒƒ‚‚‚€€€€€€~~~~~~}}}}}}{{{{{{{{{zzzzzzxxxwwwwwwvvvuuutttsssssssssiiijjjjjjlllmmmmmmnnnpppqqqqqqrrrttttttuuuvvvvvvvvvxxxxxxxxxxxxxxxxxxwwwuuussspppkkkfff___YYYQQQIIIBBB;;;555///***%%%!!!"""%%%)))---222777<<<@@@FFFJJJNNNRRRUUUXXX\\\aaaeeejjjooouuuyyy|||~~~€€€‚‚‚ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ‚‚‚€€€~~~~~~}}}}}}|||{{{{{{zzzyyyxxxwwwvvvvvvuuuuuuuuukkkkkkmmmmmmnnnooopppqqqrrrttttttuuuvvvvvvwwwxxxxxxxxxxxxxxxxxxxxxwwwtttqqqmmmiiiccc\\\TTTLLLDDD<<<555///)))$$$      ###&&&***///333777;;;???BBBFFFIIILLLOOOTTTZZZ___eeekkkrrrvvv{{{~~~€€€‚‚‚ƒƒƒƒƒƒ„„„„„„„„„„„„ƒƒƒƒƒƒƒƒƒƒƒƒ‚‚‚€€€~~~~~~~~~}}}|||{{{zzzzzzyyywwwwwwvvvvvvvvvmmmmmmnnnnnnpppqqqqqqssstttuuuuuuvvvxxxxxxxxxyyyyyyyyyyyyxxxwwwuuutttppplllfff___XXXPPPGGG???888000***$$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!!!$$$'''+++///222555777999<<<???CCCGGGLLLSSSZZZaaahhhooouuuzzz}}}€€€ƒƒƒƒƒƒ„„„„„„„„„„„„„„„„„„„„„ƒƒƒƒƒƒƒƒƒ‚‚‚€€€~~~~~~}}}{{{{{{zzzyyyyyyxxxwwwwwwnnnnnnppppppqqqrrrttttttuuuvvvwwwxxxyyyyyyyyyyyyzzzyyyxxxxxxuuusssooojjjddd\\\TTTLLLCCC;;;333,,,&&&   
+
+
+
+
+
+																								
+
+
+
+
+
+
+
+
+!!!$$$''')))+++---///000333666:::???FFFMMMUUU]]]fffmmmsssyyy}}}€€€ƒƒƒƒƒƒ„„„„„„„„„„„„„„„„„„„„„„„„„„„„„„ƒƒƒ‚‚‚‚‚‚€€€~~~~~~}}}}}}{{{zzzzzzyyyyyyyyyppppppqqqqqqrrrtttuuuuuuwwwxxxxxxyyyyyy{{{{{{{{{zzzyyyxxxvvvsssoooiiibbbZZZRRRIII@@@888///((("""
+
+
+
+
+
+																								
+
+
+   !!!###$$$%%%''')))+++///444999@@@IIIQQQ[[[ccclllsssyyy}}}€€€ƒƒƒ„„„„„„††††††††††††………………„„„„„„„„„„„„ƒƒƒ‚‚‚‚‚‚€€€~~~}}}}}}||||||{{{{{{{{{qqqqqqrrrssstttuuuvvvwwwxxxxxxyyy{{{{{{{{{|||{{{{{{xxxwwwsssooohhhaaaYYYPPPFFF===444,,,%%%   
+
+
+
+
+
+												
+
+
+
+
+
+   ###%%%)))///555===FFFNNNXXXbbbkkkrrryyy}}}€€€‚‚‚ƒƒƒ„„„†††††††††††††††………………………„„„„„„„„„„„„‚‚‚‚‚‚€€€}}}}}}|||||||||rrrsssttttttuuuwwwwwwxxxyyyzzz{{{{{{||||||||||||zzzwwwtttooohhh```XXXNNNDDD:::222***###
+
+
+																		
+
+
+
+
+
+!!!%%%+++111999CCCMMMWWWaaajjjrrrxxx}}}€€€‚‚‚ƒƒƒ„„„………†††††††††††††††………………………………„„„„„„„„„‚‚‚‚‚‚€€€~~~~~~}}}}}}ttttttuuuuuuwwwxxxxxxyyy{{{{{{||||||}}}}}}}}}{{{xxxtttpppiii```WWWMMMCCC999000((("""
+
+
+
+
+
+												
+
+
+
+
+
+###(((///777AAALLLVVVaaajjjrrrxxx|||€€€‚‚‚ƒƒƒ„„„………†††††††††‡‡‡‡‡‡‡‡‡‡‡‡†††………………„„„„„„ƒƒƒ‚‚‚‚‚‚€€€€€€uuuuuuwwwwwwxxxyyyzzz{{{{{{|||}}}~~~~~~~~~|||zzzvvvpppiiiaaaWWWMMMBBB888///'''   
+
+
+
+
+
+												
+
+
+
+
+
+
+
+
+!!!&&&...666AAAKKKVVVaaajjjrrrxxx|||‚‚‚ƒƒƒ„„„†††††††††‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡†††………………„„„ƒƒƒƒƒƒ‚‚‚€€€€€€€€€€€€vvvwwwxxxxxxyyyzzz{{{||||||~~~~~~~~~~~~|||{{{wwwqqqkkkbbbXXXMMMBBB888...&&&
+
+
+
+
+
+															
+
+
+
+
+
+
+
+
+
+
+
+%%%---666AAALLLWWWaaajjjrrrxxx|||‚‚‚ƒƒƒ………††††††‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡††††††„„„„„„ƒƒƒ‚‚‚‚‚‚‚‚‚wwwxxxxxxyyy{{{{{{||||||~~~~~~~~~~~~}}}{{{wwwrrrlllcccXXXMMMBBB888...&&&
+
+
+																		
+
+
+
+
+
+%%%---777AAAMMMXXXbbbkkkrrrxxx|||‚‚‚ƒƒƒ………††††††‡‡‡‡‡‡ˆˆˆˆˆˆˆˆˆ‡‡‡‡‡‡‡‡‡††††††„„„„„„ƒƒƒƒƒƒƒƒƒ‚‚‚‚‚‚xxxxxxyyy{{{{{{|||}}}~~~~~~~~~~~~}}}{{{xxxsssllldddYYYNNNCCC888...&&&
+
+
+															
+
+
+
+
+
+%%%...777CCCNNNYYYccclllsssyyy|||€€€‚‚‚„„„………†††‡‡‡‡‡‡ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ‡‡‡‡‡‡††††††………„„„„„„ƒƒƒƒƒƒƒƒƒxxxyyy{{{{{{|||}}}~~~~~~~~~~~~}}}{{{yyytttmmmeee[[[PPPDDD888...&&&
+
+
+												
+
+
+
+
+
+&&&///:::EEEPPP\\\fffnnnuuuyyy}}}€€€ƒƒƒ„„„††††††‡‡‡‡‡‡‰‰‰‰‰‰‰‰‰‰‰‰ˆˆˆˆˆˆ‡‡‡‡‡‡††††††„„„„„„„„„………yyyzzz{{{|||}}}~~~~~~~~~~~~}}}{{{yyytttnnnfff\\\QQQEEE:::///'''
+
+
+												
+
+
+
+
+
+   (((111<<<HHHTTT___gggooouuu{{{~~~€€€ƒƒƒ„„„†††‡‡‡‡‡‡‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰‡‡‡‡‡‡††††††………………………zzz{{{{{{}}}}}}~~~~~~~~~}}}|||yyyuuuppphhh^^^SSSGGG<<<111'''   
+
+
+									
+
+
+
+
+
+!!!***444@@@KKKVVVaaajjjrrrwww{{{ƒƒƒ………†††‡‡‡‰‰‰‰‰‰‰‰‰ŠŠŠŠŠŠ‰‰‰‰‰‰‰‰‰ˆˆˆ‡‡‡††††††††††††{{{{{{}}}}}}~~~~~~~~~}}}|||zzzvvvpppiii```UUUJJJ>>>333)))!!!
+
+
+																		
+
+
+$$$---888DDDOOO[[[eeemmmsssyyy|||€€€„„„†††‡‡‡ˆˆˆ‰‰‰ŠŠŠŠŠŠŠŠŠŠŠŠ‰‰‰‰‰‰‰‰‰ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ{{{}}}}}}}}}~~~~~~}}}|||zzzwwwrrrkkkbbbXXXMMM@@@555+++"""
+
+
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																								
+
+
+
+
+
+'''111<<<HHHTTT___hhhooovvvzzz}}}ƒƒƒ†††‡‡‡ˆˆˆ‰‰‰ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ‰‰‰‰‰‰ˆˆˆˆˆˆˆˆˆˆˆˆ}}}}}}}}}~~~~~~}}}}}}{{{xxxsssllldddZZZOOOCCC888---$$$
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+															
+
+
+
+
+
+"""+++666BBBMMMXXXccckkkrrrxxx|||€€€‚‚‚„„„‡‡‡‡‡‡‰‰‰ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ‰‰‰‰‰‰‰‰‰‰‰‰‰‰‰~~~~~~~~~~~~~~~}}}{{{xxxtttoooggg]]]RRRFFF;;;///&&&
+
+
+									
+
+
+
+
+
+
+
+
+									
+
+
+
+
+
+&&&000;;;GGGSSS]]]gggnnnuuuzzz}}}„„„†††‡‡‡‰‰‰ŠŠŠŠŠŠŠŠŠŠŠŠ‹‹‹ŠŠŠŠŠŠŠŠŠ‰‰‰‰‰‰ŠŠŠŠŠŠ~~~~~~}}}|||yyyvvvpppiii```UUUIII>>>333(((   						
+
+
+
+
+
+												
+
+
+
+
+
+"""+++666AAAMMMXXXbbbkkkrrrwww|||€€€ƒƒƒ†††‡‡‡‰‰‰ŠŠŠŠŠŠŒŒŒŒŒŒŒŒŒ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€€€€€€~~~}}}{{{wwwssslllcccYYYMMMAAA666+++###
+
+
+						
+
+
+															
+
+
+'''000<<<HHHSSS]]]gggnnnuuuzzz~~~………‡‡‡‰‰‰ŠŠŠŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒŒ€€€€€€~~~{{{xxxtttmmmeee\\\PPPEEE999...%%%
+
+
+						   !!!!!!   
+
+
+
+
+
+															
+
+
+###,,,777CCCNNNYYYbbbkkkrrrxxx}}}„„„‡‡‡‰‰‰ŠŠŠŒŒŒŒŒŒŒŒŒŒŒŒ€€€€€€~~~}}}zzzuuuppphhh___SSSHHH<<<111'''   
+
+
+			
+
+
+   !!!###$$$%%%&&&&&&&&&%%%###!!!
+
+
+
+
+
+
+
+
+									
+
+
+
+
+
+   (((222>>>IIITTT^^^gggooovvv{{{€€€„„„‡‡‡‰‰‰ŠŠŠŒŒŒŒŒŒŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽ€€€€€€}}}{{{wwwqqqjjjaaaWWWKKK???444***"""
+
+
+						   """###%%%&&&((()))+++,,,,,,,,,+++)))(((&&&$$$"""   
+
+
+
+
+
+									
+
+
+%%%...999EEEOOO[[[dddmmmssszzz~~~ƒƒƒ†††‰‰‰ŠŠŠŒŒŒŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽ€€€~~~{{{xxxssslllcccYYYOOOBBB777---$$$
+
+
+						!!!###$$$&&&''')))+++,,,...///000111222222222111///---+++(((&&&$$$###!!!   
+
+
+									
+
+
+
+
+
+"""+++555@@@LLLVVVaaajjjqqqxxx~~~‚‚‚†††‰‰‰ŠŠŠŒŒŒŽŽŽŽŽŽ~~~|||xxxtttmmmeee\\\QQQEEE:::///'''
+
+
+						"""%%%(((***,,,---///111222333444666666777777777777666444222000---,,,***(((&&&%%%###"""   
+
+
+						
+
+
+'''111<<<HHHSSS]]]gggooovvv}}}………‰‰‰‹‹‹‘‘‘}}}zzzuuuooohhh^^^SSSHHH===222)))!!!
+
+
+						   $$$(((,,,///111333444666888999:::;;;<<<<<<======<<<<<<:::999777555333111///---,,,***)))'''%%%###!!!
+
+
+						$$$...888DDDOOOZZZdddmmmttt{{{€€€„„„‰‰‰‹‹‹ŽŽŽ‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘zzzvvvpppjjjbbbWWWKKK@@@555+++###
+
+
+			
+
+
+   %%%***///222444777999;;;===>>>???@@@AAAAAAAAAAAAAAAAAA@@@???>>><<<;;;999777555444222000///---+++)))&&&###   						
+
+
+"""***555@@@KKKWWWaaajjjrrryyy€€€„„„ˆˆˆŠŠŠ‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘‘’’’wwwsssllldddZZZOOODDD999...%%%
+
+
+						$$$***///333777:::===???AAABBBDDDEEEFFFGGGGGGFFFFFFEEEEEEDDDCCCBBBAAA???>>><<<;;;:::888777555333111...,,,)))&&&"""
+
+
+						'''111<<<HHHTTT^^^hhhpppxxx~~~ƒƒƒ‡‡‡ŠŠŠ‘‘‘‘‘‘‘‘‘’’’““““““““““““sssmmmggg^^^SSSHHH<<<222(((   
+
+
+									"""(((...333888;;;>>>AAACCCFFFGGGJJJJJJKKKKKKJJJJJJIIIHHHHHHGGGFFFEEEEEEDDDCCCBBBAAA@@@???===<<<:::777555222///+++'''$$$!!!
+
+
+						
+
+
+$$$---888DDDOOO[[[eeennnvvv}}}ƒƒƒ‡‡‡ŠŠŠ‘‘‘‘‘‘’’’’’’’’’““““““””””””pppiiibbbXXXLLLAAA666+++###
+
+
+												
+
+
+%%%,,,111666;;;>>>BBBEEEGGGJJJLLLNNNNNNNNNNNNMMMLLLKKKJJJJJJIIIHHHHHHHHHGGGGGGGGGFFFFFFEEEDDDBBBAAA???<<<888555111---)))%%%"""
+
+
+			
+
+
+!!!***555AAALLLYYYbbbllluuu{{{†††ŠŠŠ‘‘‘’’’’’’’’’““““““””””””•••kkkddd\\\QQQFFF;;;000'''
+
+
+												!!!(((...444999===@@@DDDGGGJJJMMMPPPQQQRRRQQQQQQPPPNNNNNNLLLKKKKKKKKKKKKKKKKKKKKKKKKKKKLLLKKKKKKJJJHHHEEECCC???;;;777333///***&&&###   						
+
+
+'''111===IIIUUU```jjjrrrzzz€€€†††ŠŠŠ‘‘‘’’’’’’“““”””””””””––––––ggg___VVVKKK@@@444+++"""
+
+
+									
+
+
+$$$***000666:::>>>BBBFFFJJJMMMPPPRRRTTTTTTUUUSSSRRRPPPOOONNNLLLLLLLLLLLLMMMNNNNNNOOOPPPPPPPPPPPPPPPNNNLLLIIIFFFBBB===999444///+++((($$$!!!
+
+
+						
+
+
+###---999EEEQQQ\\\gggpppyyy………‰‰‰’’’’’’””””””””””””––––––———aaaYYYOOOEEE:::///&&&
+
+
+
+
+
+									
+
+
+&&&,,,222777;;;???DDDHHHKKKOOOSSSUUUVVVVVVVVVUUUSSSRRRPPPOOONNNMMMMMMNNNOOOOOOQQQRRRSSSUUUUUUVVVUUUTTTRRROOOKKKGGGBBB>>>999444000,,,(((%%%"""
+
+
+						   ***555AAAMMMYYYdddnnnvvv~~~„„„‰‰‰’’’’’’”””””””””•••––––––˜˜˜[[[SSSIII???444+++"""
+
+
+									
+
+
+!!!'''---333888<<<AAADDDIIIMMMPPPTTTVVVWWWYYYXXXVVVTTTRRRQQQPPPOOONNNNNNOOOPPPQQQRRRTTTVVVWWWYYYYYYZZZYYYVVVTTTPPPKKKFFFAAA===888444///,,,)))&&&###   
+
+
+						
+
+
+&&&111===IIIUUUaaakkkuuu}}}ƒƒƒ‰‰‰’’’”””””””””–––––––––———˜˜˜UUUMMMDDD999///&&&
+
+
+									
+
+
+""")))///444999===AAAFFFJJJNNNQQQUUUXXXYYYYYYXXXWWWUUUSSSRRRPPPPPPOOOOOOPPPQQQRRRTTTVVVXXXYYY\\\\\\\\\\\\ZZZWWWSSSNNNJJJDDD???:::666222///,,,)))&&&$$$!!!
+
+
+						
+
+
+"""---999EEERRR]]]hhhrrr{{{‡‡‡ŒŒŒ’’’”””””””””–––––––––˜˜˜˜˜˜NNNFFF===444+++"""
+
+
+
+
+
+						
+
+
+
+
+
+$$$***000444999>>>AAAFFFJJJNNNSSSVVVXXXYYYYYYXXXWWWUUUSSSRRRQQQPPPPPPPPPQQQRRRSSSUUUWWWYYY[[[\\\^^^^^^]]]\\\YYYUUUPPPKKKFFFAAA<<<888444111...+++)))'''$$$"""
+
+
+			
+
+
+)))555AAAMMMZZZfffpppyyy‡‡‡ŒŒŒ’’’””””””–––––––––———˜˜˜˜˜˜HHH@@@777///&&&
+
+
+
+
+
+									
+
+
+%%%+++000555:::>>>BBBFFFJJJOOORRRUUUWWWXXXYYYXXXVVVUUUSSSRRRQQQQQQQQQQQQQQQRRRSSSUUUWWWYYY\\\]]]___^^^^^^\\\YYYUUUQQQKKKGGGBBB===999555222///---***((('''$$$!!!
+
+
+									%%%000<<<IIIVVVbbbnnnwww€€€†††ŒŒŒ’’’””””””–––––––––˜˜˜˜˜˜˜˜˜AAA:::222***"""
+
+
+
+
+
+												
+
+
+!!!''',,,111666:::>>>BBBFFFJJJNNNRRRUUUWWWXXXXXXWWWVVVUUUTTTSSSRRRRRRRRRRRRRRRSSSTTTUUUWWWYYY[[[]]]^^^^^^]]]\\\XXXUUUPPPKKKGGGBBB===999555222000...,,,***(((&&&$$$   						
+
+
+!!!,,,888EEERRR___jjjuuu}}}………‹‹‹’’’”””•••–––––––––˜˜˜˜˜˜™™™;;;555---&&&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												
+
+
+!!!'''---222777:::>>>BBBFFFJJJNNNQQQTTTVVVVVVWWWVVVVVVUUUTTTSSSRRRRRRRRRRRRSSSSSSTTTUUUWWWYYYZZZ\\\]]]]]]\\\ZZZWWWTTTOOOKKKEEEAAA===999666333000...,,,+++)))'''%%%"""
+
+
+						'''333@@@MMM[[[gggrrr{{{ƒƒƒ‰‰‰ŽŽŽ‘‘‘“““•••––––––˜˜˜˜˜˜˜˜˜™™™666000)))"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+												
+
+
+###)))...333777;;;???BBBFFFJJJNNNQQQSSSUUUVVVVVVVVVUUUTTTTTTSSSSSSSSSSSSSSSSSSSSSTTTUUUWWWXXXZZZ[[[\\\\\\ZZZXXXVVVRRRNNNJJJEEEAAA<<<999666333000...---+++***(((&&&###
+
+
+						
+
+
+###...;;;IIIVVVdddooozzz‚‚‚‰‰‰ŽŽŽ‘‘‘“““•••––––––———˜˜˜˜˜˜ššš222,,,%%%
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+															
+
+
+$$$***///444888<<<???CCCFFFJJJMMMPPPSSSTTTTTTUUUUUUUUUTTTTTTTTTSSSSSSSSSSSSSSSTTTTTTVVVVVVXXXYYYZZZZZZZZZYYYWWWTTTPPPMMMHHHDDD@@@<<<888555333000///---,,,***(((&&&###   
+
+
+						***666DDDRRR```mmmxxx€€€ˆˆˆŒŒŒ‘‘‘“““”””––––––———˜˜˜˜˜˜ššš...(((!!!
+
+
+																																										
+
+
+   &&&+++000555999===@@@CCCGGGJJJMMMPPPRRRSSSTTTUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTTTTVVVVVVWWWXXXYYYZZZYYYXXXVVVSSSPPPKKKGGGCCC@@@<<<888666333111///...,,,+++)))&&&$$$   
+
+
+			
+
+
+%%%222???MMM\\\jjjvvv‡‡‡ŒŒŒ‘‘‘“““”””––––––———˜˜˜˜˜˜ššš***$$$
+
+
+																																													
+
+
+!!!'''---111666:::>>>AAADDDHHHKKKMMMPPPRRRSSSTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUTTTTTTTTTUUUVVVVVVWWWXXXYYYYYYXXXWWWTTTRRROOOKKKGGGCCC???<<<888666333111000...---+++)))&&&$$$   
+
+
+						"""---;;;IIIYYYfffttt}}}†††ŒŒŒ“““”””––––––———˜˜˜˜˜˜ššš&&&   
+
+
+																																	
+
+
+###(((...333777;;;>>>BBBFFFIIIKKKNNNPPPRRRTTTUUUUUUVVVVVVVVVVVVVVVVVVUUUUUUUUUUUUUUUVVVVVVWWWWWWXXXYYYYYYXXXWWWTTTQQQNNNKKKGGGCCC???<<<999666444222000...---+++)))&&&$$$   
+
+
+			
+
+
+)))777EEETTTdddqqq|||………‹‹‹’’’”””•••–––———˜˜˜˜˜˜ššš"""
+
+
+																		$$$)))///444888<<<@@@CCCGGGJJJLLLOOORRRSSSTTTUUUVVVVVVVVVVVVVVVVVVVVVVVVVVVUUUVVVVVVVVVWWWWWWWWWXXXYYYYYYXXXWWWTTTQQQNNNKKKGGGCCC@@@<<<:::777555333111///---+++***'''$$$   
+
+
+			%%%333AAAQQQ```nnnzzzƒƒƒ‹‹‹’’’”””•••–––———˜˜˜˜˜˜ššš
+
+
+									%%%+++000555999===AAADDDGGGKKKMMMPPPRRRTTTUUUVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWVVVVVVWWWWWWWWWXXXYYYYYYYYYXXXWWWUUUQQQNNNKKKGGGDDD@@@===:::888555333222000...,,,***'''$$$
+
+
+
+
+
+###...===MMM\\\lllxxx‚‚‚‰‰‰ŽŽŽ‘‘‘“““•••–––———˜˜˜˜˜˜ššš												   &&&,,,222666:::>>>AAAEEEIIIKKKNNNPPPSSSTTTUUUVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWXXXYYYYYYZZZYYYXXXWWWUUURRRNNNKKKHHHDDDAAA>>>;;;999666444222000///,,,***'''###
+
+
+			+++:::IIIZZZiiivvv€€€‰‰‰ŽŽŽ‘‘‘“““•••–––———˜˜˜˜˜˜ššš
+
+
+						
+
+
+!!!'''---222777;;;>>>BBBFFFIIILLLOOOQQQSSSTTTUUUVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVWWWWWWXXXXXXYYYZZZYYYYYYWWWVVVRRROOOLLLHHHEEEBBB???<<<:::777555333111///---***'''###
+
+
+			(((777FFFVVVfffttt‡‡‡‘‘‘“““•••–––———˜˜˜™™™ššš
+
+
+						
+
+
+!!!'''---222666:::>>>BBBEEEIIIKKKOOOPPPRRRSSSTTTUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUVVVVVVVVVWWWWWWXXXXXXYYYYYYXXXWWWUUUSSSPPPLLLIIIFFFBBB@@@===;;;888666444222///---***'''###
+
+
+
+
+
+&&&333CCCTTTdddrrr}}}†††ŒŒŒ‘‘‘“““•••–––———˜˜˜™™™ššš
+
+
+			
+
+
+!!!''',,,111555999===AAADDDHHHJJJMMMOOOQQQRRRRRRSSSSSSRRRSSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTUUUUUUWWWWWWXXXXXXWWWVVVUUURRRPPPLLLIIIFFFCCC@@@===;;;888666444222///---***&&&###						###111@@@PPPaaaooo|||†††ŒŒŒ“““•••–––———˜˜˜šššššš
+
+
+						
+
+
+!!!&&&+++///333777:::>>>AAAEEEHHHJJJLLLNNNOOOOOOOOOOOOPPPPPPPPPPPPPPPPPPQQQQQQRRRRRRRRRRRRSSSSSSSSSUUUUUUVVVUUUUUUSSSQQQOOOLLLIIIFFFCCC@@@===;;;888666444222///---***&&&"""						!!!...===NNN___nnnzzz………ŒŒŒ“““•••–––———˜˜˜™™™ššš
+
+
+						
+
+
+   %%%)))---000333777:::===AAACCCFFFHHHJJJKKKLLLLLLLLLLLLMMMMMMMMMMMMMMMNNNNNNOOOOOOOOOPPPPPPPPPQQQQQQRRRRRRRRRRRRQQQNNNLLLJJJGGGDDDBBB???<<<:::888666444222///---)))&&&"""			+++:::KKK\\\lllzzz„„„ŠŠŠ“““•••–––———˜˜˜™™™ššš
+
+
+						
+
+
+###&&&)))---///222555888;;;>>>AAACCCEEEFFFGGGGGGGGGHHHHHHHHHIIIIIIJJJKKKKKKKKKLLLLLLLLLMMMMMMLLLMMMMMMNNNNNNMMMLLLKKKIIIGGGEEEAAA???===;;;999666444333111...,,,)))%%%"""			
+
+
+)))888IIIZZZkkkxxxƒƒƒŠŠŠ“““•••–––———˜˜˜˜˜˜ššš
+
+
+						
+
+
+!!!$$$&&&)))+++---000222555888:::<<<>>>@@@AAABBBBBBCCCDDDEEEEEEFFFGGGGGGHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHIIIHHHHHHGGGFFFDDDBBB@@@>>><<<:::888666444222111///---+++(((%%%"""			
+
+
+'''666GGGXXXhhhwwwŠŠŠ’’’”””–––———˜˜˜˜˜˜ššš
+
+
+						
+
+
+"""$$$&&&''')))+++---...111333666888999;;;<<<>>>>>>???@@@AAABBBCCCDDDDDDDDDDDDDDDDDDDDDCCCCCCCCCCCCBBBBBBAAA@@@???===<<<:::999777555444333111000...---+++)))'''$$$!!!						%%%333EEEVVVgggvvv‰‰‰’’’”””–––———˜˜˜˜˜˜ššš									
+
+
+   """###$$$%%%&&&'''(((***,,,///111333555666888:::;;;<<<>>>???@@@@@@AAAAAAAAAAAA@@@??????>>>===<<<<<<;;;:::999888777555444333222111000///---,,,+++***)))(((&&&$$$!!!						###222BBBTTTeeettt€€€‰‰‰ŽŽŽ’’’”””–––———˜˜˜˜˜˜˜˜˜						
+
+
+   !!!""""""""""""###$$$$$$&&&(((***,,,...111333555777999:::<<<===>>>>>>>>>>>>===<<<;;;:::999888777555444333222111000///...---,,,,,,,,,+++***)))(((((('''&&&$$$###!!!			"""///@@@RRRcccsss‡‡‡ŽŽŽ‘‘‘”””–––———˜˜˜˜˜˜˜˜˜			
+
+
+   !!!!!!!!!         !!!"""$$$&&&)))+++...111333666888:::;;;<<<<<<<<<;;;:::999777666444222000...---,,,***))))))(((((((((((((((((((((''''''&&&&&&%%%$$$###"""   			   --->>>PPPaaaqqq}}}†††‘‘‘”””–––———˜˜˜˜˜˜˜˜˜			
+
+
+   !!!!!!   !!!###&&&))),,,000333666888::::::;;;:::999888666444111///---+++((('''%%%$$$$$$###$$$$$$$$$%%%%%%&&&&&&&&&%%%%%%$$$#########!!!   			
+
+
++++;;;MMM___ooo|||†††ŒŒŒ‘‘‘”””––––––˜˜˜˜˜˜™™™			   !!!!!!   !!!%%%))),,,111444777999:::::::::888666333111...***'''%%%###!!!      !!!"""###$$$$$$%%%$$$$$$$$$###"""""""""!!!   
+
+
+
+
+
+***999KKK]]]mmmzzz„„„‹‹‹“““––––––˜˜˜˜˜˜™™™			      !!!%%%***///222666999:::::::::888555111...***&&&###      """###$$$$$$$$$$$$###"""""""""!!!!!!   
+
+
+			(((888III[[[kkkyyyƒƒƒŠŠŠ“““––––––˜˜˜™™™™™™			###'''---222666999:::::::::777444000+++'''###   !!!###$$$$$$$$$$$$###"""""""""!!!!!!   			'''555GGGXXXiiivvv‰‰‰ŽŽŽ“““•••———˜˜˜™™™™™™			!!!&&&,,,111666:::;;;<<<:::777333///)))$$$   """###$$$$$$###""""""""""""!!!!!!!!!   			%%%444EEEVVVfffuuu€€€ˆˆˆŽŽŽ‘‘‘”””———˜˜˜™™™ššš			
+
+
+%%%+++111666;;;<<<===;;;777333---'''"""!!!""""""###""""""""""""""""""""""""!!!			$$$222CCCTTTeeerrr}}}†††ŒŒŒ‘‘‘”””–––˜˜˜™™™›››			
+
+
+$$$+++111777;;;>>>>>><<<888222,,,&&&         !!!!!!!!!!!!"""""""""###"""!!!			###222BBBSSScccqqq|||………‹‹‹”””–––˜˜˜™™™›››			
+
+
+$$$+++111777<<<>>>???===888222+++%%%      !!!"""###$$$###"""
+
+
+###111AAARRRbbbooo|||„„„‹‹‹“““–––˜˜˜™™™›››			
+
+
+$$$+++222777<<<??????===888222+++$$$   """###%%%%%%%%%$$$!!!###111@@@RRRaaaooo{{{ƒƒƒ‰‰‰ŽŽŽ“““–––˜˜˜™™™ššš						
+
+
+%%%+++222777<<<??????<<<888222+++$$$   """$$$&&&''''''&&&###			###111@@@QQQaaaooozzzƒƒƒ‰‰‰ŽŽŽ‘‘‘•••———˜˜˜ššš			
+
+
+   %%%+++111777;;;>>>>>><<<777222+++%%%!!!###&&&((()))***(((%%%!!!			###111AAARRRbbbooozzz‚‚‚‰‰‰ŽŽŽ‘‘‘•••———˜˜˜ššš			
+
+
+"""&&&,,,111666:::======;;;666111+++&&&!!!!!!###&&&(((+++---,,,***'''###
+
+
+###111AAASSScccqqq{{{ƒƒƒ‰‰‰ŽŽŽ‘‘‘“““———˜˜˜ššš			!!!"""######$$$%%%%%%%%%%%%$$$"""!!!   ###''',,,111555999;;;;;;999666111,,,'''###      """$$$&&&))),,,...000000...***%%%###222BBBTTTdddrrr|||ƒƒƒ‰‰‰ŽŽŽ‘‘‘“““•••˜˜˜™™™			
+
+
+!!!###%%%''')))***+++,,,,,,,,,,,,+++)))'''%%%###"""!!!!!!"""%%%(((,,,000555888::::::888555111,,,(((%%%###"""!!!"""######$$$$$$$$$#########"""###"""###$$$%%%&&&(((+++...111333444333111---'''!!!			###222CCCUUUeeesss}}}„„„‰‰‰ŽŽŽ‘‘‘“““•••———™™™			   ###&&&)))+++...000111222333333333222111...,,,)))'''%%%$$$$$$$$$&&&))),,,000444777999999888555111---***'''&&&%%%%%%&&&''')))******+++*********))))))))))))******,,,...000333555777777666444///)))###			$$$333DDDVVVggguuu………‰‰‰ŽŽŽ‘‘‘“““•••———™™™			
+
+
+   $$$))),,,///222555777888:::::::::999888666333000---+++)))'''&&&'''(((***,,,000333555888888777444222...,,,***)))))))))+++,,,...///111111111111111111111000000111111222444777888;;;<<<;;;999666111+++$$$
+
+
+$$$333EEEXXXiiivvv€€€†††‹‹‹ŽŽŽ‘‘‘“““•••———˜˜˜			
+
+
+$$$)))---222555999;;;===??????@@@@@@>>><<<:::777444111...,,,***(((((()))***,,,///333555777777777444222///---,,,+++,,,---///111333444666777888888888888888888888888999999;;;===>>>??????>>><<<888222,,,&&&
+
+
+$$$444FFFYYYiiixxx‚‚‚ˆˆˆŒŒŒŽŽŽ‘‘‘“““•••——————			"""'''---222777;;;>>>AAACCCEEEEEEEEEDDDCCCAAA>>>;;;777444111...,,,*********+++---000222555666777666555333000///---...///000222444666999;;;======>>>???@@@@@@@@@@@@@@@@@@@@@AAABBBCCCCCCCCCAAA===999444...&&&%%%444FFFYYYjjjxxx‚‚‚‰‰‰ŒŒŒ‘‘‘“““•••——————
+
+
+$$$***000666;;;???CCCEEEHHHIIIIIIIIIHHHGGGDDDAAA>>>;;;777444000...,,,++++++,,,...000333555777777777555333111//////000111333555888:::===???AAABBBCCCDDDEEEFFFFFFFFFFFFFFFGGGGGGGGGGGGFFFEEEBBB>>>:::444...'''   %%%444FFFYYYkkkyyyƒƒƒ‰‰‰‘‘‘“““•••——————
+
+
+   &&&---333999>>>CCCFFFIIIKKKLLLMMMLLLKKKIIIGGGDDD@@@===999555222///---,,,+++,,,...111444666888888777666444222111000111222555777:::===???BBBDDDFFFHHHJJJJJJLLLLLLLLLLLLLLLLLLLLLKKKJJJHHHFFFCCC???:::444...'''   %%%444FFFZZZkkkyyyƒƒƒ‹‹‹ŽŽŽ‘‘‘“““•••——————
+
+
+"""(((...444:::@@@DDDHHHKKKNNNNNNNNNOOOMMMLLLIIIFFFCCC???;;;777333000---,,,,,,---///111444777999999888777555333111111222333666999<<<???BBBEEEGGGJJJKKKMMMOOOOOOPPPQQQQQQQQQPPPOOONNNKKKIIIFFFBBB>>>999444---'''!!!			%%%444FFFZZZkkkyyy………‹‹‹ŽŽŽ‘‘‘‘‘‘“““•••——————			
+
+
+###)))///555;;;@@@EEEIIILLLNNNPPPPPPPPPOOONNNKKKHHHDDD@@@<<<777333000...,,,,,,---///222555888:::::::::888555333222222222444666:::===AAADDDGGGJJJLLLNNNPPPQQQSSSTTTTTTUUUTTTSSSQQQOOOLLLIIIFFFAAA<<<888222---'''!!!
+
+
+%%%444FFFZZZkkkzzz………‹‹‹‘‘‘’’’“““•••——————			###)))///555;;;@@@EEEIIIMMMOOOPPPQQQQQQPPPOOOLLLIIIEEEAAA<<<777333///---++++++---///222666999;;;<<<;;;888666444222111222444666:::>>>BBBEEEIIIKKKNNNPPPRRRTTTUUUVVVWWWWWWVVVUUURRROOOLLLHHHDDD@@@;;;666222,,,&&&!!!
+
+
+			%%%444FFFZZZkkkzzz………‹‹‹‘‘‘““““““•••——————			###)))///555:::???DDDHHHKKKNNNPPPQQQQQQQQQOOOMMMJJJFFF@@@<<<666222...,,,++++++---///222666999;;;;;;;;;888666333111111111333666:::>>>BBBFFFIIIMMMPPPQQQTTTVVVWWWXXXYYYYYYWWWUUUQQQNNNKKKFFFBBB>>>999555000+++&&&   			%%%444FFFZZZkkkzzz………ŒŒŒ‘‘‘“““”””•••——————			###)))...444999>>>CCCGGGKKKMMMOOOQQQQQQQQQOOOMMMIIIEEE???:::555000---***))))))+++...111444888::::::999777555222111///000111444888===AAAFFFJJJMMMPPPRRRTTTVVVYYYYYYYYYXXXWWWTTTQQQMMMIIIEEE@@@<<<888333///***&&&!!!						%%%444FFFYYYkkkzzz………ŒŒŒ““““““••••••———˜˜˜			"""(((...333888<<<AAAFFFIIILLLOOOPPPQQQPPPNNNLLLHHHCCC>>>888333...+++((('''''')))+++...111555777888777555222000...------///222666:::@@@DDDIIIMMMPPPSSSVVVWWWXXXYYYYYYXXXVVVSSSOOOKKKGGGCCC>>>:::555222---)))%%%!!!
+
+
+			%%%444FFFYYYkkkzzz………ŒŒŒ‘‘‘“““”””•••——————˜˜˜
+
+
+"""''',,,111666;;;???CCCGGGJJJMMMOOOPPPOOOMMMJJJEEE@@@:::555000+++(((&&&$$$$$$%%%(((+++---111333444333111///---+++***+++,,,///333888===BBBGGGLLLPPPSSSUUUWWWXXXYYYXXXWWWTTTQQQNNNIIIEEE@@@<<<888444///,,,(((%%%!!!			%%%333EEEYYYjjjyyy………ŒŒŒ‘‘‘“““••••••——————˜˜˜
+
+
+!!!&&&+++000555999===AAAEEEHHHKKKMMMMMMMMMJJJGGGBBB===777111---)))%%%###"""!!!"""$$$&&&)))+++---...---,,,***((('''&&&'''))),,,000555:::???EEEJJJNNNRRRTTTVVVWWWWWWWWWUUUSSSOOOKKKGGGBBB>>>999666222...***'''$$$!!!						$$$333DDDXXXjjjyyy………ŒŒŒ‘‘‘“““•••–––———˜˜˜˜˜˜
+
+
+   %%%***///333777;;;>>>CCCFFFIIIJJJJJJIIIGGGCCC>>>999333...***&&&###   !!!$$$%%%'''''''''&&&%%%#########$$$&&&)))---111777<<<CCCGGGLLLPPPSSSUUUUUUVVVUUUSSSQQQMMMHHHDDD@@@<<<888444000,,,)))&&&$$$!!!						###222CCCVVViiixxx………ŒŒŒ‘‘‘”””•••–––———˜˜˜˜˜˜			$$$)))---111555999<<<@@@CCCEEEGGGGGGFFFCCC???:::555000+++'''$$$!!!!!!!!!"""!!!!!!         """%%%)))...333999???DDDIIIMMMPPPRRRTTTTTTRRRPPPNNNJJJFFFAAA===999555111...+++(((%%%$$$"""   
+
+
+			###111AAATTTfffwwwƒƒƒ‹‹‹‘‘‘”””–––——————˜˜˜™™™			###(((,,,000333777:::===@@@BBBCCCCCCBBB???:::666111---)))%%%"""      ###'''+++000555<<<AAAEEEJJJNNNPPPQQQQQQPPPNNNKKKGGGCCC???;;;777333000,,,)))'''%%%###"""!!!			"""///@@@RRReeeuuu‚‚‚‹‹‹”””–––———˜˜˜˜˜˜ššš			
+
+
+"""&&&***...111444888:::===>>>??????===:::777222...***'''$$$""""""%%%)))---333888===BBBGGGJJJLLLMMMMMMLLLJJJGGGDDD@@@<<<888555111...+++(((&&&$$$###""""""!!!			!!!...>>>PPPcccsssŠŠŠ“““–––———˜˜˜˜˜˜ššš			
+
+
+   %%%))),,,///222555888:::;;;;;;;;;999777333000,,,)))'''$$$"""   """%%%(((,,,111555;;;???CCCGGGIIIJJJJJJIIIGGGDDDAAA===:::666333///---***'''%%%$$$######"""""",,,<<<NNN```qqqˆˆˆ“““–––———˜˜˜™™™ššš			###'''***---000222555777888888777666333111---+++)))'''%%%$$$"""!!!   !!!###%%%(((+++///333888<<<@@@CCCEEEFFFFFFEEECCCAAA===:::777444111...+++(((&&&%%%$$$######""""""   ***:::KKK^^^ooo|||‡‡‡ŽŽŽ“““•••———˜˜˜™™™ššš			
+
+
+"""%%%)))+++...000222333444444444222111...,,,***(((((('''&&&%%%$$$###"""!!!!!!                     """###%%%'''))),,,///222666:::===@@@AAABBBBBBBBB@@@===;;;888555222///,,,***'''%%%$$$######""""""!!!
+
+
+(((777III[[[mmm{{{†††‘‘‘•••———˜˜˜™™™ššš			!!!$$$'''))),,,...///111222222111000...,,,+++***))))))((((((((((((((('''&&&&&&&&&%%%%%%%%%$$$$$$$$$######$$$%%%&&&'''(((***+++...000222555888:::<<<>>>??????>>><<<;;;888555333000---+++(((&&&$$$###"""!!!!!!   
+
+
+&&&555FFFYYYjjjyyy………ŒŒŒ‘‘‘•••–––˜˜˜™™™ššš			   ###&&&(((***,,,---...//////...---,,,+++***************++++++,,,,,,,,,,,,++++++++++++*********************++++++,,,,,,---...///111222444666888:::;;;<<<<<<;;;:::888666333111...,,,)))'''%%%###"""!!!   
+
+
+			$$$222CCCUUUhhhwwwƒƒƒ‹‹‹”””–––˜˜˜™™™™™™
+
+
+"""$$$''')))***+++,,,,,,,,,,,,+++***************+++,,,---...//////000000000000000000000//////////////////000000000000111111222222333444555666777888999999888777555333111///---***)))&&&$$$###   			"""000@@@SSSeeeuuuŠŠŠ“““–––˜˜˜™™™™™™			!!!$$$&&&((())))))************))))))))))))***+++,,,---...000111222222222333333333333333333333444444444444444444444444444444444333333444444555555666666666555555333111///...+++)))'''&&&$$$!!!			,,,===PPPbbbrrr‰‰‰“““–––˜˜˜™™™™™™			!!!###%%%'''(((((())))))(((((((((((('''((()))***+++---...///111222222333444444555555555555555666666777777777777666666666555555444444333333333333333333333333222111000...,,,+++)))'''%%%###   			
+
+
+***:::LLL___ppp~~~ˆˆˆŽŽŽ“““–––˜˜˜™™™™™™			   ###$$$&&&'''(((((('''''''''&&&&&&&&&''''''))))))+++,,,...///000000222333333333444555555555666777777777777777777777666666555444333222222222111111111111111111000///---+++***(((&&&%%%"""
+
+
+
+
+
+'''777III[[[mmm|||‡‡‡ŽŽŽ“““–––˜˜˜™™™™™™   """$$$%%%'''''''''&&&&&&%%%%%%$$$$$$%%%%%%&&&'''((()))***,,,---......///000111111222222333333444555555555555555555444444333222111111000000000000000000000//////...,,,+++)))(((&&&$$$!!!
+
+
+			$$$444EEEXXXkkkzzz………“““–––˜˜˜™™™ššš
+
+
+   """$$$%%%'''''''''&&&&&&$$$$$$###############$$$%%%&&&''''''((()))***+++,,,,,,---...//////000000111111111111111111111000000000//////............////////////...---,,,***)))(((&&&$$$!!!
+
+
+"""000AAAUUUhhhwww„„„ŒŒŒ’’’–––˜˜˜™™™ššš
+
+
+   """$$$%%%'''''''''&&&%%%$$$###"""!!!!!!      !!!!!!!!!"""###$$$%%%&&&'''(((((())))))***++++++,,,,,,------------,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,---.../////////...---,,,+++)))(((&&&###   			
+
+
+,,,>>>QQQddduuu‚‚‚‹‹‹’’’•••˜˜˜™™™›››
+
+
+   ###%%%&&&'''''''''&&&%%%$$$###!!!         !!!"""###$$$%%%&&&&&&&&&'''(((((((((((((((((((((((((((((((((((())))))***++++++---.../////////...---,,,+++)))'''%%%###
+
+
+
+
+
+))):::MMM```qqqŠŠŠ‘‘‘•••˜˜˜ššš›››			   ###%%%&&&''''''''''''%%%$$$###!!!   !!!"""######$$$$$$$$$%%%%%%%%%%%%%%%%%%$$$$$$$$$$$$%%%%%%&&&'''((()))+++---...///000//////...,,,+++)))'''%%%"""						&&&666HHH\\\ooo}}}ˆˆˆ•••˜˜˜ššš›››   ###%%%&&&'''(((((('''&&&%%%###!!!      !!!!!!"""########################""""""!!!!!!""""""###$$$%%%''')))+++---///000111000///...---+++)))'''%%%!!!			"""111DDDXXXkkk{{{‡‡‡ŽŽŽ”””˜˜˜ššš›››   """%%%&&&'''((((((((('''&&&$$$"""      !!!""""""##################""""""!!!            !!!"""###%%%'''))),,,...000111111111000...---+++)))'''$$$!!!
+
+
+   ...@@@SSSgggwww………ŽŽŽ“““˜˜˜šššœœœ
+
+
+"""$$$&&&'''(((((((((((('''%%%###"""   !!!!!!#########$$$$$$#########""""""!!!            !!!"""$$$&&&(((+++---000111222222111000...---***)))&&&###
+
+
+			***;;;OOOcccttt‚‚‚“““˜˜˜›››			!!!$$$%%%'''((())))))((('''&&&$$$###!!!   !!!"""###$$$$$$$$$$$$$$$$$$######"""!!!!!!      !!!"""###%%%'''***,,,///111222333333111000...,,,***(((&&&"""			&&&666JJJ^^^qqq‹‹‹“““˜˜˜›››œœœ   ###%%%'''((()))))))))((('''%%%$$$"""!!!   !!!"""###$$$$$$$$$$$$$$$$$$$$$###""""""!!!!!!"""###$$$%%%''')))+++...000222333444333111000...,,,***'''$$$!!!			
+
+
+"""222EEEYYYmmm}}}‰‰‰‘‘‘–––šššœœœ
+
+
+"""%%%&&&(((((())))))((('''&&&%%%###!!!      !!!""""""######$$$$$$$$$############"""""""""###$$$&&&''')))+++...///222333444444222111///---+++)))&&&###			...AAATTThhhzzz‡‡‡–––™™™œœœ			!!!###%%%'''(((((()))((((((&&&%%%$$$"""!!!      !!!!!!""""""###########################$$$%%%&&&''')))+++---///111222333444333222000...,,,***(((%%%"""
+
+
+			)));;;OOOdddvvv„„„ŽŽŽ”””™™™›››   ###%%%&&&'''((((((((((((&&&&&&$$$###"""!!!      !!!!!!""""""""""""""""""#########$$$%%%&&&''')))+++---...000222333333333333111000---+++)))&&&$$$   			&&&777KKK___sss‚‚‚”””™™™›››			!!!$$$%%%''''''((((((''''''&&&%%%$$$""""""!!!      !!!!!!"""""""""############$$$$$$%%%&&&''')))***,,,...///111222333333333222000...,,,***(((%%%"""
+
+
+"""222FFF[[[nnn‹‹‹“““˜˜˜›››   ###$$$&&&&&&''''''''''''&&&%%%%%%###""""""!!!                  !!!""""""######$$$$$$$$$$$$%%%%%%&&&'''((()))***,,,---///000111222333333222111///---+++)))'''$$$!!!
+
+
+			---@@@UUUjjj{{{‰‰‰’’’———›››			!!!###%%%%%%&&&&&&'''&&&&&&%%%%%%%%%$$$###"""""""""!!!""""""######$$$%%%%%%%%%%%%&&&&&&&&&''''''((()))***+++,,,---...000111222222222222111///...,,,***(((&&&###   			)));;;PPPeeexxx‡‡‡–––ššš"""###%%%%%%&&&&&&&&&&&&&&&&&&%%%%%%%%%%%%$$$$$$$$$$$$$$$%%%&&&'''(((((()))))))))))))))******++++++,,,---...///000111222222222222111000...---+++)))'''%%%"""
+
+
+%%%777LLLaaattt„„„•••ššš			   """###$$$%%%%%%&&&&&&&&&&&&''''''''''''''''''''''''((()))***+++,,,,,,,,,------------------......//////000111111222222222222111000///---,,,***(((&&&###   
+
+
+			"""222GGG]]]qqq•••™™™   !!!"""###$$$%%%&&&&&&''''''((((((((()))))))))***+++,,,---...///000111111111111000111111111222222222222333333333222222111000///...,,,***)))'''%%%"""   			...BBBXXXmmm~~~ŒŒŒ“““™™™			   !!!"""###$$$%%%&&&'''((()))******++++++,,,,,,---///000111222333333444444444444444444444444444444444444444333222222000///...,,,***)))'''%%%###!!!***>>>TTTiii{{{ŠŠŠ“““˜˜˜   """###$$$%%%'''((()))***+++,,,,,,---...///000111333444555666666666666777777777777777777666666555444333222111///...,,,***)))'''&&&$$$"""   
+
+
+'''999OOOfffyyy‰‰‰’’’˜˜˜
+
+
+   !!!###$$$&&&''')))***+++,,,---......000111222444555666777777888888888888999999888888777777666444222111///---,,,***)))'''&&&$$$"""!!!
+
+
+			$$$666KKKbbbvvv†††‘‘‘———			   !!!###$$$&&&((()))++++++,,,---...///111222444444555666777888888999999999999999888777666555333111///---+++***(((&&&%%%###"""!!!   			"""333HHH^^^ttt„„„‘‘‘———!!!###$$$'''((()))***+++,,,---...///111222333444555555666777888888888999888888777666444111///---+++)))'''%%%$$$###!!!      			   000FFF\\\rrrƒƒƒ———
+
+
+!!!###$$$&&&'''))))))***+++,,,---...000111222333444444555555666777777777666555333111///---***(((&&&$$$###!!!      ...DDDZZZppp‚‚‚———
+
+
+   """$$$%%%&&&'''((()))***+++,,,---...//////000111222333333444444444333222000///,,,***'''%%%###"""   ---BBBYYYoooŽŽŽ———			!!!"""$$$%%%%%%&&&'''(((((()))***+++,,,---......//////000111000000...---+++(((&&&$$$"""   
+
+
+---AAAXXXnnnŽŽŽ–––			   !!!""""""###$$$%%%%%%&&&'''(((((()))***++++++,,,,,,,,,+++***)))'''%%%###!!!
+
+
+---BBBXXXoooŽŽŽ–––			      !!!!!!"""######$$$$$$%%%&&&'''''''''''''''&&&$$$"""!!!
+
+
+---BBBYYYoooŽŽŽ–––			      !!!"""""""""""""""!!!   			///DDD[[[ppp‚‚‚ŽŽŽ–––						   111FFF]]]qqq„„„ŽŽŽ–––						"""444III```ttt………–––						%%%777MMMcccwww‡‡‡‘‘‘———			      
+
+
+(((;;;QQQgggzzzˆˆˆ‘‘‘˜˜˜			         ,,,@@@VVVkkk~~~‹‹‹“““˜˜˜   !!!!!!   
+
+
+   111EEE[[[ppp”””˜˜˜   !!!!!!!!!
+
+
+			$$$666KKKaaattt„„„ŽŽŽ•••™™™!!!!!!!!!!!!			
+
+
+)))<<<RRRgggyyy‡‡‡–––™™™         !!!!!!""""""!!!///CCCXXXlll~~~ŠŠŠ’’’–––™™™
+
+
+   !!!!!!   !!!!!!""""""!!!   
+
+
+
+
+
+%%%666JJJ```sss“““–––˜˜˜
+
+
+   !!!!!!!!!      !!!"""###"""!!!			+++>>>SSSgggxxx………ŽŽŽ”””———˜˜˜			   !!!""""""!!!   !!!""""""###"""!!!
+
+
+$$$444GGG[[[nnn~~~ˆˆˆ•••———˜˜˜			!!!"""""""""!!!   !!!!!!"""###"""!!!   
+
+
+			,,,===QQQddduuu‚‚‚‹‹‹‘‘‘•••–––———!!!"""""""""!!!!!!   !!!!!!""""""""""""!!!&&&666HHH[[[mmm{{{‡‡‡ŽŽŽ‘‘‘”””•••–––
+
+
+   !!!"""""""""!!!!!!   !!!!!!""""""###"""!!!
+
+
+
+
+
+!!!///@@@SSSddduuuŠŠŠ““““““••••••			!!!"""###""""""!!!               !!!!!!!!!""""""###"""!!!   			)))999JJJ\\\nnn{{{………“““““““““”””   !!!"""""""""!!!!!!                                    !!!!!!!!!"""""""""###""""""!!!
+
+
+
+
+
+"""000AAASSSdddsss€€€ˆˆˆ‘‘‘’’’’’’’’’			   !!!"""!!!!!!                  !!!!!!!!!!!!!!!!!!"""""""""""""""""""""""""""""""""!!!!!!			&&&555FFFXXXhhhvvv€€€‰‰‰               !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"""""""""""""""!!!!!!      						(((777GGGWWWgggttt~~~………‰‰‰ŒŒŒŽŽŽŽŽŽ			                                                
+
+
+			'''444CCCRRR```mmmwww„„„ˆˆˆŠŠŠŒŒŒŒŒŒŒŒŒ			
+
+
+			"""...;;;HHHVVVaaalllttt{{{€€€„„„‡‡‡ˆˆˆ‰‰‰			
+
+
+&&&111===IIITTT^^^hhhooovvv|||€€€‚‚‚………
+
+
+						'''111<<<EEEPPPYYYcccjjjqqqvvv{{{~~~			
+
+
+
+
+
+			
+
+
+   (((000999BBBKKKTTT\\\ccckkkpppuuu												
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						!!!(((///777>>>FFFNNNVVV]]]ccchhh
+
+
+"""(((...333:::AAAHHHOOOUUU[[[			###''',,,111666<<<BBBHHHLLL			   ###&&&***...222777;;;???!!!###%%%(((+++...111444			   !!!###$$$&&&(((***,,,			   !!!"""###$$$$$$&&&'''			   !!!!!!""""""######$$$			   !!!!!!!!!""""""""""""
+
+
+   !!!!!!!!!!!!!!!!!!""""""
+
+
+   !!!""""""!!!!!!!!!!!!!!!
+
+
+   !!!""""""""""""!!!"""!!!
+
+
+   """"""""""""""""""!!!"""   """"""""""""""""""!!!"""   !!!""""""""""""!!!!!!!!!   !!!""""""!!!!!!!!!!!!!!!   !!!!!!!!!!!!!!!!!!!!!!!!      !!!                                          
