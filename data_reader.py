@@ -3,7 +3,7 @@ import numpy
 import os
 from PIL import Image
 
-IMAGE_SOURCE = 'images_30/'
+IMAGE_SOURCE = 'images_50_grayscale/'
 
 PATH_ORIGINAL = IMAGE_SOURCE + 'thumbnails/'
 PATH_BLURRED_03 = IMAGE_SOURCE + 'blurred_03/'
@@ -19,7 +19,7 @@ PATH_MOSAIC_25 = IMAGE_SOURCE + 'mosaic_25/'
 
 
 def image_path_to_array(path):
-    return numpy.array(Image.open(path)).flatten().tolist()
+    return numpy.array(Image.open(path)).flatten()
 
 
 def read_images_from_directory(target=PATH_BLURRED_06):
