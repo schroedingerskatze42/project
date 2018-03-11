@@ -1,6 +1,7 @@
 import numpy as np
 import os
 from skimage import io
+import cv2
 
 IMAGE_SOURCE = 'images_50_grayscale/'
 
@@ -16,9 +17,15 @@ PATH_MOSAIC_15 = IMAGE_SOURCE + 'mosaic_15/'
 PATH_MOSAIC_20 = IMAGE_SOURCE + 'mosaic_20/'
 PATH_MOSAIC_25 = IMAGE_SOURCE + 'mosaic_25/'
 
+IMAGE_WIDTH = 64
+IMAGE_HEIGHT = 96
+NUM_CHANNELS = 1
+
 
 def image_path_to_array(path):
-    return np.array(io.imread(path)).reshape(IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
+    # print(np.asarray(io.imread(path)))
+    # exit(1)
+    return cv2.imread(path, cv2.IMREAD_GRAYSCALE) #.reshape(IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
 
 
 def read_images_from_directory(target=PATH_BLURRED_06):

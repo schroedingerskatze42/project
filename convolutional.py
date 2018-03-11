@@ -282,13 +282,17 @@ def main(_):
         X, y = data_reader.read_images_from_directory()
 
         train_data, test_data, train_labels, test_labels = train_test_split(X, y, test_size=0.2)
+        train_data = numpy.array(train_data)
+        test_data = numpy.array(test_data)
+        train_labels = numpy.array(train_labels)
+        test_labels = numpy.array(test_labels)
         num_epochs = NUM_EPOCHS
     #
     # print(train_data.shape)
     # print(train_labels.shape)
     # print(test_data.shape)
     # print(test_labels.shape)
-    train_size = train_labels.shape[0]
+    train_size = train_labels.shape
 
     # This is where training samples and labels are fed to the graph.
     # These placeholder nodes will be fed a batch of training data at each
