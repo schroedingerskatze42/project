@@ -1,0 +1,56 @@
+Master-Projekt – Image Deobfuscation
+Gliederung:
+
+* Idee
+* Ziel
+* State of the Art
+* Convolutional Networks
+* Verwendete Tools: TensorFlow, …
+* Verlauf
+* Ergebnisse
+* Erkenntnisse
+* Grad der Zielerreichung
+
+Idee
+
+Machine Learning stellt einen Aspekt der künstlichen Intelligenz dar, der in der vergangen Zeit an immer größerer Bedeutung gewonnen hat. In diesem Kontext ist insbesondere auch das sogenannte „Deep Learning“ hevorzuheben, das wiederum einen Teilbereich des Machine Learnings darstellt. Dessen Popularität lässt sich unter anderem dadurch erklären, dass in den vergangenen Jahren ein erheblicher Anstieg der Rechenleistung zu verzeichnen war, die erforderlich ist, um in akzeptabler Zeit, Ergebnisse generieren zu können.
+
+Gerade im Kontext von Bildbearbeitungen und –klassifizierungen sind Techniken des Machine Learnings kaum noch wegzudenken.
+
+Die Idee dieses Projekts besteht darin, mit Hilfe des Machine Learnings Bilder, die zuvor unkenntlich gemacht worden sind, wieder herzustellen. Dabei gibt es verschiedene Technologien, die zum Erreichen der Unkenntlichkeit verwendet werden können: zu nennen wären dabei beispielsweise „mosaic“, „pixelation“ und das „blurring“. Durch trainieren eines Systems mit Originalbildern und dem unkenntlichen Pendant dazu, soll das System die Fähigkeit erhalten, aus zuvor unkenntlich gemachten Bildern, die dem System unbekannt sind, Bilder zu generieren, die dem Originalbild möglichst nahe kommen.
+
+Als Ausgangspunkt soll dabei eine Gesichtsdatenbank verwendet werden, die einen großen Bestand an verschiedenen Bildern von Gesichtern darstellt. Mittels entsprechender PhotoShop-Methoden werden die korrespondierenden unkenntlichen Bilder erstellt. Diese Menge an Daten kann dann verwendet werden, um ein Training des Systems vorzunehmen.
+
+State of the Art
+
+Es haben sich bereits viele Forschungsgruppen an dieser Problematik versucht und konnten dabei teils beeindruckende Resultate erzielen. 
+
+Convolutional Networks
+
+Theorieteil…
+
+Convolutional Networks stellen eine besondere Art von Neural Networks dar. 
+
+Tools
+
+Verwendete Umgebung: Python, TensorFlow, …
+
+TensorFlow
+
+Was ist das? Wie funktioniert es grundsätzlich? Wodurch zeichnet es sich aus? Exemplarischer Flow an einem simplen Beispiel?
+
+Verlauf
+
+Überlegungen während des Projekts, Zielanpassungen, Fortschritte, …
+
+Ergebnisse
+
+Was für Ergebnisse konnten erreicht werden?
+
+Grad der Zielerreichung
+
+Inwieweit konnte das eingangs definierte Ziel erreicht werden?
+
+Erkenntnisse
+
+Was für Erkenntnisse konnten während des Projekts gesammelt werden? Welche Fähigkeiten konnten erlernt werden? Wie könnten sich die Ergebnisse auf andere Projekte anwenden lassen? Bezug zur anschließenden Master-Arbeit?

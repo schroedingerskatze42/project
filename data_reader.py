@@ -17,13 +17,7 @@ PATH_MOSAIC_20 = IMAGE_SOURCE + 'mosaic_20/'
 PATH_MOSAIC_25 = IMAGE_SOURCE + 'mosaic_25/'
 
 
-PIXEL_DEPTH = 255
-IMAGE_WIDTH = 64
-IMAGE_HEIGHT = 96
-NUM_CHANNELS = 1
-
-
-def image_to_np(path):
+def image_path_to_array(path):
     return np.array(io.imread(path)).reshape(IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
 
 
@@ -31,9 +25,9 @@ def read_images_from_directory(target=PATH_BLURRED_06):
     X = []
     y = []
 
-    for path in os.listdir(PATH_ORIGINAL):
-        if path.endswith('.ppm'):
-            X.append(image_to_np(PATH_ORIGINAL + path))
-            y.append(image_to_np(PATH_BLURRED_06 + path))
+    for filename in os.listdir(PATH_ORIGINAL):
+        if filename.endswith('.ppm'):
+            X.append(image_path_to_array(os.path.join(target, filename)))
+            y.append(image_path_to_array(os.path.join(PATH_ORIGINAL, filename)))
 
-    return np.array(X), np.array(y)
+    return X, y
