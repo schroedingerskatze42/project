@@ -10,6 +10,31 @@ try:
 except:
     xrange = range
 
+# THE MODEL TO BE IMPLEMENTED
+#
+# input_img = Input(shape=(*target_size, 1))
+#
+# x = Convolution2D(256, 3, 3, activation='relu', border_mode='same')(input_img)
+# x = MaxPooling2D((2, 2), border_mode='same')(x)
+#
+# x = Convolution2D(256, 3, 3, activation='relu', border_mode='same')(x)
+# x = MaxPooling2D((2, 2), border_mode='same')(x)
+#
+# x = Convolution2D(512, 3, 3, activation='relu', border_mode='same')(x)
+# x = Convolution2D(512, 3, 3, activation='relu', border_mode='same')(x)
+# x = UpSampling2D((2, 2))(x)
+#
+# x = Convolution2D(256, 3, 3, activation='relu', border_mode='same')(x)
+# x = UpSampling2D((2, 2))(x)
+#
+# x = Convolution2D(1, 3, 3, activation='sigmoid', border_mode='same')(x)
+#
+#
+# model = Model(input_img, x)
+# model.compile(optimizer='adadelta', loss=gradient_importance)
+#
+# END MODEL
+
 
 class SRCNN(object):
 
@@ -43,13 +68,13 @@ class SRCNN(object):
         self.labels = tf.placeholder(tf.float32, [None, self.label_height, self.label_width, self.c_dim], name='labels')
 
         self.weights = {
-            'w1': tf.Variable(tf.random_normal([1, 1, 1, 64], stddev=1e-3), name='w1'),
-            'w2': tf.Variable(tf.random_normal([1, 1, 64, 32], stddev=1e-3), name='w2'),
-            'w3': tf.Variable(tf.random_normal([1, 1, 32, 1], stddev=1e-3), name='w3')
+            'w1': tf.Variable(tf.random_normal([1, 1, 1, 32], stddev=1e-3), name='w1'),
+            'w2': tf.Variable(tf.random_normal([1, 1, 32, 64], stddev=1e-3), name='w2'),
+            'w3': tf.Variable(tf.random_normal([1, 1, 64, 1], stddev=1e-3), name='w3')
         }
         self.biases = {
-            'b1': tf.Variable(tf.zeros([64]), name='b1'),
-            'b2': tf.Variable(tf.zeros([32]), name='b2'),
+            'b1': tf.Variable(tf.zeros([32]), name='b1'),
+            'b2': tf.Variable(tf.zeros([64]), name='b2'),
             'b3': tf.Variable(tf.zeros([1]), name='b3')
         }
 
