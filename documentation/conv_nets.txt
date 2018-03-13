@@ -1,7 +1,7 @@
 Neural Networks:
 
 - Idee
-- Grunds�tzliche Funktionsweise
+- Grundsätzliche Funktionsweise
 - Layer
 - Gewichte
 - Backpropagation
@@ -29,3 +29,55 @@ https://deeplearning4j.org/convolutionalnetwork.html
 NNs:
 http://neuralnetworksanddeeplearning.com/chap1.html
 http://neuralnetworksanddeeplearning.com/
+http://www.deeplearningbook.org/
+
+
+1 NEURONALE NETZE:
+
+Im Rahmen des maschinellen Lernens stellen die sogenannten neuronalen Netze einen elementaren Ansatz dar,
+der in vielen weiteren Modellen Verwendung findet. Neuronale Netze und auch das maschinelle Lernen an sich
+stellen eine andere Herangehensweise dar, als die, die man von "gewöhnlichen" Algorithmen gewohnt ist.
+
+Anstatt dem System eine eindeutige Abfolge von Anweisungen mitzuteilen, um eine konkrete Problemstellung
+zu lösen, definiert man ein Modell und konfrontiert dieses mit verschiedenen Beispielen - die Beispiele
+sind dabei Tupel aus Eingangsgröße und erwarteter Ausgangsgröße. Die Eingabe sind dabei häufig Bilder und die
+Ausgaben konkrete Klassen, um beispielsweise Hunde von Katzen unterscheiden zu können.
+
+Anstatt nun algorithmisch zu definieren, was einen Hund von einer Katze unterscheidet, überlässt man es dem zuvor
+erstellten Modell anhand der gegebenen Eingaben und erwarteten Ausgaben, eigenständig Regeln abzuleiten, um mit
+dessen Hilfe auch unbekannte Eingaben klassifizieren zu können.
+
+Dieser Ansatz kann auch als "Soft Computing" bezeichnet werden.
+
+1.1 PERZEPTRON
+
+Als elementaren Bestandteil eines neuronalen Netzes kann das sogenannte "Perzeptron" angesehen werden - dieses stellt
+die kleinste Einheit eines neuronalen Netztes dar und kann auch als "künstliches Neuron" bezeichnet werden.
+
+Grundsätzlich akzeptiert ein Neuron einen beliebig großen Input bestehend aus den Features x1, x2, ... xn und
+berechnet daraus ein Ergebnis.
+
+docu_img_01
+
+Im gezeigten Bild ist beispielsweise ein Neuron dargestellt, das drei Inputgrößen akzeptiert und daraus einen Output
+produziert. Um den Output zu berechnen werden sogenannte "Gewichte" (weights) eingeführt. Ob das Neuron 0 oder 1 als
+Output liefert, hängt dann davon ab, ob die gewichtete Summe der Eingangsgrößen einen zu definierenden Schwellwert
+überschreitet.
+
+Dies kann anhand des nachfolgenden Bilds verdeutlicht werden:
+
+docu_img_02
+
+Dies ist das grundlegende Modell. Grundsätzlich kann man sich das Perzeptron als einen "Entscheidungs-Unterstützer"
+vorstellen, der eine Entscheidung trifft, in dem er konkrete Fakten mit einem bestimmten Gewicht versieht.
+
+Das gezeigte Modell ist augenscheinlich sehr simpel und noch sehr weit von dem entfernt, was man als ein neuronales
+Netz bezeichnen würde. Es ist allerdings ohne Weiteres denkbar, das gezeigte Model komplexer zu gestalten, indem
+mehrere Perzeptrons miteinander verknüpft werden, so dass beispielsweise das nachfolgende Netzwerk entstehen könnte:
+
+docu_img_03
+
+
+
+
+
