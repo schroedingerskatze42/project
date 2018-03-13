@@ -1,0 +1,31 @@
+Neural Networks:
+
+- Idee
+- Grunds�tzliche Funktionsweise
+- Layer
+- Gewichte
+- Backpropagation
+
+CNNs als Spezialfall:
+
+- Besonderheiten
+- spezielle Layer
+	- Convs
+	- Pooling
+	- Upsampling
+	- Fully Connected
+	- ...
+- Vor- und Nachteile
+
+Link-Sammlung:
+
+CNNs:
+https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/
+http://cs231n.github.io/convolutional-networks/
+https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/
+http://deeplearning.net/tutorial/lenet.html
+https://deeplearning4j.org/convolutionalnetwork.html
+
+NNs:
+http://neuralnetworksanddeeplearning.com/chap1.html
+http://neuralnetworksanddeeplearning.com/
