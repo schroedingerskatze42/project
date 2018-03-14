@@ -77,6 +77,38 @@ mehrere Perzeptrons miteinander verknüpft werden, so dass beispielsweise das na
 
 docu_img_03
 
+In Grafik <docu_img_02> wurde ein Schwellwert eingeführt, der überschritten werden muss, damit ein Perzeptron
+"aktiviert" wird. Um das Modell zu vereinheitlichen, kann der sogenannte "Bias" definiert werden, der den
+negativen Schwellwert darstellt. Durch diese Maßnahme kann die Aktivierungsfunktion des Perzeptrons dann geschrieben
+werden als:
+
+docu_img_04
+
+Inhaltlich kann das Bias als ein Maß verstanden werden, aus dem hervorgeht, wie "leicht" ein Perzeptron aktiviert
+werden kann. Nimmt der Bias einen großen Wert an, so kann das Perzeptron einen Wert von 1 annehmen, auch wenn das
+Produkt aus den Gewichten und den Eingangsgrößen einen negativen Wert annimmt. Gleiches gilt selbstverständlich auch für
+einen kleinen Bias, der zur Folge hat, dass ein Perzeptron nicht so "leicht" aktiviert werden kann.
+
+1.2 Sigmoid-Neuronen
+
+Eine Weiterentwicklung des zuvor vorgestellten Modells stellen Sigmoid-Neuronen dar. Diese Weiterentwicklung wird
+dann erforderlich, wenn das Anpassen der Gewichte - also letztlich das "Lernen" - betrachtet wird. Dabei ist das Ziel,
+dass eine "kleine" Anpassung eines Gewichts auch nur eine "kleine" Änderung des Outputs zur Folge hat. Das zuvor
+betrachtete Perzeptron ist lediglich in der Lage 0 oder 1 als Output zu liefern, so dass Änderungen an den Gewichten
+keine stetige Änderung des Outputs zur Folge haben, sondern "folgenlos" bleiben können bis irgendwann ein Sprung von 0
+auf 1 oder umgekehrt stattfindet, was wiederum eine große Änderung darstellt.
+Die Weiterentwicklung besteht nun in einer Verfeinerung der Aktivierungsfunktion. Anstatt eine "Sprungfunktion" zu
+verwenden, die lediglich 0 und 1 als Funktionswert annehmen kann, wird die sogenannte "Sigmoid Funktion" eingeführt,
+die die folgende Form hat:
+
+docu_img_05
+
+Der entscheidende Unterschied kann an den beiden nachfolgenden Grafiken verdeutlicht werden, die jeweils die Kurve
+der entsprechenden Funktion darstellen:
+
+docu_img_06
+
+docu_img_07
 
 
 
