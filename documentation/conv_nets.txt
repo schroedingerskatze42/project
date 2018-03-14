@@ -110,6 +110,59 @@ docu_img_06
 
 docu_img_07
 
+1.3 Architektur neuronaler Netze
+
+Mit diesen Bestandteilen als Ausgangspunkt können nun tatsächlich konkretere Neuronale Netze und deren Architekturen
+eingeführt werden. Neuronale Netze bestehen üblicherweise aus mehreren Schichten, den sogenannten "Layern". Diese lassen
+sich grundsätzlich in drei Kategorien aufteilen: Input, Hidden und Output. Neuronale Netze beinhalten für gewöhnlich
+ein Input-Layer und ein Output-Layer sowie dazwischen beliebig viele Hidden-Layer. Die Form der Input- und Output-Layer
+ist dabei sehr naheliegend: das Input-Layer hat die gleiche Struktur wie die des Inputs und das Output-Layer hat
+entsprechend die gleiche Struktur wie der Output.
+Angenommen es sollen Bilder der Größe 28x28 Pixel klassifiziert werden und es gibt 10 mögliche Klassen, dann besteht das
+Input-Layer aus 28x28 = 784 Neuronen und das Output-Layer aus 10 Neuronen.
+Lediglich der Bereich zwischen Input- und Output-Layer - die Hidden-Layer - lässt sich nicht ohne Weiteres aus dem Input
+oder dem Output ableiten. Es gibt lediglich Heuristiken, die beim Design der Hidden-Layer angewandt werden können,
+allerdings keine konkreten Regeln, die befolgt werden müssen. Diese Struktur kann anhand des nachfolgenden Bilds
+verdeutlicht werden, bei dem - um die Übersichtlichkeit zu wahren - das Input-Layer etwas komprimiert dargestellt wird:
+
+docu_img_08
+
+1.4 Lernen - Das Anpassen der Gewichte
+
+Das "Lernen" stellt den zentralen Ansatz von neuronalen Netzes dar. Eng im Zusammenhang mit dem Lernen steht eine
+Kosten-Funktion, die häufig auch als Verlust-Funktion bezeichnet werden kann. Diese stellt letztlich den Fehler zwischen
+dem Erwartungswert und dem tatsächlichen Wert, den das neuronale Netz berechnet, dar. Mathematisch betrachtet ist das
+grundlegende Prinzip des Lernens diese Funktion zu minimieren, also zu gewährleisten, dass die Abweichungen zwischen
+Erwartungswert und tatsächlichem Wert möglichst gering sind. Es sind grundsätzlich viele verschiedene Verlust-Funktionen
+denkbar, eine, die jedoch eine breite Verwendeung findet, ist die quadratische Kosten-Funktion - auch als "mean squared
+error" (MSE) bezeichnet.
+
+docu_img_09
+
+Dabei beschreiben w und b die Gewichte bzw. die Bias des neuronalen Netzes und n stellt die Anzahl der Trainingsdaten
+dar. Der Vektor a beschreibt den Output des Netzes und y(x) stellt den Erwartungswert zu einem Input x dar.
+Das Ziel besteht nun darin, die Gewichte und Bias so zu manipulieren, dass die gezeigte Funktion einen möglichst kleinen
+Wert annimmt.
+
+<<< GRADIENT_DESCENT in ein paar ruhigen Minuten schreiben :-) >>>
+
+1.5 Convolutional Networks
+
+Insbesondere bei der Klassifizierung von Bildern hat sich eine bestimmte Art von neuronalen Netzen als besonders passend
+herausgestellt - dabei handelt es sich um die sogenannten "Convolutional Networks". Diese zeichnen sich dadurch aus,
+dass sie auch die räumliche Struktur der Bilder berücksichtigen: Während herkömmliche "fully connected" neuronale Netze
+sämtliche Pixel gleich behandeln würden, unabhängig davon, ob sie beispielsweise benachbart sind oder nicht, betrachten
+Convolutional Networks immer nacheinander konkrete Abschnitte eines Bilds, um Strukturen zwischen benachbarten Pixeln
+erkennen und somit verarbeiten zu können.
+Dabei liegen den Convolutional Networks im Wesentlichen drei Ideen zugrunde:
+
+1) Lokales rezeptives Feld
+2) Gemeinsam verwendete Gewichte
+3) Pooling
+
+Diese Bestandteile sollen nun einzeln genauer betrachtet werden.
+
+
 
 
 
