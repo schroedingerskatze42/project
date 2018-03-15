@@ -68,13 +68,13 @@ class SRCNN(object):
         self.labels = tf.placeholder(tf.float32, [None, self.label_height, self.label_width, self.c_dim], name='labels')
 
         self.weights = {
-            'w1': tf.Variable(tf.random_normal([1, 1, 1, 32], stddev=1e-3), name='w1'),
-            'w2': tf.Variable(tf.random_normal([1, 1, 32, 64], stddev=1e-3), name='w2'),
-            'w3': tf.Variable(tf.random_normal([1, 1, 64, 1], stddev=1e-3), name='w3')
+            'w1': tf.Variable(tf.random_normal([1, 1, 1, 64], stddev=1e-3), name='w1'),
+            'w2': tf.Variable(tf.random_normal([1, 1, 64, 128], stddev=1e-3), name='w2'),
+            'w3': tf.Variable(tf.random_normal([1, 1, 128, 1], stddev=1e-3), name='w3')
         }
         self.biases = {
-            'b1': tf.Variable(tf.zeros([32]), name='b1'),
-            'b2': tf.Variable(tf.zeros([64]), name='b2'),
+            'b1': tf.Variable(tf.zeros([64]), name='b1'),
+            'b2': tf.Variable(tf.zeros([128]), name='b2'),
             'b3': tf.Variable(tf.zeros([1]), name='b3')
         }
 
@@ -139,7 +139,7 @@ class SRCNN(object):
                         print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: [%.8f]" \
                               % ((ep + 1), counter, time.time() - start_time, err))
 
-                    if counter % 500 == 0:
+                    if counter % 50 == 0:
                         self.save(config.checkpoint_dir, counter)
 
         else:
