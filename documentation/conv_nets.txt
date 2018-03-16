@@ -144,7 +144,28 @@ dar. Der Vektor a beschreibt den Output des Netzes und y(x) stellt den Erwartung
 Das Ziel besteht nun darin, die Gewichte und Bias so zu manipulieren, dass die gezeigte Funktion einen möglichst kleinen
 Wert annimmt.
 
-<<< GRADIENT_DESCENT in ein paar ruhigen Minuten schreiben :-) >>>
+1.4.1 Gradientenabstieg (Gradient Descent)
+
+Um die soeben eingeführte Kostenfunktion zu minimieren, wird ein Verfahren verwendet, das als Gradientenabstieg (engl.
+gradient descent) bezeichnet wird. Zur Veranschaulichung des Problems soll nun eine Funktion zweier Variablen, die
+minimiert werden soll, betrachtet werden.
+
+docu_img_17
+
+Dieses Problem könnte selbstverständlich durch Verfahren der Analysis gelöst werden. In der Realität ist die Anzahl der
+Variablen jedoch um ein Vielfaches höher, so dass diese Verfahren nicht mehr effizient angewendet werden können.
+
+Zur Visualisierung der grundlegenden Idee des Gradientenabstiegs kann sich ein Ball vorgestellt werden, der sich abwärts
+in Richtung eines Tals bewegt. Bewegt man den Ball ein "Stückchen" in Richtung v1 und ein "Stückchen" in Richtung v2
+so gilt für den Funktionswert C:
+
+docu_img_18
+
+Der Gradient wird dann folgendermaßen definiert:
+
+docu_img_19
+
+
 
 1.5 Convolutional Networks
 
