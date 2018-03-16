@@ -4,7 +4,7 @@ Als grundlegende Datenquelle wurde die "color FERET Database", die von dem Natio
 
 Um trotz der vergleichsweise geringen Datenmenge 1) gute Ergebnisse erzielen zu können, beschränkt sich diese Arbeit auf die Verwendung möglichst homogener Bilder unterschiedlicher Personen. Von besonderem Interesse ist hierbei die Pose des Abgebildeten. Die Datenbank unterscheidet Frontal- und Profilbilder sowie Bilder, in denen der Kopf um einen bestimmten Winkel gedreht ist. Als grundlegenden Datensatz wurde sich für die Frontalbilder entschieden, da diese mit 2.722 Bilder von 994 Personen den großten Teildatensatz ausmachen.
 
-Die benötigten Testdatensätze wurde mithilfe von ImageMagick [11] in Version 7 3) aufbereitet. Um die Komplexität der Problemstellung weiter zu reduzieren, wurden die Bilder grauskaliert und auf 12,5% der Ursprungsgröße skaliert, sodass die Trainigsdaten noch eine Auflösung von 64x96 Pixeln haben. Es wurden vier unterschiedliche Testdatensätze mit folgenden Commandline-Befehlen generiert 2):
+Die benötigten Testdatensätze wurde mithilfe von ImageMagick [11] in Version x.y. aufbereitet. Um die Komplexität der Problemstellung weiter zu reduzieren, wurden die Bilder grauskaliert und auf 12,5% der Ursprungsgröße skaliert, sodass die Trainigsdaten noch eine Auflösung von 64x96 Pixeln haben. Es wurden vier unterschiedliche Testdatensätze mit folgenden Commandline-Befehlen generiert 2):
 
 convert - Synopsis [12]
 convert [input-options] input-file [output-options] output-file
@@ -25,10 +25,10 @@ $> convert <input_file.ppm> -set colorspace Gray -separate -average -scale $(( b
 [Image_Thumb] [Image_mosaic_10]
 Mosaic, Kantenlänge 10
 
+### TODO: Lerndauer, hier? Vllt im Kapitel zum Aufbau des von uns verwendeten Netzwerkes ###
 
 1) Vergleichbare Projekte [9, 10] verwenden hingegen 60.000 bis 300.000 Bilder.
 2) Das anhängende BASH-Skript scripts/create_images.sh erzeugt die Testdaten. Notwendig hierfür sind die Pakete "imagemagick" und "imagemagick-doc". [11]
-3) Version: ImageMagick 7.0.7-24 Q16 x86_64 2018-02-26
 
 [8] NIST, color FERET Database. (https://www.nist.gov/itl/iad/image-group/color-feret-database)
 [9] Richard McPherson, Rezar Shokri, Vitali Shmatikov, Defeating Image Obfuscation with Deep Learning. (https://arxiv.org/pdf/1609.00408.pdf)
