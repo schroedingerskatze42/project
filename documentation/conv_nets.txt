@@ -217,7 +217,35 @@ daraus, dass insgesamt (28 x 28) x 30 + 30 = 23550 Parameter in jedem Schritt de
 
 Die zuvor vorgestellten Layer, die durch die Verwendung des lokalen rezeptiven Felds und gemeinsam geteilter Gewichte
 enstehen, werden gemeinhin als "convolutional" Layer bezeichnet. Von diesen kann ein weiterer wesentlicher Bestandteil
-von convolutional networks abgegrenzt werden - die sogenannten "pooling" Layer.
+von convolutional networks abgegrenzt werden - die sogenannten "pooling" Layer. Diese Art von Layer folgt für
+gewöhnlich auf die zuvor vorgestellten "convolutional" Layer und hat zur Aufgabe, die dadurch gewonnenen Informationen
+zu vereinfachen.
+Das grundsätzliche Vorgehen kann durchaus mit dem des convolutional Layers verglichen werden - auch bei den pooling
+Layers kommt ein Feld zum Einsatz, dass sich über das Ergebnis des vorherigen Schrittes bewegt. Es könnte sich
+beispielsweise um ein Feld der Größe 2x2 handeln. Dieses würde somit immer 4 Neuronen betrachten und - im Falle des
+sogenannten max-poolings (einer konkreten Ausprägung des Poolings) - das größte von ihnen auswählen.
+
+Bildlich kann dies auf die folgende Art und Weise veranschaulicht werden:
+
+docu_img_14
+
+Dadurch, dass vier Neuronen auf ein Neuron projeziert werden, verringert sich die Größe bei diesem konkreten Beispiel
+von 24x24 auf 12x12. Dieses Vorgehen wird selbstverständlich auf alle feature maps des vorherigen convolutional Layers
+angewendet, so dass das folgende Ergebnis entsteht.
+
+docu_img_15
+
+1.5.2 Beispielhaftes Convolutional Network
+
+Nachdem die wesentlichen Bestandteilen eines convolutional Netzes vorgestellt worden sind, können diese nun miteinander
+verknüpft werden, um die Architektur eines exemplarischen Netzes zu veranschaulichen. Wie auch bei "normalen" neuronalen
+Netzen orientieren sich Input- und Output-Layer an der Struktur des Inputs bzw. Outputs. Dazwischen befinden sich
+abwechselnd convolutional und pooling Layer, die grundsätzlich beliebig oft hintereinander geschaltet werden können.
+Demnach sähe ein sehr simples convolutional Netzwerk beispielsweise folgendermaßen aus:
+
+docu_img_16
+
+
 
 
 
