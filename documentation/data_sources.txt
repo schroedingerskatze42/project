@@ -1,6 +1,6 @@
 Datenquellen und Aufbereitung
 
-Als grundlegende Datenquelle wurde die "color FERET Database", die von dem National Institute of Standards and Technology veröffentlicht wurde, verwendet. [8] Die Datenbank umfasst 11.338 Gesichtsbilder von 1.208 Menschen und hält neben Metadaten über Pose, Geschlecht, Ethnie und Alter auch weiterführende Daten bereit wie Augenposition und Kamerawinkel. Die Daten liegen im Portable Pixmap Format (RGB) in einer vor Auflösung von 512x768 Pixeln vor. 
+Als grundlegende Datenquelle wurde die "color FERET Database", die von dem National Institute of Standards and Technology veröffentlicht wurde, verwendet. [8] Die Datenbank umfasst 11.338 Gesichtsbilder von 1.208 Menschen und hält neben Metadaten über Pose, Geschlecht, Ethnie und Alter auch weiterführende Daten bereit wie Augenposition und Kamerawinkel. Die Daten liegen im Portable Pixmap Format RGB- und im Graustufenformat in einer vor Auflösung von 512x768 Pixeln vor.
 
 Um trotz der vergleichsweise geringen Datenmenge 1) gute Ergebnisse erzielen zu können, beschränkt sich diese Arbeit auf die Verwendung möglichst homogener Bilder unterschiedlicher Personen. Von besonderem Interesse ist hierbei die Pose des Abgebildeten. Die Datenbank unterscheidet Frontal- und Profilbilder sowie Bilder, in denen der Kopf um einen bestimmten Winkel gedreht ist. Als grundlegenden Datensatz wurde sich für die Frontalbilder entschieden, da diese mit 2.722 Bilder von 994 Personen den großten Teildatensatz ausmachen.
 

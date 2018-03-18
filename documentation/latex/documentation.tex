@@ -39,6 +39,7 @@ german]{scrartcl}
   \renewcommand\reftextbefore {auf der vorherigen Seite}%
   \renewcommand\reftextcurrent {auf dieser Seite}%
 }
+\usepackage{listings}
 
 \input{structure.tex} % Include the structure.tex file which specified the document structure and layout
 
@@ -63,6 +64,12 @@ german]{scrartcl}
 %----------------------------------------------------------------------------------------
 
 \renewcommand{\sectionmark}[1]{\markright{\spacedlowsmallcaps{#1}}} % The header for all pages (oneside) or for even pages (twoside)
+\renewcommand{\lstlistingname}{Code-Auszug}%
+\lstset{basicstyle=\ttfamily,
+  showstringspaces=false,
+  commentstyle=\color{red},
+  keywordstyle=\color{blue}
+}
 \lehead{\mbox{\llap{\small\thepage\kern1em\color{halfgray} \vline}\color{halfgray}\hspace{0.5em}\rightmark\hfil}} % The header style
 
 \pagestyle{scrheadings} % Enable the headers specified in this block
@@ -115,7 +122,7 @@ welches ein mögliches Urspurngsbild zu einem eingegebenen verfälschten Bild li
 %\renewcommand{\thefootnote}{\arabic{footnote}}
 
 In bildgebenden Medien, Videos wie Fotos, werden Gesichter von Menschen verfälscht, um deren Identität unkenntlich
-zu machen.\footnote{Andrew Senior, Protecting Privacy in Video Surveillance, S 130 ff.\label{label:protecting_privacy}}
+zu machen.\footnote{Andrew Senior, Protecting Privacy in Video Surveillance, S 130 ff.\label{fn:protecting_privacy}}
 Diese Technologien werden von
 öffentlichen Medien, wie Privatpersonen verwendet. In der Vergangenheit
 gab es den Fall eines Kinderschänders, der verfälschte Gesichtsbilder von sich veröffentlichte. Er verwendete dabei
@@ -123,13 +130,13 @@ ein Verfahren, das Pixel um einen zentralen Punkt zu einer Spirale rotiert. Beh�
 Form der Gesichtsverfälschung, der Informationsverlust im Vergleich zu den Verfahren, die in dieser Arbeit behandelt
 werden, gering ist, aufzuheben und das Gesicht weitgehends wiederherzustellen.
 \footnote{Vancouver Sun, "Convicted 'swirl face' sex offender Christopher Neil to live in Vancouver".
-(http://vancouversun.com/news/local-news/convicted-swirl-face-sex-offender-christopher-neil-to-live-in-vancouver)},
-\footnote{Wikipedia, "Christopher Paul Neil". (https://en.wikipedia.org/wiki/Christopher\_Paul\_Neil)}
+(http://vancouversun.com/news/local-news/convicted-swirl-face-sex-offender-christopher-neil-to-live-in-vancouver)
+}$^{,}$\footnote{Wikipedia, "Christopher Paul Neil". (https://en.wikipedia.org/wiki/Christopher\_Paul\_Neil)}
 Motiviert unter anderem dadurch,
 stellt diese Arbeit eine Grundlagenanalyse dar, in wie weit CNNs dafür verwendet werden können sehr viel verbreitetere,
 aber destruktive Obfuscation-Verfahren anzugreifen.
 
-Maßgablich kommen beim Verfälschen zwei Verfahren zum Einsatz\textsuperscript{\ref{label:protecting_privacy}}:
+Maßgablich kommen beim Verfälschen zwei Verfahren zum Einsatz\textsuperscript{\ref{fn:protecting_privacy}}:
 "Weichzeichnen" (Gaussian Blur),\footnote{Wikipedia, Gaussian Blur. (https://en.wikipedia.org/wiki/Gaussian\_blur)}
 und "Verpixelung" (Pixelization)\footnote{Wikipedia, Pixelization. (https://en.wikipedia.org/wiki/Pixelization)\label{label:pixelization}}.
 
@@ -175,7 +182,7 @@ Auch Mosaic-Verfahren, meint eine Menge an Verfahren, die die Auflösung von Bil
 verringern, um Detailinformationen zu verbergen. Hierfür wird der unkenntlich zu machende Bereich in gleichmäßige
 Unterbereiche aufgeteilt und deren resultierender Farbwert aus den Pixeln des Ursprungsbildes gemittelt. Bei dieser
 Verfahrensfamilie gibt es eine Vielzahl an Variationen, die sich in Größe und Form der Unterbereiche und dem genauen
-Algorithmus, der verwendet wird, um die Unterbereiche unkenntlich zu machen. \ref{label:pixelization}
+Algorithmus, der verwendet wird, um die Unterbereiche unkenntlich zu machen. \ref{fig:pixelization}
 
 \begin{figure}[h]
     \centering
@@ -196,13 +203,85 @@ Algorithmus, der verwendet wird, um die Unterbereiche unkenntlich zu machen. \re
     \label{fig:pixelization}
 \end{figure}
 
-Der in diesem Verfahren betrachtete Parameter (siehe Abbildung  \vref*{fig:pixelization}) entspricht der Kantenlänge der resultierenden verpixelten Unterbereiche.
+Der in diesem Verfahren betrachtete Parameter (siehe Abbildung  \vref*{fig:pixelization}) entspricht der Kantenlänge der
+resultierenden verpixelten Unterbereiche.
 
 
+\section{Datenquellen und Aufbereitung}
 
+Als grundlegende Datenquelle wurde die
+\textit{color FERET Database} \footnote{NIST, color FERET Database. (https://www.nist.gov/itl/iad/image-group/color-feret-database)},
+die von dem National Institute of Standards and Technology veröffentlicht wurde, verwendet.
+Die Datenbank umfasst 11.338 Gesichtsbilder von 1.208 Menschen und
+hält neben Metadaten über Pose, Geschlecht, Ethnie und Alter auch weiterführende Daten bereit wie Augenposition und
+Kamerawinkel. Die Daten liegen im Portable Pixmap Format RGB- und im Graustufenformat in einer vor Auflösung von 512x768 Pixeln vor.
 
+Um trotz der vergleichsweise geringen Datenmenge. Vergleichbare Projekte
+\footnote{Richard McPherson, Rezar Shokri, Vitali Shmatikov, Defeating Image Obfuscation with Deep Learning. (https://arxiv.org/pdf/1609.00408.pdf)}$^{,}$\footnote{"Jenkspt", Enhancher. (https://github.com/jenkspt/enhancer)}
+verwenden hingegen 60.000 bis 300.000 Bilder.
+gute Ergebnisse erzielen zu können, beschränkt sich diese Arbeit auf
+die Verwendung möglichst homogener Bilder unterschiedlicher Personen. Von besonderem Interesse ist hierbei die Pose des
+Abgebildeten. Die Datenbank unterscheidet Frontal- und Profilbilder sowie Bilder, in denen der Kopf um einen bestimmten
+Winkel gedreht ist. Als grundlegenden Datensatz wurde sich für die Frontalbilder entschieden, da diese mit 2.722 Bilder
+von 994 Personen den großten Teildatensatz ausmachen.
 
-%------------------------------------------------
+Die benötigten Testdatensätze wurde mithilfe von ImageMagick [11] in Version x.y. aufbereitet. Um die Komplexität der
+Problemstellung weiter zu reduzieren, wurden die Bilder grauskaliert und auf 12,5\% der Ursprungsgröße skaliert, sodass
+die Trainigsdaten noch eine Auflösung von 64x96 Pixeln haben. Es wurden vier unterschiedliche Testdatensätze mit
+folgenden Commandline-Befehlen generiert \footnote{Das folgende BASH-Skript scripts/create\_images.sh erzeugt die
+Testdaten. Notwendig hierfür sind die Pakete "imagemagick" und "imagemagick-doc".}:
+
+\begin{lstlisting}[language=bash,caption={convert - Synopsis}]
+convert [input-options] input-file [output-options] output-file
+\end{lstlisting}
+
+\begin{minipage}{\linewidth}
+\begin{lstlisting}[language=bash,caption={Testdatenerstellung - Graustufen}]
+#!/bin/bash
+
+# every call scales the input image down to 12.5% of its
+# original size and grayscales it.
+
+# convert test data:  gaussian-blur (sigma = 3)
+convert <input_file.ppm> \
+    -set colorspace Gray \
+    -separate \
+    -average \
+    -scale 12.5\% \
+    -gaussian-blur 0x3 \
+    <output_file.ppm>
+
+# convert test data:  gaussian-blur (sigma = 6)
+convert <input_file.ppm> \
+    -set colorspace Gray \
+    -separate \
+    -average \
+    -scale 12.5\% \
+    -gaussian-blur 0x6 \
+    <output_file.ppm>
+
+# convert test data:  pixelization (edge length = 5px)
+convert <input_file.ppm> \
+    -set colorspace Gray \
+    -separate \
+    -average \
+    -scale 12.5\% \
+    -scale $(( bc <<< "scale=100;100/5" ))\% \
+    -scale 500\% \
+    <output_file.ppm>
+
+# convert test data:  pixelization (edge length = 10px)
+convert <input_file.ppm> \
+    -set colorspace Gray \
+    -separate \
+    -average \
+    -scale 12.5\% \
+    -scale $(( bc <<< "scale=100;100/10" ))\% \
+    -scale 1000\% \
+    <output_file.ppm>
+\end{lstlisting}
+\end{minipage}
+
 
 \subsection{Paragraphs}
 
@@ -251,7 +330,7 @@ Reference to Figure~\vref{fig:gallery}. % The \vref command specifies the locati
 
 \begin{figure}[tb]
 \centering 
-\includegraphics[width=0.5\columnwidth]{GalleriaStampe} 
+%\includegraphics[width=0.5\columnwidth]{GalleriaStampe}
 \caption[An example of a floating figure]{An example of a floating figure (a reproduction from the \emph{Gallery of prints}, M.~Escher,\index{Escher, M.~C.} from \url{http://www.mcescher.com/}).} % The text in the square bracket is the caption for the list of figures while the text in the curly brackets is the figure caption
 \label{fig:gallery} 
 \end{figure}
