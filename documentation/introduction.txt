@@ -1,8 +1,8 @@
 Einleitung Aufgabenstellung
 
-Diese Arbeit setzt sich mit der Verwendung von Convolutional Neuroal Networks (CNNs) zum Widerherstellen unkenntlich gemachter Gesichtsbilder (engl. face obfuscated) auseinander. Ziel ist es ein CNN aufzubauen, welches ein mögliches Urspurngsbild zu einem eingegebenen verfälschten Bild liefert.
+Diese Arbeit setzt sich mit der Verwendung von Convolutional Neuroal Networks (CNNs) zum Wiederherstellen unkenntlich gemachter Gesichtsbilder (engl. face obfuscated) auseinander. Ziel ist es ein CNN aufzubauen, welches ein mögliches Urspurngsbild zu einem eingegebenen verfälschten Bild liefert.
 In bildgebenden Medien, Videos wie Fotos, werden Gesichter von Menschen verfälscht, um deren Identität unkenntlich zu machen. [1] Diese Technologien werden von öffentlichen Medien, wie Privatpersonen verwendet. In der Vergangenheit gab es den Fall eines Kinderschänders, der verfälschte Gesichtsbilder von sich veröffentlichte. Er verwendete dabei ein Verfahren, das Pixel um einen zentralen Punkt zu einer Spirale rotiert. [2] Behörden war es damals möglich, diese Form der Gesichtsverfälschung, der Informationsverlust im Vergleich zu den Verfahren, die in dieser Arbeit behandelt werden, gering ist, aufzuheben und das Gesicht weitgehends wiederherzustellen. [3,4] Motiviert unter anderem dadurch, stellt diese Arbeit eine Grundlagenanalyse dar, in wie weit CNNs dafür verwendet werden können sehr viel verbreitetere, aber destruktive Obfuscation-Verfahren anzugreifen.
-Maßgablich kommen beim Verfälschen zwei Verfahren zum Einsatz: "Weichzeichnen" (Gaussian Blur)[5] und "Verpixelung" (Pixelization). [1,5]
+Maßgablich kommen beim Verfälschen zwei Verfahren zum Einsatz[1,5]: "Weichzeichnen" (Gaussian Blur)[6] und "Verpixelung" (Pixelization)[7].
 
 
 Weichzeichnen
@@ -28,7 +28,7 @@ Der in diesem Verfahren betrachtete Parameter entspricht der Kantenlänge der re
 
 
 
-[1] Andrew Senior, Protecting Privacy in Video Surveillance, S 130 ff
+[1] Andrew Senior, Protecting Privacy in Video Surveillance, S 130 ff.
 [2] fehlt - math/algo/swirling
 [3] Vancouver Sun, "Convicted 'swirl face' sex offender Christopher Neil to live in Vancouver". (http://vancouversun.com/news/local-news/convicted-swirl-face-sex-offender-christopher-neil-to-live-in-vancouver)
 [4] Wikipedia, "Christopher Paul Neil". (https://en.wikipedia.org/wiki/Christopher_Paul_Neil)
