@@ -49,11 +49,11 @@ def tf_ssim(img1, img2, cs_map=False, mean_metric=True, size=11, sigma=1.5):
 
     if mean_metric:
         value = tf.reduce_mean(value)
-    return value
+    return 1-value
 
 
-def tf_ms_ssim(img1, img2, mean_metric=True, level=5):
-    weight = tf.constant([0.0448, 0.2856, 0.3001, 0.2363, 0.1333], dtype=tf.float32)
+def tf_ms_ssim(img1, img2, mean_metric=True, level=5, dtype=tf.float32):
+    weight = tf.constant([0.0448, 0.2856, 0.3001, 0.2363, 0.1333], dtype=dtype)
     mssim = []
     mcs = []
     for l in range(level):
@@ -71,3 +71,5 @@ def tf_ms_ssim(img1, img2, mean_metric=True, level=5):
 
     return (tf.reduce_prod(mcs[0:level - 1] ** weight[0:level - 1]) *
             (mssim[level - 1] ** weight[level - 1]))
+
+

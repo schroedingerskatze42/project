@@ -45,7 +45,7 @@ SEED = 66478  # Set to None for random seed.
 BATCH_SIZE = 64
 NUM_EPOCHS = 10
 EVAL_BATCH_SIZE = 64
-EVAL_FREQUENCY = 100  # Number of steps between evaluations.
+EVAL_FREQUENCY = 10  # Number of steps between evaluations.
 
 FLAGS = None
 
@@ -143,6 +143,7 @@ def main(_):
         train_data = train_data[VALIDATION_SIZE:, ...]
         train_labels = train_labels[VALIDATION_SIZE:]
         num_epochs = NUM_EPOCHS
+
     train_size = train_labels.shape[0]
 
     # This is where training samples and labels are fed to the graph.
@@ -188,12 +189,10 @@ def main(_):
         # 2D convolution, with 'SAME' padding (i.e. the output feature map has
         # the same size as the input). Note that {strides} is a 4D array whose
         # shape matches the data layout: [image index, y, x, depth].
-        print(data.shape)
         conv = tf.nn.conv2d(data,
                             conv1_weights,
                             strides=[1, 1, 1, 1],
                             padding='SAME')
-        print(conv)
         # Bias and rectified linear non-linearity.
         relu = tf.nn.relu(tf.nn.bias_add(conv, conv1_biases))
         # Max pooling. The kernel size spec {ksize} also follows the layout of
@@ -202,33 +201,24 @@ def main(_):
                               ksize=[1, 2, 2, 1],
                               strides=[1, 2, 2, 1],
                               padding='SAME')
-        print(pool)
         conv = tf.nn.conv2d(pool,
                             conv2_weights,
                             strides=[1, 1, 1, 1],
                             padding='SAME')
-        print(conv)
         relu = tf.nn.relu(tf.nn.bias_add(conv, conv2_biases))
-        print(relu)
         pool = tf.nn.max_pool(relu,
                               ksize=[1, 2, 2, 1],
                               strides=[1, 2, 2, 1],
                               padding='SAME')
-        print(pool)
         # Reshape the feature map cuboid into a 2D matrix to feed it to the
         # fully connected layers.
         pool_shape = pool.get_shape().as_list()
-        print(pool_shape)
         reshape = tf.reshape(
             pool,
             [pool_shape[0], pool_shape[1] * pool_shape[2] * pool_shape[3]])
-        print(reshape)
         # Fully connected layer. Note that the '+' operation automatically
         # broadcasts the biases.
         hidden = tf.nn.relu(tf.matmul(reshape, fc1_weights) + fc1_biases)
-        print(hidden)
-        print(tf.matmul(hidden, fc2_weights) + fc2_biases)
-        exit(1)
         # Add a 50% dropout during training only. Dropout also scales
         # activations such that no rescaling is needed at evaluation time.
         if train:
@@ -239,7 +229,6 @@ def main(_):
     logits = model(train_data_node, True)
     loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(
         labels=train_labels_node, logits=logits))
-
     # L2 regularization for the fully connected parameters.
     regularizers = (tf.nn.l2_loss(fc1_weights) + tf.nn.l2_loss(fc1_biases) +
                     tf.nn.l2_loss(fc2_weights) + tf.nn.l2_loss(fc2_biases))
@@ -301,13 +290,17 @@ def main(_):
             # Note that we could use better randomization across epochs.
             offset = (step * BATCH_SIZE) % (train_size - BATCH_SIZE)
             batch_data = train_data[offset:(offset + BATCH_SIZE), ...]
+            print(batch_data[0])
             batch_labels = train_labels[offset:(offset + BATCH_SIZE)]
+
             # This dictionary maps the batch data (as a numpy array) to the
             # node in the graph it should be fed to.
             feed_dict = {train_data_node: batch_data,
                          train_labels_node: batch_labels}
+
             # Run the optimizer to update weights.
             sess.run(optimizer, feed_dict=feed_dict)
+
             # print some extra information once reach the evaluation frequency
             if step % EVAL_FREQUENCY == 0:
                 # fetch some extra nodes' data
@@ -315,6 +308,11 @@ def main(_):
                                               feed_dict=feed_dict)
                 elapsed_time = time.time() - start_time
                 start_time = time.time()
+                print('#################')
+                print(l)
+                print(lr)
+                print(predictions)
+                exit(1)
                 print('Step %d (epoch %.2f), %.1f ms' %
                       (step, float(step) * BATCH_SIZE / train_size,
                        1000 * elapsed_time / EVAL_FREQUENCY))

@@ -25,7 +25,7 @@ NUM_CHANNELS = 1
 def image_path_to_array(path):
     # print(np.asarray(io.imread(path)))
     # exit(1)
-    return cv2.imread(path, cv2.IMREAD_GRAYSCALE) #.reshape(IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
+    return cv2.imread(path, cv2.IMREAD_GRAYSCALE).reshape(IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
 
 
 def read_images_from_directory(target=PATH_BLURRED_06):
