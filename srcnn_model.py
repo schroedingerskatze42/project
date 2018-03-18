@@ -2,6 +2,8 @@ import data_reader
 import time
 import os
 import numpy as np
+from PIL import Image
+import at_imagecompairision
 
 import tensorflow as tf
 
@@ -55,7 +57,9 @@ class SRCNN(object):
         self.image_width = image_width
         self.label_height = label_height
         self.label_width = label_width
-        self.batch_size = batch_size
+
+        # self.batch_size = batch_size
+        self.batch_size = 1
 
         self.c_dim = c_dim
 
@@ -66,6 +70,46 @@ class SRCNN(object):
     def build_model(self):
         self.images = tf.placeholder(tf.float32, [None, self.image_height, self.image_width, self.c_dim], name='images')
         self.labels = tf.placeholder(tf.float32, [None, self.label_height, self.label_width, self.c_dim], name='labels')
+
+        self.weights_1 = {
+            'w1': tf.Variable(tf.random_normal([3, 3, 1, 64], stddev=1e-3), name='w1'),
+            'w2': tf.Variable(tf.random_normal([3, 3, 64, 64], stddev=1e-3), name='w2'),
+            'w3': tf.Variable(tf.random_normal([3, 3, 64, 128], stddev=1e-3), name='w3'),
+            'w4': tf.Variable(tf.random_normal([3, 3, 128, 64], stddev=1e-3), name='w4'),
+            'up1': tf.Variable(tf.random_normal([3, 3, 128, 64], stddev=1e-3), name='up1'),
+            'w5': tf.Variable(tf.random_normal([3, 3, 128, 64], stddev=1e-3), name='w5'),
+            'up2': tf.Variable(tf.random_normal([3, 3, 128, 64], stddev=1e-3), name='up2'),
+            'w6': tf.Variable(tf.random_normal([3, 3, 128, 1], stddev=1e-3), name='w6')
+        }
+
+        self.biases_1 = {
+            'b1': tf.Variable(tf.zeros([64]), name='b1'),
+            'b2': tf.Variable(tf.zeros([64]), name='b2'),
+            'b3': tf.Variable(tf.zeros([128]), name='b3'),
+            'b4': tf.Variable(tf.zeros([64]), name='b4'),
+            'b5': tf.Variable(tf.zeros([64]), name='b5'),
+            'b6': tf.Variable(tf.zeros([1]), name='b6')
+        }
+
+        self.weights_orig = {
+            'w1': tf.Variable(tf.random_normal([3, 3, 1, 256], stddev=1e-3), name='w1'),
+            'w2': tf.Variable(tf.random_normal([3, 3, 256, 256], stddev=1e-3), name='w2'),
+            'w3': tf.Variable(tf.random_normal([3, 3, 256, 512], stddev=1e-3), name='w3'),
+            'w4': tf.Variable(tf.random_normal([3, 3, 512, 256], stddev=1e-3), name='w4'),
+            'up1': tf.Variable(tf.random_normal([3, 3, 512, 256], stddev=1e-3), name='up1'),
+            'w5': tf.Variable(tf.random_normal([3, 3, 512, 256], stddev=1e-3), name='w5'),
+            'up2': tf.Variable(tf.random_normal([3, 3, 512, 256], stddev=1e-3), name='up2'),
+            'w6': tf.Variable(tf.random_normal([3, 3, 512, 1], stddev=1e-3), name='w6')
+        }
+
+        self.biases_orig = {
+            'b1': tf.Variable(tf.zeros([256]), name='b1'),
+            'b2': tf.Variable(tf.zeros([256]), name='b2'),
+            'b3': tf.Variable(tf.zeros([512]), name='b3'),
+            'b4': tf.Variable(tf.zeros([256]), name='b4'),
+            'b5': tf.Variable(tf.zeros([256]), name='b5'),
+            'b6': tf.Variable(tf.zeros([1]), name='b6')
+        }
 
         self.weights = {
             'w1': tf.Variable(tf.random_normal([1, 1, 1, 64], stddev=1e-3), name='w1'),
@@ -78,26 +122,26 @@ class SRCNN(object):
             'b3': tf.Variable(tf.zeros([1]), name='b3')
         }
 
-        self.pred = self.model()
+        # this work's
+        # self.pred = self.model()
+
+        # this won't work probably
+        self.pred = self.model_1()
 
         # Loss function (MSE)
-        print("labels: ", self.labels)
-        print("images: ", self.images)
-        print("pred: ", self.pred)
-        self.loss = tf.reduce_mean(tf.square(self.labels - self.pred))
+        self.loss = tf.reduce_sum(tf.square(self.labels - self.pred))
 
         self.saver = tf.train.Saver()
 
     def train(self, config):
-        # if config.is_train:
-        #     input_setup(self.sess, config)
-        # else:
-        #     nx, ny = input_setup(self.sess, config)
 
-        # if config.is_train:
-        #     data_dir = os.path.join('./{}'.format(config.checkpoint_dir), "train.h5")
-        # else:
-        #     data_dir = os.path.join('./{}'.format(config.checkpoint_dir), "test.h5")
+        def f2(seq):
+            # order preserving
+            checked = []
+            for e in seq:
+                if e not in checked:
+                    checked.append(e)
+            return checked
 
         train_data, train_label = data_reader.read_images_from_directory()  # read_data(data_dir)
 
@@ -145,13 +189,20 @@ class SRCNN(object):
         else:
             print("Testing... # to be implemented")
 
-            # result = self.pred.eval({self.images: train_data, self.labels: train_label})
-            #
-            # result = merge(result, [nx, ny])
-            # result = result.squeeze()
-            # image_path = os.path.join(os.getcwd(), config.sample_dir)
-            # image_path = os.path.join(image_path, "test_image.png")
-            # imsave(result, image_path)
+            train_data = train_data[:1]
+            train_label = train_label[:1]
+            start = np.multiply(train_data, 255).reshape(96, 64)
+            end = np.multiply(train_label, 255).reshape(96, 64)
+            Image.fromarray(start).show()
+            Image.fromarray(end).show()
+
+            result = self.pred.eval({self.images: train_data, self.labels: train_label})
+            result = np.multiply(result, 255)
+            result = result.reshape(96, 64)
+            print(result)
+            Image.fromarray(result).show()
+            result = result.flatten()
+            print(f2(result))
 
     def model(self):
         print("model_images: ", self.images)
@@ -164,6 +215,26 @@ class SRCNN(object):
         conv3 = tf.nn.conv2d(conv2, self.weights['w3'], strides=[1, 1, 1, 1], padding='VALID') + self.biases['b3']
         print("model_conv3: ", conv3)
         return conv3
+
+    def model_1(self):
+        conv_1 = tf.nn.relu(
+            tf.nn.conv2d(self.images, self.weights_1['w1'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b1'])
+        max_pool_1 = tf.nn.max_pool(conv_1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+        conv_2 = tf.nn.relu(
+            tf.nn.conv2d(max_pool_1, self.weights_1['w2'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b2'])
+        max_pool_2 = tf.nn.max_pool(conv_2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+        conv_3 = tf.nn.relu(
+            tf.nn.conv2d(max_pool_2, self.weights_1['w3'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b3'])
+        conv_4 = tf.nn.relu(
+            tf.nn.conv2d(conv_3, self.weights_1['w4'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b4'])
+        upsample_1 = tf.nn.conv2d_transpose(conv_4, filter=self.weights_1['up1'],
+                                            output_shape=[self.batch_size, 48, 32, 128], strides=[1, 2, 2, 1], padding='SAME')
+        conv_5 = tf.nn.relu(
+            tf.nn.conv2d(upsample_1, self.weights_1['w5'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b5'])
+        upsample_2 = tf.nn.conv2d_transpose(conv_5, filter=self.weights_1['up2'],
+                                            output_shape=[self.batch_size, 96, 64, 128], strides=[1, 2, 2, 1], padding='SAME')
+        conv_6 = tf.nn.conv2d(upsample_2, self.weights_1['w6'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b6']
+        return conv_6
 
     def save(self, checkpoint_dir, step):
         model_name = "SRCNN.model"
