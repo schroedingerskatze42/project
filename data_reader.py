@@ -2,6 +2,7 @@ import numpy as np
 import os
 from skimage import io
 import cv2
+from PIL import Image
 
 IMAGE_SOURCE = 'images_50_grayscale/'
 
@@ -28,7 +29,7 @@ def image_path_to_array(path):
     return cv2.imread(path, cv2.IMREAD_GRAYSCALE).reshape(IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
 
 
-def read_images_from_directory(target=PATH_BLURRED_06):
+def read_images_from_directory(target=PATH_BLURRED_03):
     X = []
     y = []
 
@@ -38,3 +39,17 @@ def read_images_from_directory(target=PATH_BLURRED_06):
             y.append(image_path_to_array(os.path.join(PATH_ORIGINAL, filename)))
 
     return X, y
+
+
+if __name__ == '__main__':
+    x, y = read_images_from_directory()
+    print("x0:")
+    print(x[0].shape)
+    print(x[0])
+    print("y0")
+    print(y[0].shape)
+    print(y[0])
+    img = Image.fromarray(x[0], 'L')
+    img.show()
+    img = Image.fromarray(y[0], 'L')
+    img.show()
