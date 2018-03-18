@@ -27,6 +27,9 @@ import sys
 import time
 import numpy as np
 import tensorflow as tf
+import os.path
+from PIL import Image
+import cv2
 
 import data_reader
 from six.moves import xrange
@@ -49,11 +52,8 @@ EVAL_FREQUENCY = 1  # Number of steps between evaluations.
 def error_rate(predictions, labels):
     result = 0
 
-    print(predictions)
-    print(labels)
-    exit(1)
     for p, l in zip(predictions, labels):
-        result += tf_ssim(p, l)
+        result += 1 - tf_ssim(p, l)
 
     return result / len(predictions)
 
@@ -148,7 +148,7 @@ def main(_):
         x = tf.nn.conv2d_transpose(
             x,
             conv5_weights,
-            output_shape=[64, 32, 48, 512],
+            output_shape=[64, 48, 32, 512],
             strides=[1, 2, 2, 1],
             padding='SAME',
             name='foo'
@@ -164,7 +164,7 @@ def main(_):
         x = tf.nn.conv2d_transpose(
             x,
             conv7_weights,
-            output_shape=[64, 64, 96, 256],
+            output_shape=[64, 96, 64, 256],
             strides=[1, 2, 2, 1],
             padding='SAME',
             name='bar'
@@ -179,19 +179,37 @@ def main(_):
 
         return x
 
+
+    def model_2(data):
+        conv_1 = tf.layers.conv2d(data, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+        max_pool_1 = tf.layers.max_pooling2d(conv_1, pool_size=[2, 2], strides=[2, 2], padding='SAME')
+        conv_2 = tf.layers.conv2d(max_pool_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+        max_pool_2 = tf.layers.max_pooling2d(conv_2, pool_size=[2, 2], strides=[2, 2], padding='SAME')
+        conv_3 = tf.layers.conv2d(max_pool_2, filters=512, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+        conv_4 = tf.layers.conv2d(conv_3, filters=512, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+        upsample_1 = tf.layers.conv2d_transpose(conv_4, filters=512, kernel_size=[2, 2], strides=[2, 2], padding='SAME')
+        conv_5 = tf.layers.conv2d(upsample_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+        upsample_2 = tf.layers.conv2d_transpose(conv_5, filters=256, kernel_size=[2, 2], strides=[2, 2], padding='SAME')
+        conv_6 = tf.layers.conv2d(upsample_2, filters=1, kernel_size=[3, 3], activation=tf.nn.sigmoid, padding='SAME')
+        return conv_6
+
     # Extract data into np arrays.
     X, y = data_reader.read_images_from_directory()
 
-    train_data, test_data, train_labels, test_labels = train_test_split(X, y, test_size=0.2)
+    train_data, test_data, train_labels, test_labels = train_test_split(X, y, test_size=64/len(X))
 
-    # train_data = np.subtract(np.divide(np.array(train_data), 255), 0.5)
-    # test_data = np.subtract(np.divide(np.array(test_data), 255), 0.5)
-    # train_labels = np.subtract(np.divide(np.array(train_labels), 255), 0.5)
-    # test_labels = np.subtract(np.divide(np.array(test_labels), 255), 0.5)
-    train_data = np.array(train_data)
-    test_data = np.array(test_data)
-    train_labels = np.array(train_labels)
-    test_labels = np.array(test_labels)
+    # train_data = np.subtract(np.divide(np.array(train_data, dtype=np.float32), 255), 0.5)
+    # test_data = np.subtract(np.divide(np.array(test_data, dtype=np.float32), 255), 0.5)
+    # train_labels = np.subtract(np.divide(np.array(train_labels, dtype=np.float32), 255), 0.5)
+    # test_labels = np.subtract(np.divide(np.array(test_labels, dtype=np.float32), 255), 0.5)
+    train_data = np.divide(np.array(train_data, dtype=np.float32), 255)
+    test_data = np.divide(np.array(test_data, dtype=np.float32), 255)
+    train_labels = np.divide(np.array(train_labels, dtype=np.float32), 255)
+    test_labels = np.divide(np.array(test_labels, dtype=np.float32), 255)
+    # train_data = np.array(train_data, dtype=np.float32)
+    # test_data = np.array(test_data, dtype=np.float32)
+    # train_labels = np.array(train_labels, dtype=np.float32)
+    # test_labels = np.array(test_labels, dtype=np.float32)
     validation_data = train_data[:VALIDATION_SIZE, ...]
     validation_labels = train_labels[:VALIDATION_SIZE]
     train_data = train_data[VALIDATION_SIZE:, ...]
@@ -206,12 +224,12 @@ def main(_):
     # training step using the {feed_dict} argument to the Run() call below.
     train_data_node = tf.placeholder(
         np.float32,
-        shape=(BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
+        shape=(BATCH_SIZE, IMAGE_HEIGHT, IMAGE_WIDTH, NUM_CHANNELS)
     )
 
-    train_labels_node = tf.placeholder(tf.float32, shape=(BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS))
+    train_labels_node = tf.placeholder(tf.float32, shape=(BATCH_SIZE, IMAGE_HEIGHT, IMAGE_WIDTH, NUM_CHANNELS))
 
-    eval_data = tf.placeholder(np.float32, shape=(EVAL_BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS))
+    eval_data = tf.placeholder(np.float32, shape=(EVAL_BATCH_SIZE, IMAGE_HEIGHT, IMAGE_WIDTH, NUM_CHANNELS))
 
     # The variables below hold all the trainable weights. They are passed an
     # initial value which will be assigned when we call:
@@ -228,32 +246,31 @@ def main(_):
     conv8_weights = at_generate_weights(256, 1)
 
     # Training computation: logits + cross-entropy loss.
-    logits = model(train_data_node)
+    logits = model_2(train_data_node)
 
-    # loss = tf.reduce_sum(tf.square(train_labels_node - logits), [1, 2, 3])
-    # loss = tf.reduce_sum(tf_ssim(train_labels_node, logits))
-    loss = tf_ssim(train_labels_node, logits)
+    loss = tf.reduce_mean(tf.square(train_labels_node - logits))
+    # loss = 1 - tf_ssim(train_labels_node, logits)
 
     batch = tf.Variable(0, dtype=np.float32)
 
     # Decay once per epoch, using an exponential schedule starting at 0.01.
-    learning_rate = tf.train.exponential_decay(
-        0.01,  # Base learning rate.
-        batch * BATCH_SIZE,  # Current index into the dataset.
-        train_size,  # Decay step.
-        0.95,  # Decay rate.
-        staircase=True)
+    learning_rate = 0.05
+        # tf.train.exponential_decay(
+        # 0.30,  # Base learning rate.
+        # batch * BATCH_SIZE,  # Current index into the dataset.
+        # train_size,  # Decay step.
+        # 0.95,  # Decay rate.
+        # staircase=True)
 
-    optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss,
-                                                         global_step=batch)
+    optimizer = tf.train.MomentumOptimizer(learning_rate, 0.01).minimize(loss, global_step=batch)
 
-    # Predictions for the current training minibatch.
-    train_prediction = tf.nn.softmax(logits)
+    # Predictions for the current training mini batch.
+    train_prediction = logits
 
     # Predictions for the test and validation, which we'll compute less often.
-    eval_prediction = tf.nn.softmax(model(eval_data))
+    eval_prediction = model_2(eval_data)
 
-    # Small utility function to evaluate a dataset by feeding batches of data to
+    # Small utility function to evaluate a data set by feeding batches of data to
     # {eval_data} and pulling the results from {eval_predictions}.
     # Saves memory and enables this to run on smaller GPUs.
     def eval_in_batches(data, sess):
@@ -261,7 +278,7 @@ def main(_):
         size = data.shape[0]
         if size < EVAL_BATCH_SIZE:
             raise ValueError("batch size for evals larger than dataset: %d" % size)
-        predictions = np.ndarray(shape=(size, 64, 96, 1), dtype=np.float32)
+        predictions = np.ndarray(shape=(size, 96, 64, 1), dtype=np.float32)
         for begin in xrange(0, size, EVAL_BATCH_SIZE):
             end = begin + EVAL_BATCH_SIZE
             if end <= size:
@@ -276,54 +293,53 @@ def main(_):
         return predictions
 
     # Create a local session to run the training.
-    start_time = time.time()
     with tf.Session() as sess:
         # Run all the initializers to prepare the trainable parameters.
         tf.global_variables_initializer().run()
 
         print('Initialized!')
+
+        print('Train: %d' % len(train_data))
+        print('Test: %d' % len(test_data))
+
         # Loop through training steps.
-        # print(xrange(int(num_epochs * train_size) // BATCH_SIZE))
-        # exit(1)
-        for step in xrange(int(num_epochs * train_size) // BATCH_SIZE):
+        saver = tf.train.Saver()
+        start_time = time.time()
+
+        # if os.path.isfile('./model.ckpt')
+        # saver.restore(sess, './model_2.ckpt')
+        # else:
+        range = int(num_epochs * train_size) // BATCH_SIZE
+        for step in xrange(range):
+            print('Step: %d/%d; Duration: %ds' % (step + 1, range, time.time() - start_time))
+            start_time = time.time()
+
             # Compute the offset of the current minibatch in the data.
             # Note that we could use better randomization across epochs.
             offset = (step * BATCH_SIZE) % (train_size - BATCH_SIZE)
             batch_data = train_data[offset:(offset + BATCH_SIZE), ...]
             batch_labels = train_labels[offset:(offset + BATCH_SIZE)]
+
             # This dictionary maps the batch data (as a np array) to the
             # node in the graph it should be fed to.
             feed_dict = {train_data_node: batch_data,
                          train_labels_node: batch_labels}
+
             # Run the optimizer to update weights.
             sess.run(optimizer, feed_dict=feed_dict)
 
-            # print some extra information once reach the evaluation frequency
-            if True or step % EVAL_FREQUENCY == 0:
-                # fetch some extra nodes' data
-                print(loss)
-                print(learning_rate)
-                print(train_prediction)
-                l, lr, predictions = sess.run([loss, learning_rate, train_prediction],
-                                              feed_dict=feed_dict)
-                print('###########')
-                print(l)
-                print(np.mean(l))
-                print(lr)
-                print(predictions)
-                elapsed_time = time.time() - start_time
-                start_time = time.time()
-                print('Step %d (epoch %.2f), %.1f ms' %
-                      (step, float(step) * BATCH_SIZE / train_size,
-                       1000 * elapsed_time / EVAL_FREQUENCY))
-                print('Minibatch loss: %.3f, learning rate: %.6f' % (np.mean(l), lr))
-                print('Minibatch error: %.1f%%' % error_rate(predictions, batch_labels))
-                print('Validation error: %.1f%%' % error_rate(
-                    eval_in_batches(validation_data, sess), validation_labels))
-                sys.stdout.flush()
-        # Finally print the result!
-        test_error = error_rate(eval_in_batches(test_data, sess), test_labels)
-        print('Test error: %.1f%%' % test_error)
+            save_path = saver.save(sess, './model_2.ckpt')
+            print("Model saved in path: %s" % save_path)
+        #
+        # test_error = error_rate(eval_in_batches(test_data, sess), test_labels)
+        # print('Test error: %.1f%%' % test_error)
+
+        prediction = eval_in_batches(test_data, sess)[0]
+        img = np.array(np.multiply(prediction.reshape(96, 64), 255), dtype=np.int)
+        print(img)
+        cv2.imwrite('foo.ppm', img)
+        exit(1)
+
         # if FLAGS.self_test:
         #     print('test_error', test_error)
         #     assert test_error == 0.0, 'expected 0.0 test_error, got %.2f' % (

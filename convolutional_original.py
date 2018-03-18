@@ -245,6 +245,7 @@ def main(_):
         train_size,  # Decay step.
         0.95,  # Decay rate.
         staircase=True)
+
     # Use simple momentum for the optimization.
     optimizer = tf.train.MomentumOptimizer(learning_rate,
                                            0.9).minimize(loss,
