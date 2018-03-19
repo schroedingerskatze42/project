@@ -1,679 +1,0 @@
-P6
-128 192
-255
-tttttttttttttttggggggggggggggg_______________\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCCDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMMMMMMVVVVVVVVVtttttttttttttttggggggggggggggg_______________\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCCDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMMMMMMVVVVVVVVVtttttttttttttttggggggggggggggg_______________\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCCDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMMMMMMVVVVVVVVVtttttttttttttttggggggggggggggg_______________\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCCDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMMMMMMVVVVVVVVVtttttttttttttttggggggggggggggg_______________\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWNNNNNNNNNNNNNNNGGGGGGGGGGGGGGGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEECCCCCCCCCCCCCCCDDDDDDDDDDDDDDDCCCCCCCCCCCCCCCEEEEEEEEEEEEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBLLLLLLLLLLLLLLLMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIMMMMMMMMMMMMMMMVVVVVVVVVttttttttttttttteeeeeeeeeeeeeee_______________ZZZZZZZZZZZZZZZRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA@@@@@@@@@@@@@@@???????????????BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNWWWWWWWWWWWWWWWZZZZZZZZZttttttttttttttteeeeeeeeeeeeeee_______________ZZZZZZZZZZZZZZZRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA@@@@@@@@@@@@@@@???????????????BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNWWWWWWWWWWWWWWWZZZZZZZZZttttttttttttttteeeeeeeeeeeeeee_______________ZZZZZZZZZZZZZZZRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA@@@@@@@@@@@@@@@???????????????BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNWWWWWWWWWWWWWWWZZZZZZZZZttttttttttttttteeeeeeeeeeeeeee_______________ZZZZZZZZZZZZZZZRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA@@@@@@@@@@@@@@@???????????????BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNWWWWWWWWWWWWWWWZZZZZZZZZttttttttttttttteeeeeeeeeeeeeee_______________ZZZZZZZZZZZZZZZRRRRRRRRRRRRRRRMMMMMMMMMMMMMMMDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA@@@@@@@@@@@@@@@???????????????BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLPPPPPPPPPPPPPPPNNNNNNNNNNNNNNNWWWWWWWWWWWWWWWZZZZZZZZZttttttttttttttteeeeeeeeeeeeeee]]]]]]]]]]]]]]]XXXXXXXXXXXXXXXQQQQQQQQQQQQQQQJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA===============???????????????CCCCCCCCCCCCCCCIIIIIIIIIIIIIIIHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRWWWWWWWWWWWWWWW[[[[[[[[[ttttttttttttttteeeeeeeeeeeeeee]]]]]]]]]]]]]]]XXXXXXXXXXXXXXXQQQQQQQQQQQQQQQJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA===============???????????????CCCCCCCCCCCCCCCIIIIIIIIIIIIIIIHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRWWWWWWWWWWWWWWW[[[[[[[[[ttttttttttttttteeeeeeeeeeeeeee]]]]]]]]]]]]]]]XXXXXXXXXXXXXXXQQQQQQQQQQQQQQQJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA===============???????????????CCCCCCCCCCCCCCCIIIIIIIIIIIIIIIHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRWWWWWWWWWWWWWWW[[[[[[[[[ttttttttttttttteeeeeeeeeeeeeee]]]]]]]]]]]]]]]XXXXXXXXXXXXXXXQQQQQQQQQQQQQQQJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA===============???????????????CCCCCCCCCCCCCCCIIIIIIIIIIIIIIIHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRWWWWWWWWWWWWWWW[[[[[[[[[ttttttttttttttteeeeeeeeeeeeeee]]]]]]]]]]]]]]]XXXXXXXXXXXXXXXQQQQQQQQQQQQQQQJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA===============???????????????CCCCCCCCCCCCCCCIIIIIIIIIIIIIIIHHHHHHHHHHHHHHHGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJEEEEEEEEEEEEEEEPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRWWWWWWWWWWWWWWW[[[[[[[[[wwwwwwwwwwwwwwwhhhhhhhhhhhhhhh```````````````[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGEEEEEEEEEEEEEEECCCCCCCCCCCCCCC@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBGGGGGGGGGGGGGGGMMMMMMMMMMMMMMMLLLLLLLLLLLLLLLJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRWWWWWWWWWWWWWWWcccccccccwwwwwwwwwwwwwwwhhhhhhhhhhhhhhh```````````````[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGEEEEEEEEEEEEEEECCCCCCCCCCCCCCC@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBGGGGGGGGGGGGGGGMMMMMMMMMMMMMMMLLLLLLLLLLLLLLLJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRWWWWWWWWWWWWWWWcccccccccwwwwwwwwwwwwwwwhhhhhhhhhhhhhhh```````````````[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGEEEEEEEEEEEEEEECCCCCCCCCCCCCCC@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBGGGGGGGGGGGGGGGMMMMMMMMMMMMMMMLLLLLLLLLLLLLLLJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRWWWWWWWWWWWWWWWcccccccccwwwwwwwwwwwwwwwhhhhhhhhhhhhhhh```````````````[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGEEEEEEEEEEEEEEECCCCCCCCCCCCCCC@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBGGGGGGGGGGGGGGGMMMMMMMMMMMMMMMLLLLLLLLLLLLLLLJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRWWWWWWWWWWWWWWWcccccccccwwwwwwwwwwwwwwwhhhhhhhhhhhhhhh```````````````[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGEEEEEEEEEEEEEEECCCCCCCCCCCCCCC@@@@@@@@@@@@@@@BBBBBBBBBBBBBBBGGGGGGGGGGGGGGGMMMMMMMMMMMMMMMLLLLLLLLLLLLLLLJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJGGGGGGGGGGGGGGGCCCCCCCCCCCCCCCBBBBBBBBBBBBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRWWWWWWWWWWWWWWWcccccccccyyyyyyyyyyyyyyyiiiiiiiiiiiiiii_______________ZZZZZZZZZZZZZZZQQQQQQQQQQQQQQQMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA???????????????BBBBBBBBBBBBBBBEEEEEEEEEEEEEEEOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOUUUUUUUUUUUUUUU]]]]]]]]]yyyyyyyyyyyyyyyiiiiiiiiiiiiiii_______________ZZZZZZZZZZZZZZZQQQQQQQQQQQQQQQMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA???????????????BBBBBBBBBBBBBBBEEEEEEEEEEEEEEEOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOUUUUUUUUUUUUUUU]]]]]]]]]yyyyyyyyyyyyyyyiiiiiiiiiiiiiii_______________ZZZZZZZZZZZZZZZQQQQQQQQQQQQQQQMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA???????????????BBBBBBBBBBBBBBBEEEEEEEEEEEEEEEOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOUUUUUUUUUUUUUUU]]]]]]]]]yyyyyyyyyyyyyyyiiiiiiiiiiiiiii_______________ZZZZZZZZZZZZZZZQQQQQQQQQQQQQQQMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA???????????????BBBBBBBBBBBBBBBEEEEEEEEEEEEEEEOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOUUUUUUUUUUUUUUU]]]]]]]]]yyyyyyyyyyyyyyyiiiiiiiiiiiiiii_______________ZZZZZZZZZZZZZZZQQQQQQQQQQQQQQQMMMMMMMMMMMMMMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIDDDDDDDDDDDDDDDAAAAAAAAAAAAAAA???????????????BBBBBBBBBBBBBBBEEEEEEEEEEEEEEEOOOOOOOOOOOOOOOUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOUUUUUUUUUUUUUUU]]]]]]]]]yyyyyyyyyyyyyyyggggggggggggggg[[[[[[[[[[[[[[[UUUUUUUUUUUUUUUTTTTTTTTTTTTTTTMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNVVVVVVVVVVVVVVVRRRRRRRRRRRRRRRNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFBBBBBBBBBBBBBBBAAAAAAAAAAAAAAADDDDDDDDDDDDDDDMMMMMMMMMMMMMMMUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT_________yyyyyyyyyyyyyyyggggggggggggggg[[[[[[[[[[[[[[[UUUUUUUUUUUUUUUTTTTTTTTTTTTTTTMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNVVVVVVVVVVVVVVVRRRRRRRRRRRRRRRNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFBBBBBBBBBBBBBBBAAAAAAAAAAAAAAADDDDDDDDDDDDDDDMMMMMMMMMMMMMMMUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT_________yyyyyyyyyyyyyyyggggggggggggggg[[[[[[[[[[[[[[[UUUUUUUUUUUUUUUTTTTTTTTTTTTTTTMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNVVVVVVVVVVVVVVVRRRRRRRRRRRRRRRNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFBBBBBBBBBBBBBBBAAAAAAAAAAAAAAADDDDDDDDDDDDDDDMMMMMMMMMMMMMMMUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT_________yyyyyyyyyyyyyyyggggggggggggggg[[[[[[[[[[[[[[[UUUUUUUUUUUUUUUTTTTTTTTTTTTTTTMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNVVVVVVVVVVVVVVVRRRRRRRRRRRRRRRNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFBBBBBBBBBBBBBBBAAAAAAAAAAAAAAADDDDDDDDDDDDDDDMMMMMMMMMMMMMMMUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT_________yyyyyyyyyyyyyyyggggggggggggggg[[[[[[[[[[[[[[[UUUUUUUUUUUUUUUTTTTTTTTTTTTTTTMMMMMMMMMMMMMMMIIIIIIIIIIIIIIIGGGGGGGGGGGGGGGHHHHHHHHHHHHHHHJJJJJJJJJJJJJJJLLLLLLLLLLLLLLLNNNNNNNNNNNNNNNVVVVVVVVVVVVVVVRRRRRRRRRRRRRRRNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNJJJJJJJJJJJJJJJFFFFFFFFFFFFFFFBBBBBBBBBBBBBBBAAAAAAAAAAAAAAADDDDDDDDDDDDDDDMMMMMMMMMMMMMMMUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT_________|||||||||||||||hhhhhhhhhhhhhhh_______________XXXXXXXXXXXXXXXTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUDDDDDDDDDDDDDDD...............444444444444444GGGGGGGGGGGGGGGOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQ]]]]]]]]]]]]]]]_______________dddddddddddddddooooooooo|||||||||||||||hhhhhhhhhhhhhhh_______________XXXXXXXXXXXXXXXTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUDDDDDDDDDDDDDDD...............444444444444444GGGGGGGGGGGGGGGOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQ]]]]]]]]]]]]]]]_______________dddddddddddddddooooooooo|||||||||||||||hhhhhhhhhhhhhhh_______________XXXXXXXXXXXXXXXTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUDDDDDDDDDDDDDDD...............444444444444444GGGGGGGGGGGGGGGOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQ]]]]]]]]]]]]]]]_______________dddddddddddddddooooooooo|||||||||||||||hhhhhhhhhhhhhhh_______________XXXXXXXXXXXXXXXTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUDDDDDDDDDDDDDDD...............444444444444444GGGGGGGGGGGGGGGOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQ]]]]]]]]]]]]]]]_______________dddddddddddddddooooooooo|||||||||||||||hhhhhhhhhhhhhhh_______________XXXXXXXXXXXXXXXTTTTTTTTTTTTTTTPPPPPPPPPPPPPPPOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOPPPPPPPPPPPPPPPRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRTTTTTTTTTTTTTTTUUUUUUUUUUUUUUUDDDDDDDDDDDDDDD...............444444444444444GGGGGGGGGGGGGGGOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMNNNNNNNNNNNNNNNLLLLLLLLLLLLLLLQQQQQQQQQQQQQQQ]]]]]]]]]]]]]]]_______________dddddddddddddddooooooooozzzzzzzzzzzzzzzkkkkkkkkkkkkkkkccccccccccccccc]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVQQQQQQQQQQQQQQQPPPPPPPPPPPPPPPVVVVVVVVVVVVVVVZZZZZZZZZZZZZZZWWWWWWWWWWWWWWW000000000000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               QQQQQQQQQQQQQQQZZZZZZZZZZZZZZZ_______________dddddddddddddddeeeeeeeeeeeeeeekkkkkkkkkkkkkkkvvvvvvvvvzzzzzzzzzzzzzzzkkkkkkkkkkkkkkkccccccccccccccc]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVQQQQQQQQQQQQQQQPPPPPPPPPPPPPPPVVVVVVVVVVVVVVVZZZZZZZZZZZZZZZWWWWWWWWWWWWWWW000000000000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               QQQQQQQQQQQQQQQZZZZZZZZZZZZZZZ_______________dddddddddddddddeeeeeeeeeeeeeeekkkkkkkkkkkkkkkvvvvvvvvvzzzzzzzzzzzzzzzkkkkkkkkkkkkkkkccccccccccccccc]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVQQQQQQQQQQQQQQQPPPPPPPPPPPPPPPVVVVVVVVVVVVVVVZZZZZZZZZZZZZZZWWWWWWWWWWWWWWW000000000000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               QQQQQQQQQQQQQQQZZZZZZZZZZZZZZZ_______________dddddddddddddddeeeeeeeeeeeeeeekkkkkkkkkkkkkkkvvvvvvvvvzzzzzzzzzzzzzzzkkkkkkkkkkkkkkkccccccccccccccc]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVQQQQQQQQQQQQQQQPPPPPPPPPPPPPPPVVVVVVVVVVVVVVVZZZZZZZZZZZZZZZWWWWWWWWWWWWWWW000000000000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               QQQQQQQQQQQQQQQZZZZZZZZZZZZZZZ_______________dddddddddddddddeeeeeeeeeeeeeeekkkkkkkkkkkkkkkvvvvvvvvvzzzzzzzzzzzzzzzkkkkkkkkkkkkkkkccccccccccccccc]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVQQQQQQQQQQQQQQQPPPPPPPPPPPPPPPVVVVVVVVVVVVVVVZZZZZZZZZZZZZZZWWWWWWWWWWWWWWW000000000000000
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-               QQQQQQQQQQQQQQQZZZZZZZZZZZZZZZ_______________dddddddddddddddeeeeeeeeeeeeeeekkkkkkkkkkkkkkkvvvvvvvvv|||||||||||||||lllllllllllllllkkkkkkkkkkkkkkkeeeeeeeeeeeeeee]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW>>>>>>>>>>>>>>>XXXXXXXXXXXXXXX_______________eeeeeeeeeeeeeeeiiiiiiiiiiiiiiiooooooooooooooo}}}}}}}}}|||||||||||||||lllllllllllllllkkkkkkkkkkkkkkkeeeeeeeeeeeeeee]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW>>>>>>>>>>>>>>>XXXXXXXXXXXXXXX_______________eeeeeeeeeeeeeeeiiiiiiiiiiiiiiiooooooooooooooo}}}}}}}}}|||||||||||||||lllllllllllllllkkkkkkkkkkkkkkkeeeeeeeeeeeeeee]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW>>>>>>>>>>>>>>>XXXXXXXXXXXXXXX_______________eeeeeeeeeeeeeeeiiiiiiiiiiiiiiiooooooooooooooo}}}}}}}}}|||||||||||||||lllllllllllllllkkkkkkkkkkkkkkkeeeeeeeeeeeeeee]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW>>>>>>>>>>>>>>>XXXXXXXXXXXXXXX_______________eeeeeeeeeeeeeeeiiiiiiiiiiiiiiiooooooooooooooo}}}}}}}}}|||||||||||||||lllllllllllllllkkkkkkkkkkkkkkkeeeeeeeeeeeeeee]]]]]]]]]]]]]]]VVVVVVVVVVVVVVVWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW>>>>>>>>>>>>>>>XXXXXXXXXXXXXXX_______________eeeeeeeeeeeeeeeiiiiiiiiiiiiiiiooooooooooooooo}}}}}}}}}|||||||||||||||jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeiiiiiiiiiiiiiiieeeeeeeeeeeeeee______________________________[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPdddddddddddddddeeeeeeeeeeeeeeeiiiiiiiiiiiiiiirrrrrrrrrrrrrrrwwwwwwwww|||||||||||||||jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeiiiiiiiiiiiiiiieeeeeeeeeeeeeee______________________________[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPdddddddddddddddeeeeeeeeeeeeeeeiiiiiiiiiiiiiiirrrrrrrrrrrrrrrwwwwwwwww|||||||||||||||jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeiiiiiiiiiiiiiiieeeeeeeeeeeeeee______________________________[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPdddddddddddddddeeeeeeeeeeeeeeeiiiiiiiiiiiiiiirrrrrrrrrrrrrrrwwwwwwwww|||||||||||||||jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeiiiiiiiiiiiiiiieeeeeeeeeeeeeee______________________________[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPdddddddddddddddeeeeeeeeeeeeeeeiiiiiiiiiiiiiiirrrrrrrrrrrrrrrwwwwwwwww|||||||||||||||jjjjjjjjjjjjjjjeeeeeeeeeeeeeeeiiiiiiiiiiiiiiieeeeeeeeeeeeeee______________________________[[[[[[[[[[[[[[[PPPPPPPPPPPPPPPdddddddddddddddeeeeeeeeeeeeeeeiiiiiiiiiiiiiiirrrrrrrrrrrrrrrwwwwwwwwwzzzzzzzzzzzzzzzhhhhhhhhhhhhhhhgggggggggggggggdddddddddddddddgggggggggggggggdddddddddddddddddddddddddddddd---------------666666666666666BBBBBBBBBBBBBBB>>>>>>>>>>>>>>>MMMMMMMMMMMMMMM///////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-^^^^^^^^^^^^^^^ddddddddddddddddddddddddddddddssssssssssssssszzzzzzzzzzzzzzzzzzzzzzzzhhhhhhhhhhhhhhhgggggggggggggggdddddddddddddddgggggggggggggggdddddddddddddddddddddddddddddd---------------666666666666666BBBBBBBBBBBBBBB>>>>>>>>>>>>>>>MMMMMMMMMMMMMMM///////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-^^^^^^^^^^^^^^^ddddddddddddddddddddddddddddddssssssssssssssszzzzzzzzzzzzzzzzzzzzzzzzhhhhhhhhhhhhhhhgggggggggggggggdddddddddddddddgggggggggggggggdddddddddddddddddddddddddddddd---------------666666666666666BBBBBBBBBBBBBBB>>>>>>>>>>>>>>>MMMMMMMMMMMMMMM///////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-^^^^^^^^^^^^^^^ddddddddddddddddddddddddddddddssssssssssssssszzzzzzzzzzzzzzzzzzzzzzzzhhhhhhhhhhhhhhhgggggggggggggggdddddddddddddddgggggggggggggggdddddddddddddddddddddddddddddd---------------666666666666666BBBBBBBBBBBBBBB>>>>>>>>>>>>>>>MMMMMMMMMMMMMMM///////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-^^^^^^^^^^^^^^^ddddddddddddddddddddddddddddddssssssssssssssszzzzzzzzzzzzzzzzzzzzzzzzhhhhhhhhhhhhhhhgggggggggggggggdddddddddddddddgggggggggggggggdddddddddddddddddddddddddddddd---------------666666666666666BBBBBBBBBBBBBBB>>>>>>>>>>>>>>>MMMMMMMMMMMMMMM///////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-^^^^^^^^^^^^^^^ddddddddddddddddddddddddddddddssssssssssssssszzzzzzzzz}}}}}}}}}}}}}}}gggggggggggggggddddddddddddddddddddddddddddddgggggggggggggggeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa333333333333333eeeeeeeeeeeeeee………………………………………†††††††††††††††ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒOOOOOOOOOOOOOOO***************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////cccccccccccccccdddddddddddddddttttttttttttttt………………………}}}}}}}}}}}}}}}gggggggggggggggddddddddddddddddddddddddddddddgggggggggggggggeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa333333333333333eeeeeeeeeeeeeee………………………………………†††††††††††††††ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒOOOOOOOOOOOOOOO***************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////cccccccccccccccdddddddddddddddttttttttttttttt………………………}}}}}}}}}}}}}}}gggggggggggggggddddddddddddddddddddddddddddddgggggggggggggggeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa333333333333333eeeeeeeeeeeeeee………………………………………†††††††††††††††ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒOOOOOOOOOOOOOOO***************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////cccccccccccccccdddddddddddddddttttttttttttttt………………………}}}}}}}}}}}}}}}gggggggggggggggddddddddddddddddddddddddddddddgggggggggggggggeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa333333333333333eeeeeeeeeeeeeee………………………………………†††††††††††††††ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒOOOOOOOOOOOOOOO***************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////cccccccccccccccdddddddddddddddttttttttttttttt………………………}}}}}}}}}}}}}}}gggggggggggggggddddddddddddddddddddddddddddddgggggggggggggggeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa333333333333333eeeeeeeeeeeeeee………………………………………†††††††††††††††ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒOOOOOOOOOOOOOOO***************
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////cccccccccccccccdddddddddddddddttttttttttttttt………………………}}}}}}}}}}}}}}}gggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeehhhhhhhhhhhhhhhfffffffffffffffZZZZZZZZZZZZZZZ]]]]]]]]]]]]]]]ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨œœœœœœœœœœœœœœœ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚TTTTTTTTTTTTTTT---------------															\\\\\\\\\\\\\\\cccccccccccccccrrrrrrrrrrrrrrr€€€€€€€€€}}}}}}}}}}}}}}}gggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeehhhhhhhhhhhhhhhfffffffffffffffZZZZZZZZZZZZZZZ]]]]]]]]]]]]]]]ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨œœœœœœœœœœœœœœœ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚TTTTTTTTTTTTTTT---------------															\\\\\\\\\\\\\\\cccccccccccccccrrrrrrrrrrrrrrr€€€€€€€€€}}}}}}}}}}}}}}}gggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeehhhhhhhhhhhhhhhfffffffffffffffZZZZZZZZZZZZZZZ]]]]]]]]]]]]]]]ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨œœœœœœœœœœœœœœœ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚TTTTTTTTTTTTTTT---------------															\\\\\\\\\\\\\\\cccccccccccccccrrrrrrrrrrrrrrr€€€€€€€€€}}}}}}}}}}}}}}}gggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeehhhhhhhhhhhhhhhfffffffffffffffZZZZZZZZZZZZZZZ]]]]]]]]]]]]]]]ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨œœœœœœœœœœœœœœœ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚TTTTTTTTTTTTTTT---------------															\\\\\\\\\\\\\\\cccccccccccccccrrrrrrrrrrrrrrr€€€€€€€€€}}}}}}}}}}}}}}}gggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeehhhhhhhhhhhhhhhfffffffffffffffZZZZZZZZZZZZZZZ]]]]]]]]]]]]]]]ŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨œœœœœœœœœœœœœœœ‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚TTTTTTTTTTTTTTT---------------															\\\\\\\\\\\\\\\cccccccccccccccrrrrrrrrrrrrrrr€€€€€€€€€|||||||||||||||lllllllllllllllddddddddddddddddddddddddddddddhhhhhhhhhhhhhhheeeeeeeeeeeeeeeXXXXXXXXXXXXXXX															111111111111111ZZZZZZZZZZZZZZZˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ———————————————£££££££££££££££ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ_______________---------------															DDDDDDDDDDDDDDDcccccccccccccccsssssssssssssss‚‚‚‚‚‚‚‚‚|||||||||||||||lllllllllllllllddddddddddddddddddddddddddddddhhhhhhhhhhhhhhheeeeeeeeeeeeeeeXXXXXXXXXXXXXXX															111111111111111ZZZZZZZZZZZZZZZˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ———————————————£££££££££££££££ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ_______________---------------															DDDDDDDDDDDDDDDcccccccccccccccsssssssssssssss‚‚‚‚‚‚‚‚‚|||||||||||||||lllllllllllllllddddddddddddddddddddddddddddddhhhhhhhhhhhhhhheeeeeeeeeeeeeeeXXXXXXXXXXXXXXX															111111111111111ZZZZZZZZZZZZZZZˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ———————————————£££££££££££££££ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ_______________---------------															DDDDDDDDDDDDDDDcccccccccccccccsssssssssssssss‚‚‚‚‚‚‚‚‚|||||||||||||||lllllllllllllllddddddddddddddddddddddddddddddhhhhhhhhhhhhhhheeeeeeeeeeeeeeeXXXXXXXXXXXXXXX															111111111111111ZZZZZZZZZZZZZZZˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ———————————————£££££££££££££££ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ_______________---------------															DDDDDDDDDDDDDDDcccccccccccccccsssssssssssssss‚‚‚‚‚‚‚‚‚|||||||||||||||lllllllllllllllddddddddddddddddddddddddddddddhhhhhhhhhhhhhhheeeeeeeeeeeeeeeXXXXXXXXXXXXXXX															111111111111111ZZZZZZZZZZZZZZZˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ———————————————£££££££££££££££ŸŸŸŸŸŸŸŸŸŸŸŸŸŸŸˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆ_______________---------------															DDDDDDDDDDDDDDDcccccccccccccccsssssssssssssss‚‚‚‚‚‚‚‚‚………………………………………sssssssssssssssgggggggggggggggdddddddddddddddddddddddddddddd[[[[[[[[[[[[[[[XXXXXXXXXXXXXXX)))))))))))))))777777777777777€€€€€€€€€€€€€€€¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜:::::::::::::::WWWWWWWWWWWWWWWhhhhhhhhhhhhhhhmmmmmmmmmmmmmmm}}}}}}}}}………………………………………sssssssssssssssgggggggggggggggdddddddddddddddddddddddddddddd[[[[[[[[[[[[[[[XXXXXXXXXXXXXXX)))))))))))))))777777777777777€€€€€€€€€€€€€€€¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜:::::::::::::::WWWWWWWWWWWWWWWhhhhhhhhhhhhhhhmmmmmmmmmmmmmmm}}}}}}}}}………………………………………sssssssssssssssgggggggggggggggdddddddddddddddddddddddddddddd[[[[[[[[[[[[[[[XXXXXXXXXXXXXXX)))))))))))))))777777777777777€€€€€€€€€€€€€€€¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜:::::::::::::::WWWWWWWWWWWWWWWhhhhhhhhhhhhhhhmmmmmmmmmmmmmmm}}}}}}}}}………………………………………sssssssssssssssgggggggggggggggdddddddddddddddddddddddddddddd[[[[[[[[[[[[[[[XXXXXXXXXXXXXXX)))))))))))))))777777777777777€€€€€€€€€€€€€€€¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜:::::::::::::::WWWWWWWWWWWWWWWhhhhhhhhhhhhhhhmmmmmmmmmmmmmmm}}}}}}}}}………………………………………sssssssssssssssgggggggggggggggdddddddddddddddddddddddddddddd[[[[[[[[[[[[[[[XXXXXXXXXXXXXXX)))))))))))))))777777777777777€€€€€€€€€€€€€€€¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜:::::::::::::::WWWWWWWWWWWWWWWhhhhhhhhhhhhhhhmmmmmmmmmmmmmmm}}}}}}}}}ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒooooooooooooooogggggggggggggggccccccccccccccceeeeeeeeeeeeeeeddddddddddddddd\\\\\\\\\\\\\\\															!!!!!!!!!!!!!!!AAAAAAAAAAAAAAA<<<<<<<<<<<<<<<AAAAAAAAAAAAAAAƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒRRRRRRRRRRRRRRR666666666666666888888888888888+++++++++++++++]]]]]]]]]]]]]]]eeeeeeeeeeeeeeejjjjjjjjjjjjjjjsssssssssƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒooooooooooooooogggggggggggggggccccccccccccccceeeeeeeeeeeeeeeddddddddddddddd\\\\\\\\\\\\\\\															!!!!!!!!!!!!!!!AAAAAAAAAAAAAAA<<<<<<<<<<<<<<<AAAAAAAAAAAAAAAƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒRRRRRRRRRRRRRRR666666666666666888888888888888+++++++++++++++]]]]]]]]]]]]]]]eeeeeeeeeeeeeeejjjjjjjjjjjjjjjsssssssssƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒooooooooooooooogggggggggggggggccccccccccccccceeeeeeeeeeeeeeeddddddddddddddd\\\\\\\\\\\\\\\															!!!!!!!!!!!!!!!AAAAAAAAAAAAAAA<<<<<<<<<<<<<<<AAAAAAAAAAAAAAAƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒRRRRRRRRRRRRRRR666666666666666888888888888888+++++++++++++++]]]]]]]]]]]]]]]eeeeeeeeeeeeeeejjjjjjjjjjjjjjjsssssssssƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒooooooooooooooogggggggggggggggccccccccccccccceeeeeeeeeeeeeeeddddddddddddddd\\\\\\\\\\\\\\\															!!!!!!!!!!!!!!!AAAAAAAAAAAAAAA<<<<<<<<<<<<<<<AAAAAAAAAAAAAAAƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒRRRRRRRRRRRRRRR666666666666666888888888888888+++++++++++++++]]]]]]]]]]]]]]]eeeeeeeeeeeeeeejjjjjjjjjjjjjjjsssssssssƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒooooooooooooooogggggggggggggggccccccccccccccceeeeeeeeeeeeeeeddddddddddddddd\\\\\\\\\\\\\\\															!!!!!!!!!!!!!!!AAAAAAAAAAAAAAA<<<<<<<<<<<<<<<AAAAAAAAAAAAAAAƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒRRRRRRRRRRRRRRR666666666666666888888888888888+++++++++++++++]]]]]]]]]]]]]]]eeeeeeeeeeeeeeejjjjjjjjjjjjjjjsssssssssŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠsssssssssssssssfffffffffffffff_______________]]]]]]]]]]]]]]][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[555555555555555               $$$$$$$$$$$$$$$)))))))))))))))===============WWWWWWWWWWWWWWW888888888888888JJJJJJJJJJJJJJJ!!!!!!!!!!!!!!!111111111111111
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MMMMMMMMMMMMMMM```````````````iiiiiiiiiiiiiiiwwwwwwwwwŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠsssssssssssssssfffffffffffffff_______________]]]]]]]]]]]]]]][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[555555555555555               $$$$$$$$$$$$$$$)))))))))))))))===============WWWWWWWWWWWWWWW888888888888888JJJJJJJJJJJJJJJ!!!!!!!!!!!!!!!111111111111111
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MMMMMMMMMMMMMMM```````````````iiiiiiiiiiiiiiiwwwwwwwwwŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠsssssssssssssssfffffffffffffff_______________]]]]]]]]]]]]]]][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[555555555555555               $$$$$$$$$$$$$$$)))))))))))))))===============WWWWWWWWWWWWWWW888888888888888JJJJJJJJJJJJJJJ!!!!!!!!!!!!!!!111111111111111
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MMMMMMMMMMMMMMM```````````````iiiiiiiiiiiiiiiwwwwwwwwwŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠsssssssssssssssfffffffffffffff_______________]]]]]]]]]]]]]]][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[555555555555555               $$$$$$$$$$$$$$$)))))))))))))))===============WWWWWWWWWWWWWWW888888888888888JJJJJJJJJJJJJJJ!!!!!!!!!!!!!!!111111111111111
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MMMMMMMMMMMMMMM```````````````iiiiiiiiiiiiiiiwwwwwwwwwŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠsssssssssssssssfffffffffffffff_______________]]]]]]]]]]]]]]][[[[[[[[[[[[[[[[[[[[[[[[[[[[[[555555555555555               $$$$$$$$$$$$$$$)))))))))))))))===============WWWWWWWWWWWWWWW888888888888888JJJJJJJJJJJJJJJ!!!!!!!!!!!!!!!111111111111111
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MMMMMMMMMMMMMMM```````````````iiiiiiiiiiiiiiiwwwwwwwwwwwwwwwwwwwwwwwwkkkkkkkkkkkkkkk_______________XXXXXXXXXXXXXXXWWWWWWWWWWWWWWWTTTTTTTTTTTTTTTOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWppppppppppppppp]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]FFFFFFFFFFFFFFFeeeeeeeeeeeeeeetttttttttttttttVVVVVVVVVVVVVVV<<<<<<<<<<<<<<<VVVVVVVVVVVVVVV111111111111111UUUUUUUUUUUUUUUdddddddddddddddssssssssswwwwwwwwwwwwwwwkkkkkkkkkkkkkkk_______________XXXXXXXXXXXXXXXWWWWWWWWWWWWWWWTTTTTTTTTTTTTTTOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWppppppppppppppp]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]FFFFFFFFFFFFFFFeeeeeeeeeeeeeeetttttttttttttttVVVVVVVVVVVVVVV<<<<<<<<<<<<<<<VVVVVVVVVVVVVVV111111111111111UUUUUUUUUUUUUUUdddddddddddddddssssssssswwwwwwwwwwwwwwwkkkkkkkkkkkkkkk_______________XXXXXXXXXXXXXXXWWWWWWWWWWWWWWWTTTTTTTTTTTTTTTOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWppppppppppppppp]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]FFFFFFFFFFFFFFFeeeeeeeeeeeeeeetttttttttttttttVVVVVVVVVVVVVVV<<<<<<<<<<<<<<<VVVVVVVVVVVVVVV111111111111111UUUUUUUUUUUUUUUdddddddddddddddssssssssswwwwwwwwwwwwwwwkkkkkkkkkkkkkkk_______________XXXXXXXXXXXXXXXWWWWWWWWWWWWWWWTTTTTTTTTTTTTTTOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWppppppppppppppp]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]FFFFFFFFFFFFFFFeeeeeeeeeeeeeeetttttttttttttttVVVVVVVVVVVVVVV<<<<<<<<<<<<<<<VVVVVVVVVVVVVVV111111111111111UUUUUUUUUUUUUUUdddddddddddddddssssssssswwwwwwwwwwwwwwwkkkkkkkkkkkkkkk_______________XXXXXXXXXXXXXXXWWWWWWWWWWWWWWWTTTTTTTTTTTTTTTOOOOOOOOOOOOOOOHHHHHHHHHHHHHHHOOOOOOOOOOOOOOOWWWWWWWWWWWWWWWppppppppppppppp]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]FFFFFFFFFFFFFFFeeeeeeeeeeeeeeetttttttttttttttVVVVVVVVVVVVVVV<<<<<<<<<<<<<<<VVVVVVVVVVVVVVV111111111111111UUUUUUUUUUUUUUUdddddddddddddddsssssssssŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠwwwwwwwwwwwwwwwmmmmmmmmmmmmmmmggggggggggggggg[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZ………………………………………aaaaaaaaaaaaaaa???????????????lllllllllllllll£££££££££££££££XXXXXXXXXXXXXXXvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvUUUUUUUUUUUUUUUHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMeeeeeeeeeeeeeeeGGGGGGGGGGGGGGGcccccccccccccccsssssssssŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠwwwwwwwwwwwwwwwmmmmmmmmmmmmmmmggggggggggggggg[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZ………………………………………aaaaaaaaaaaaaaa???????????????lllllllllllllll£££££££££££££££XXXXXXXXXXXXXXXvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvUUUUUUUUUUUUUUUHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMeeeeeeeeeeeeeeeGGGGGGGGGGGGGGGcccccccccccccccsssssssssŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠwwwwwwwwwwwwwwwmmmmmmmmmmmmmmmggggggggggggggg[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZ………………………………………aaaaaaaaaaaaaaa???????????????lllllllllllllll£££££££££££££££XXXXXXXXXXXXXXXvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvUUUUUUUUUUUUUUUHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMeeeeeeeeeeeeeeeGGGGGGGGGGGGGGGcccccccccccccccsssssssssŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠwwwwwwwwwwwwwwwmmmmmmmmmmmmmmmggggggggggggggg[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZ………………………………………aaaaaaaaaaaaaaa???????????????lllllllllllllll£££££££££££££££XXXXXXXXXXXXXXXvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvUUUUUUUUUUUUUUUHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMeeeeeeeeeeeeeeeGGGGGGGGGGGGGGGcccccccccccccccsssssssssŠŠŠŠŠŠŠŠŠŠŠŠŠŠŠwwwwwwwwwwwwwwwmmmmmmmmmmmmmmmggggggggggggggg[[[[[[[[[[[[[[[\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZ………………………………………aaaaaaaaaaaaaaa???????????????lllllllllllllll£££££££££££££££XXXXXXXXXXXXXXXvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvUUUUUUUUUUUUUUUHHHHHHHHHHHHHHHMMMMMMMMMMMMMMMeeeeeeeeeeeeeeeGGGGGGGGGGGGGGGcccccccccccccccsssssssss†††††††††††††††tttttttttttttttlllllllllllllllhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\aaaaaaaaaaaaaaattttttttttttttt666666666666666ccccccccccccccc˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜JJJJJJJJJJJJJJJNNNNNNNNNNNNNNNHHHHHHHHHHHHHHHAAAAAAAAAAAAAAA“““““““““““““““ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆGGGGGGGGGGGGGGGEEEEEEEEEEEEEEE%%%%%%%%%%%%%%%															+++++++++++++++cccccccccccccccvvvvvvvvv†††††††††††††††tttttttttttttttlllllllllllllllhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\aaaaaaaaaaaaaaattttttttttttttt666666666666666ccccccccccccccc˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜JJJJJJJJJJJJJJJNNNNNNNNNNNNNNNHHHHHHHHHHHHHHHAAAAAAAAAAAAAAA“““““““““““““““ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆGGGGGGGGGGGGGGGEEEEEEEEEEEEEEE%%%%%%%%%%%%%%%															+++++++++++++++cccccccccccccccvvvvvvvvv†††††††††††††††tttttttttttttttlllllllllllllllhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\aaaaaaaaaaaaaaattttttttttttttt666666666666666ccccccccccccccc˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜JJJJJJJJJJJJJJJNNNNNNNNNNNNNNNHHHHHHHHHHHHHHHAAAAAAAAAAAAAAA“““““““““““““““ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆGGGGGGGGGGGGGGGEEEEEEEEEEEEEEE%%%%%%%%%%%%%%%															+++++++++++++++cccccccccccccccvvvvvvvvv†††††††††††††††tttttttttttttttlllllllllllllllhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\aaaaaaaaaaaaaaattttttttttttttt666666666666666ccccccccccccccc˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜JJJJJJJJJJJJJJJNNNNNNNNNNNNNNNHHHHHHHHHHHHHHHAAAAAAAAAAAAAAA“““““““““““““““ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆGGGGGGGGGGGGGGGEEEEEEEEEEEEEEE%%%%%%%%%%%%%%%															+++++++++++++++cccccccccccccccvvvvvvvvv†††††††††††††††tttttttttttttttlllllllllllllllhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\aaaaaaaaaaaaaaattttttttttttttt666666666666666ccccccccccccccc˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜JJJJJJJJJJJJJJJNNNNNNNNNNNNNNNHHHHHHHHHHHHHHHAAAAAAAAAAAAAAA“““““““““““““““ˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆGGGGGGGGGGGGGGGEEEEEEEEEEEEEEE%%%%%%%%%%%%%%%															+++++++++++++++cccccccccccccccvvvvvvvvv†††††††††††††††rrrrrrrrrrrrrrrgggggggggggggggddddddddddddddd[[[[[[[[[[[[[[[```````````````]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ooooooooooooooo555555555555555[[[[[[[[[[[[[[[………………………………………sssssssssssssss\\\\\\\\\\\\\\\mmmmmmmmmmmmmmmaaaaaaaaaaaaaaaIIIIIIIIIIIIIIIiiiiiiiiiiiiiiisssssssssssssssCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA[[[[[[[[[[[[[[[ttttttttt†††††††††††††††rrrrrrrrrrrrrrrgggggggggggggggddddddddddddddd[[[[[[[[[[[[[[[```````````````]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ooooooooooooooo555555555555555[[[[[[[[[[[[[[[………………………………………sssssssssssssss\\\\\\\\\\\\\\\mmmmmmmmmmmmmmmaaaaaaaaaaaaaaaIIIIIIIIIIIIIIIiiiiiiiiiiiiiiisssssssssssssssCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA[[[[[[[[[[[[[[[ttttttttt†††††††††††††††rrrrrrrrrrrrrrrgggggggggggggggddddddddddddddd[[[[[[[[[[[[[[[```````````````]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ooooooooooooooo555555555555555[[[[[[[[[[[[[[[………………………………………sssssssssssssss\\\\\\\\\\\\\\\mmmmmmmmmmmmmmmaaaaaaaaaaaaaaaIIIIIIIIIIIIIIIiiiiiiiiiiiiiiisssssssssssssssCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA[[[[[[[[[[[[[[[ttttttttt†††††††††††††††rrrrrrrrrrrrrrrgggggggggggggggddddddddddddddd[[[[[[[[[[[[[[[```````````````]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ooooooooooooooo555555555555555[[[[[[[[[[[[[[[………………………………………sssssssssssssss\\\\\\\\\\\\\\\mmmmmmmmmmmmmmmaaaaaaaaaaaaaaaIIIIIIIIIIIIIIIiiiiiiiiiiiiiiisssssssssssssssCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA[[[[[[[[[[[[[[[ttttttttt†††††††††††††††rrrrrrrrrrrrrrrgggggggggggggggddddddddddddddd[[[[[[[[[[[[[[[```````````````]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ooooooooooooooo555555555555555[[[[[[[[[[[[[[[………………………………………sssssssssssssss\\\\\\\\\\\\\\\mmmmmmmmmmmmmmmaaaaaaaaaaaaaaaIIIIIIIIIIIIIIIiiiiiiiiiiiiiiisssssssssssssssCCCCCCCCCCCCCCCAAAAAAAAAAAAAAA[[[[[[[[[[[[[[[tttttttttˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppddddddddddddddd_______________[[[[[[[[[[[[[[[_______________\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]aaaaaaaaaaaaaaa666666666666666OOOOOOOOOOOOOOOnnnnnnnnnnnnnnnMMMMMMMMMMMMMMM333333333333333HHHHHHHHHHHHHHHAAAAAAAAAAAAAAA+++++++++++++++]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\@@@@@@@@@@@@@@@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-															[[[[[[[[[[[[[[[vvvvvvvvvˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppddddddddddddddd_______________[[[[[[[[[[[[[[[_______________\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]aaaaaaaaaaaaaaa666666666666666OOOOOOOOOOOOOOOnnnnnnnnnnnnnnnMMMMMMMMMMMMMMM333333333333333HHHHHHHHHHHHHHHAAAAAAAAAAAAAAA+++++++++++++++]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\@@@@@@@@@@@@@@@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-															[[[[[[[[[[[[[[[vvvvvvvvvˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppddddddddddddddd_______________[[[[[[[[[[[[[[[_______________\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]aaaaaaaaaaaaaaa666666666666666OOOOOOOOOOOOOOOnnnnnnnnnnnnnnnMMMMMMMMMMMMMMM333333333333333HHHHHHHHHHHHHHHAAAAAAAAAAAAAAA+++++++++++++++]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\@@@@@@@@@@@@@@@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-															[[[[[[[[[[[[[[[vvvvvvvvvˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppddddddddddddddd_______________[[[[[[[[[[[[[[[_______________\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]aaaaaaaaaaaaaaa666666666666666OOOOOOOOOOOOOOOnnnnnnnnnnnnnnnMMMMMMMMMMMMMMM333333333333333HHHHHHHHHHHHHHHAAAAAAAAAAAAAAA+++++++++++++++]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\@@@@@@@@@@@@@@@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-															[[[[[[[[[[[[[[[vvvvvvvvvˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppddddddddddddddd_______________[[[[[[[[[[[[[[[_______________\\\\\\\\\\\\\\\]]]]]]]]]]]]]]]aaaaaaaaaaaaaaa666666666666666OOOOOOOOOOOOOOOnnnnnnnnnnnnnnnMMMMMMMMMMMMMMM333333333333333HHHHHHHHHHHHHHHAAAAAAAAAAAAAAA+++++++++++++++]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\@@@@@@@@@@@@@@@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-															[[[[[[[[[[[[[[[vvvvvvvvvˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEMMMMMMMMMMMMMMM]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\MMMMMMMMMMMMMMMNNNNNNNNNNNNNNN```````````````XXXXXXXXXXXXXXXHHHHHHHHHHHHHHH---------------															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***************iiiiiiiiiiiiiiitttttttttˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEMMMMMMMMMMMMMMM]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\MMMMMMMMMMMMMMMNNNNNNNNNNNNNNN```````````````XXXXXXXXXXXXXXXHHHHHHHHHHHHHHH---------------															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***************iiiiiiiiiiiiiiitttttttttˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEMMMMMMMMMMMMMMM]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\MMMMMMMMMMMMMMMNNNNNNNNNNNNNNN```````````````XXXXXXXXXXXXXXXHHHHHHHHHHHHHHH---------------															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***************iiiiiiiiiiiiiiitttttttttˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEMMMMMMMMMMMMMMM]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\MMMMMMMMMMMMMMMNNNNNNNNNNNNNNN```````````````XXXXXXXXXXXXXXXHHHHHHHHHHHHHHH---------------															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***************iiiiiiiiiiiiiiitttttttttˆˆˆˆˆˆˆˆˆˆˆˆˆˆˆpppppppppppppppeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaa]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\ZZZZZZZZZZZZZZZDDDDDDDDDDDDDDDEEEEEEEEEEEEEEEMMMMMMMMMMMMMMM]]]]]]]]]]]]]]]\\\\\\\\\\\\\\\MMMMMMMMMMMMMMMNNNNNNNNNNNNNNN```````````````XXXXXXXXXXXXXXXHHHHHHHHHHHHHHH---------------															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***************iiiiiiiiiiiiiiittttttttt………………………………………llllllllllllllleeeeeeeeeeeeeee``````````````````````````````[[[[[[[[[[[[[[[ZZZZZZZZZZZZZZZVVVVVVVVVVVVVVVJJJJJJJJJJJJJJJ...............@@@@@@@@@@@@@@@FFFFFFFFFFFFFFF_______________mmmmmmmmmmmmmmmlllllllllllllllWWWWWWWWWWWWWWW;;;;;;;;;;;;;;;333333333333333															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-555555555555555lllllllllllllll|||||||||………………………………………llllllllllllllleeeeeeeeeeeeeee``````````````````````````````[[[[[[[[[[[[[[[ZZZZZZZZZZZZZZZVVVVVVVVVVVVVVVJJJJJJJJJJJJJJJ...............@@@@@@@@@@@@@@@FFFFFFFFFFFFFFF_______________mmmmmmmmmmmmmmmlllllllllllllllWWWWWWWWWWWWWWW;;;;;;;;;;;;;;;333333333333333															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-555555555555555lllllllllllllll|||||||||………………………………………llllllllllllllleeeeeeeeeeeeeee``````````````````````````````[[[[[[[[[[[[[[[ZZZZZZZZZZZZZZZVVVVVVVVVVVVVVVJJJJJJJJJJJJJJJ...............@@@@@@@@@@@@@@@FFFFFFFFFFFFFFF_______________mmmmmmmmmmmmmmmlllllllllllllllWWWWWWWWWWWWWWW;;;;;;;;;;;;;;;333333333333333															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-555555555555555lllllllllllllll|||||||||………………………………………llllllllllllllleeeeeeeeeeeeeee``````````````````````````````[[[[[[[[[[[[[[[ZZZZZZZZZZZZZZZVVVVVVVVVVVVVVVJJJJJJJJJJJJJJJ...............@@@@@@@@@@@@@@@FFFFFFFFFFFFFFF_______________mmmmmmmmmmmmmmmlllllllllllllllWWWWWWWWWWWWWWW;;;;;;;;;;;;;;;333333333333333															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-555555555555555lllllllllllllll|||||||||………………………………………llllllllllllllleeeeeeeeeeeeeee``````````````````````````````[[[[[[[[[[[[[[[ZZZZZZZZZZZZZZZVVVVVVVVVVVVVVVJJJJJJJJJJJJJJJ...............@@@@@@@@@@@@@@@FFFFFFFFFFFFFFF_______________mmmmmmmmmmmmmmmlllllllllllllllWWWWWWWWWWWWWWW;;;;;;;;;;;;;;;333333333333333															
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-555555555555555lllllllllllllll|||||||||€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````[[[[[[[[[[[[[[[XXXXXXXXXXXXXXXVVVVVVVVVVVVVVVTTTTTTTTTTTTTTTQQQQQQQQQQQQQQQEEEEEEEEEEEEEEE---------------222222222222222333333333333333333333333333333>>>>>>>>>>>>>>>[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[===============---------------***************HHHHHHHHHHHHHHH               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;;;;;;;;;;;;;;;lllllllllllllll|||||||||€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````[[[[[[[[[[[[[[[XXXXXXXXXXXXXXXVVVVVVVVVVVVVVVTTTTTTTTTTTTTTTQQQQQQQQQQQQQQQEEEEEEEEEEEEEEE---------------222222222222222333333333333333333333333333333>>>>>>>>>>>>>>>[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[===============---------------***************HHHHHHHHHHHHHHH               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;;;;;;;;;;;;;;;lllllllllllllll|||||||||€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````[[[[[[[[[[[[[[[XXXXXXXXXXXXXXXVVVVVVVVVVVVVVVTTTTTTTTTTTTTTTQQQQQQQQQQQQQQQEEEEEEEEEEEEEEE---------------222222222222222333333333333333333333333333333>>>>>>>>>>>>>>>[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[===============---------------***************HHHHHHHHHHHHHHH               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;;;;;;;;;;;;;;;lllllllllllllll|||||||||€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````[[[[[[[[[[[[[[[XXXXXXXXXXXXXXXVVVVVVVVVVVVVVVTTTTTTTTTTTTTTTQQQQQQQQQQQQQQQEEEEEEEEEEEEEEE---------------222222222222222333333333333333333333333333333>>>>>>>>>>>>>>>[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[===============---------------***************HHHHHHHHHHHHHHH               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;;;;;;;;;;;;;;;lllllllllllllll|||||||||€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````[[[[[[[[[[[[[[[XXXXXXXXXXXXXXXVVVVVVVVVVVVVVVTTTTTTTTTTTTTTTQQQQQQQQQQQQQQQEEEEEEEEEEEEEEE---------------222222222222222333333333333333333333333333333>>>>>>>>>>>>>>>[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[===============---------------***************HHHHHHHHHHHHHHH               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-;;;;;;;;;;;;;;;lllllllllllllll|||||||||€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````ZZZZZZZZZZZZZZZXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOMMMMMMMMMMMMMMM:::::::::::::::kkkkkkkkkkkkkkk>>>>>>>>>>>>>>>888888888888888333333333333333333333333333333444444444444444444444444444444...............---------------<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>rrrrrrrrrrrrrrr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////kkkkkkkkkkkkkkk€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````ZZZZZZZZZZZZZZZXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOMMMMMMMMMMMMMMM:::::::::::::::kkkkkkkkkkkkkkk>>>>>>>>>>>>>>>888888888888888333333333333333333333333333333444444444444444444444444444444...............---------------<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>rrrrrrrrrrrrrrr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////kkkkkkkkkkkkkkk€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````ZZZZZZZZZZZZZZZXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOMMMMMMMMMMMMMMM:::::::::::::::kkkkkkkkkkkkkkk>>>>>>>>>>>>>>>888888888888888333333333333333333333333333333444444444444444444444444444444...............---------------<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>rrrrrrrrrrrrrrr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////kkkkkkkkkkkkkkk€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````ZZZZZZZZZZZZZZZXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOMMMMMMMMMMMMMMM:::::::::::::::kkkkkkkkkkkkkkk>>>>>>>>>>>>>>>888888888888888333333333333333333333333333333444444444444444444444444444444...............---------------<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>rrrrrrrrrrrrrrr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////kkkkkkkkkkkkkkk€€€€€€€€€€€€€€€mmmmmmmmmmmmmmm```````````````ZZZZZZZZZZZZZZZXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUOOOOOOOOOOOOOOOMMMMMMMMMMMMMMM:::::::::::::::kkkkkkkkkkkkkkk>>>>>>>>>>>>>>>888888888888888333333333333333333333333333333444444444444444444444444444444...............---------------<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>rrrrrrrrrrrrrrr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-///////////////kkkkkkkkkkkkkkkkkkkkkkkkkkkkkk```````````````ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZWWWWWWWWWWWWWWWQQQQQQQQQQQQQQQMMMMMMMMMMMMMMM@@@@@@@@@@@@@@@³³³³³³³³³³³³³³³LLLLLLLLLLLLLLLRRRRRRRRRRRRRRR===============LLLLLLLLLLLLLLLUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGRRRRRRRRRRRRRRRIIIIIIIIIIIIIII±±±±±±±±±±±±±±±<<<<<<<<<<<<<<<iiiiiiiiiiiiiiizzzzzzzzzkkkkkkkkkkkkkkk```````````````ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZWWWWWWWWWWWWWWWQQQQQQQQQQQQQQQMMMMMMMMMMMMMMM@@@@@@@@@@@@@@@³³³³³³³³³³³³³³³LLLLLLLLLLLLLLLRRRRRRRRRRRRRRR===============LLLLLLLLLLLLLLLUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGRRRRRRRRRRRRRRRIIIIIIIIIIIIIII±±±±±±±±±±±±±±±<<<<<<<<<<<<<<<iiiiiiiiiiiiiiizzzzzzzzzkkkkkkkkkkkkkkk```````````````ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZWWWWWWWWWWWWWWWQQQQQQQQQQQQQQQMMMMMMMMMMMMMMM@@@@@@@@@@@@@@@³³³³³³³³³³³³³³³LLLLLLLLLLLLLLLRRRRRRRRRRRRRRR===============LLLLLLLLLLLLLLLUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGRRRRRRRRRRRRRRRIIIIIIIIIIIIIII±±±±±±±±±±±±±±±<<<<<<<<<<<<<<<iiiiiiiiiiiiiiizzzzzzzzzkkkkkkkkkkkkkkk```````````````ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZWWWWWWWWWWWWWWWQQQQQQQQQQQQQQQMMMMMMMMMMMMMMM@@@@@@@@@@@@@@@³³³³³³³³³³³³³³³LLLLLLLLLLLLLLLRRRRRRRRRRRRRRR===============LLLLLLLLLLLLLLLUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGRRRRRRRRRRRRRRRIIIIIIIIIIIIIII±±±±±±±±±±±±±±±<<<<<<<<<<<<<<<iiiiiiiiiiiiiiizzzzzzzzzkkkkkkkkkkkkkkk```````````````ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZWWWWWWWWWWWWWWWQQQQQQQQQQQQQQQMMMMMMMMMMMMMMM@@@@@@@@@@@@@@@³³³³³³³³³³³³³³³LLLLLLLLLLLLLLLRRRRRRRRRRRRRRR===============LLLLLLLLLLLLLLLUUUUUUUUUUUUUUUTTTTTTTTTTTTTTTEEEEEEEEEEEEEEEGGGGGGGGGGGGGGGRRRRRRRRRRRRRRRIIIIIIIIIIIIIII±±±±±±±±±±±±±±±<<<<<<<<<<<<<<<iiiiiiiiiiiiiiizzzzzzzzz‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚lllllllllllllll______________________________XXXXXXXXXXXXXXXRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒkkkkkkkkkkkkkkk\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWrrrrrrrrrrrrrrrhhhhhhhhhhhhhhhZZZZZZZZZZZZZZZeeeeeeeeeeeeeeeXXXXXXXXXXXXXXX···············øøøøøøøøøøøøøøøªªªªªªªªªªªªªªªHHHHHHHHHHHHHHHIIIIIIIIIIIIIIIkkkkkkkkkkkkkkkzzzzzzzzz‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚lllllllllllllll______________________________XXXXXXXXXXXXXXXRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒkkkkkkkkkkkkkkk\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWrrrrrrrrrrrrrrrhhhhhhhhhhhhhhhZZZZZZZZZZZZZZZeeeeeeeeeeeeeeeXXXXXXXXXXXXXXX···············øøøøøøøøøøøøøøøªªªªªªªªªªªªªªªHHHHHHHHHHHHHHHIIIIIIIIIIIIIIIkkkkkkkkkkkkkkkzzzzzzzzz‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚lllllllllllllll______________________________XXXXXXXXXXXXXXXRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒkkkkkkkkkkkkkkk\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWrrrrrrrrrrrrrrrhhhhhhhhhhhhhhhZZZZZZZZZZZZZZZeeeeeeeeeeeeeeeXXXXXXXXXXXXXXX···············øøøøøøøøøøøøøøøªªªªªªªªªªªªªªªHHHHHHHHHHHHHHHIIIIIIIIIIIIIIIkkkkkkkkkkkkkkkzzzzzzzzz‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚lllllllllllllll______________________________XXXXXXXXXXXXXXXRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒkkkkkkkkkkkkkkk\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWrrrrrrrrrrrrrrrhhhhhhhhhhhhhhhZZZZZZZZZZZZZZZeeeeeeeeeeeeeeeXXXXXXXXXXXXXXX···············øøøøøøøøøøøøøøøªªªªªªªªªªªªªªªHHHHHHHHHHHHHHHIIIIIIIIIIIIIIIkkkkkkkkkkkkkkkzzzzzzzzz‚‚‚‚‚‚‚‚‚‚‚‚‚‚‚lllllllllllllll______________________________XXXXXXXXXXXXXXXRRRRRRRRRRRRRRRPPPPPPPPPPPPPPPÒÒÒÒÒÒÒÒÒÒÒÒÒÒÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒkkkkkkkkkkkkkkk\\\\\\\\\\\\\\\WWWWWWWWWWWWWWWrrrrrrrrrrrrrrrhhhhhhhhhhhhhhhZZZZZZZZZZZZZZZeeeeeeeeeeeeeeeXXXXXXXXXXXXXXX···············øøøøøøøøøøøøøøøªªªªªªªªªªªªªªªHHHHHHHHHHHHHHHIIIIIIIIIIIIIIIkkkkkkkkkkkkkkkzzzzzzzzz†††††††††††††††yyyyyyyyyyyyyyyhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]pppppppppppppppµµµµµµµµµµµµµµµëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïïïïïïïïïïïïïyyyyyyyyyyyyyyyyyyyyyyyyyyyyyygggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvvvvvvvvvvvvvvvvv³³³³³³³³³³³³³³³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ†††††††††††††††ggggggggg†††††††††††††††yyyyyyyyyyyyyyyhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]pppppppppppppppµµµµµµµµµµµµµµµëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïïïïïïïïïïïïïyyyyyyyyyyyyyyyyyyyyyyyyyyyyyygggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvvvvvvvvvvvvvvvvv³³³³³³³³³³³³³³³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ†††††††††††††††ggggggggg†††††††††††††††yyyyyyyyyyyyyyyhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]pppppppppppppppµµµµµµµµµµµµµµµëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïïïïïïïïïïïïïyyyyyyyyyyyyyyyyyyyyyyyyyyyyyygggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvvvvvvvvvvvvvvvvv³³³³³³³³³³³³³³³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ†††††††††††††††ggggggggg†††††††††††††††yyyyyyyyyyyyyyyhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]pppppppppppppppµµµµµµµµµµµµµµµëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïïïïïïïïïïïïïyyyyyyyyyyyyyyyyyyyyyyyyyyyyyygggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvvvvvvvvvvvvvvvvv³³³³³³³³³³³³³³³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ†††††††††††††††ggggggggg†††††††††††††††yyyyyyyyyyyyyyyhhhhhhhhhhhhhhh]]]]]]]]]]]]]]]pppppppppppppppµµµµµµµµµµµµµµµëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïïïïïïïïïïïïïyyyyyyyyyyyyyyyyyyyyyyyyyyyyyygggggggggggggggeeeeeeeeeeeeeeeeeeeeeeeeeeeeeevvvvvvvvvvvvvvvvvvvvvvvvvvvvvv³³³³³³³³³³³³³³³ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ†††††††††††††††ggggggggg}}}}}}}}}}}}}}}zzzzzzzzzzzzzzz£££££££££££££££ëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòòòòòòòòòòòòòššššššššššššššš………………………………………’’’’’’’’’’’’’’’ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿööööööööö}}}}}}}}}}}}}}}zzzzzzzzzzzzzzz£££££££££££££££ëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòòòòòòòòòòòòòššššššššššššššš………………………………………’’’’’’’’’’’’’’’ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿööööööööö}}}}}}}}}}}}}}}zzzzzzzzzzzzzzz£££££££££££££££ëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòòòòòòòòòòòòòššššššššššššššš………………………………………’’’’’’’’’’’’’’’ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿööööööööö}}}}}}}}}}}}}}}zzzzzzzzzzzzzzz£££££££££££££££ëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòòòòòòòòòòòòòššššššššššššššš………………………………………’’’’’’’’’’’’’’’ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿööööööööö}}}}}}}}}}}}}}}zzzzzzzzzzzzzzz£££££££££££££££ëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿòòòòòòòòòòòòòòòššššššššššššššš………………………………………’’’’’’’’’’’’’’’ÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿëëëëëëëëëëëëëëëÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿööööööööö¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼øøøøøøøøøøøøøøøÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿâââââââââââââââòòòòòòòòòòòòòòòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼øøøøøøøøøøøøøøøÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿâââââââââââââââòòòòòòòòòòòòòòòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼øøøøøøøøøøøøøøøÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿâââââââââââââââòòòòòòòòòòòòòòòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼øøøøøøøøøøøøøøøÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿâââââââââââââââòòòòòòòòòòòòòòòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¼¼¼¼¼¼¼¼¼¼¼¼¼¼¼øøøøøøøøøøøøøøøÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÚÚÚÚÚÚÚÚÚÚÚÚ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨ÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿâââââââââââââââòòòòòòòòòòòòòòòÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿôôôôôôôôôôôôôôôúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿôôôôôôôôôôôôôôôúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿôôôôôôôôôôôôôôôúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿôôôôôôôôôôôôôôôúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıııııııııııııııÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿôôôôôôôôôôôôôôôúúúúúúúúúúúúúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
