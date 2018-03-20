@@ -44,7 +44,7 @@ PIXEL_DEPTH = 255
 VALIDATION_SIZE = 50  # Size of the validation set.
 SEED = 66478  # Set to None for random seed.
 BATCH_SIZE = 64
-NUM_EPOCHS = 10
+NUM_EPOCHS = 1
 EVAL_BATCH_SIZE = 64
 EVAL_FREQUENCY = 1  # Number of steps between evaluations.
 
@@ -90,7 +90,7 @@ def error_rate(predictions, labels):
 
 def at_generate_weights(inputs, outputs):
     return tf.Variable(
-        tf.truncated_normal([3, 3, inputs, outputs], stddev=0.1, seed=SEED, dtype=np.float32)
+        tf.truncated_normal([3, 3, inputs, outputs], stddev=10, seed=SEED, dtype=np.float32)
     )
 
 
@@ -202,14 +202,17 @@ def main(_):
     # test_data = np.subtract(np.divide(np.array(test_data, dtype=np.float32), 255), 0.5)
     # train_labels = np.subtract(np.divide(np.array(train_labels, dtype=np.float32), 255), 0.5)
     # test_labels = np.subtract(np.divide(np.array(test_labels, dtype=np.float32), 255), 0.5)
-    train_data = np.divide(np.array(train_data, dtype=np.float32), 255)
-    test_data = np.divide(np.array(test_data, dtype=np.float32), 255)
-    train_labels = np.divide(np.array(train_labels, dtype=np.float32), 255)
-    test_labels = np.divide(np.array(test_labels, dtype=np.float32), 255)
-    # train_data = np.array(train_data, dtype=np.float32)
-    # test_data = np.array(test_data, dtype=np.float32)
-    # train_labels = np.array(train_labels, dtype=np.float32)
-    # test_labels = np.array(test_labels, dtype=np.float32)
+
+    # train_data = np.divide(np.array(train_data, dtype=np.float32), 255)
+    # test_data = np.divide(np.array(test_data, dtype=np.float32), 255)
+    # train_labels = np.divide(np.array(train_labels, dtype=np.float32), 255)
+    # test_labels = np.divide(np.array(test_labels, dtype=np.float32), 255)
+
+    train_data = np.array(train_data, dtype=np.float32)
+    test_data = np.array(test_data, dtype=np.float32)
+    train_labels = np.array(train_labels, dtype=np.float32)
+    test_labels = np.array(test_labels, dtype=np.float32)
+
     validation_data = train_data[:VALIDATION_SIZE, ...]
     validation_labels = train_labels[:VALIDATION_SIZE]
     train_data = train_data[VALIDATION_SIZE:, ...]
