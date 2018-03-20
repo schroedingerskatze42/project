@@ -1,166 +1,187 @@
 #!/bin/bash
 
-PATH_ORIGINAL='./images'
+# constants
+IMAGES_PATH='../images'
+DESTINATION_PATH_RGB='../testimages/50_rgb'
+DESTINATION_PATH_GRAYSCALE='../testimages/50_grayscale'
 
-PATH_DESTINATION_GRAYSCALE='./images_grayscale'
-PATH_DESTINATION_30='./images_30'
-PATH_DESTINATION_30_GRAYSCALE='./images_30_grayscale'
-PATH_DESTINATION_50='./images_50'
-PATH_DESTINATION_50_GRAYSCALE='./images_50_grayscale'
+FORCE=0
+RGB=0
+GRAYSCALE=1
 
-PATH_OPERATION_THUMBNAIL='/thumbnails'
-PATH_OPERATION_BLUR_03='/blurred_03'
-PATH_OPERATION_BLUR_06='/blurred_06'
-PATH_OPERATION_BLUR_09='/blurred_09'
-PATH_OPERATION_BLUR_12='/blurred_12'
-PATH_OPERATION_BLUR_15='/blurred_15'
-PATH_OPERATION_MOSAIC_05='/mosaic_05'
-PATH_OPERATION_MOSAIC_10='/mosaic_10'
-PATH_OPERATION_MOSAIC_15='/mosaic_15'
-PATH_OPERATION_MOSAIC_20='/mosaic_20'
-PATH_OPERATION_MOSAIC_25='/mosaic_25'
+SCALE=50
 
-files=$(find ${PATH_ORIGINAL}${PATH_OPERATION_THUMBNAIL} -type f -iname *.ppm)
-destinations="${PATH_ORIGINAL} \
-              ${PATH_DESTINATION_GRAYSCALE} \
-              ${PATH_DESTINATION_30} \
-              ${PATH_DESTINATION_30_GRAYSCALE} \
-              ${PATH_DESTINATION_50} \
-              ${PATH_DESTINATION_50_GRAYSCALE}"
-operations="${PATH_OPERATION_THUMBNAIL} \
-            ${PATH_OPERATION_BLUR_03} \
-            ${PATH_OPERATION_BLUR_06} \
-            ${PATH_OPERATION_BLUR_09} \
-            ${PATH_OPERATION_BLUR_12} \
-            ${PATH_OPERATION_BLUR_15} \
-            ${PATH_OPERATION_MOSAIC_05} \
-            ${PATH_OPERATION_MOSAIC_10} \
-            ${PATH_OPERATION_MOSAIC_15} \
-            ${PATH_OPERATION_MOSAIC_20} \
-            ${PATH_OPERATION_MOSAIC_25}"
-
-function assert_dir {
-    path=$1
-
-    if [ ! -d ${path} ];
-    then
-        mkdir ${path}
-    fi
-}
-
-function create_blurred_image {
-    source=$1
-    grayscale_part=$2
-    scale_part=$3
-    blur_radius=$4
-    destination=$5
-
-    convert ${source} \
-            ${grayscale_part} \
-            ${scale_part} \
-            -gaussian-blur 0x${blur_radius} \
-            ${destination}
-}
-
-function create_mosaic_image {
-    source=$1
-    grayscale_part=$2
-    scale_part=$3
-    mosaic_size=$4
-    destination=$5
-
-    convert ${source} \
-            ${grayscale_part} \
-            ${scale_part} \
-            -scale $(( bc <<< "scale=100;100/${mosaic_size}" ))% \
-            -scale $(( ${mosaic_size} * 100 ))% \
-            ${destination}
-}
-
-
-function distribute_image_operation {
-    file=${PATH_ORIGINAL}${PATH_OPERATION_THUMBNAIL}$1
-    operation=$2
-    grayscale_part=$3
-    scale_part=$4
-    destination=$5
-    echo $file
-    echo $destination
-    exit 1
-    case "${operation}" in
-        ${PATH_OPERATION_BLUR_03})
-            create_blurred_image ${file} ${grayscale} ${scale} 3 ${file_destination}
-        ;;
-        ${PATH_OPERATION_BLUR_06})
-            create_blurred_image ${f} ${grayscale} ${scale} 6 ${file_destination}
-        ;;
-        ${PATH_OPERATION_BLUR_09})
-            create_blurred_image ${f} ${grayscale} ${scale} 9 ${file_destination}
-        ;;
-        ${PATH_OPERATION_BLUR_12})
-            create_blurred_image ${f} ${grayscale} ${scale} 12 ${file_destination}
-        ;;
-        ${PATH_OPERATION_BLUR_15})
-            create_blurred_image ${f} ${grayscale} ${scale} 15 ${file_destination}
-        ;;
-        ${PATH_OPERATION_MOSAIC_05})
-            create_mosaic_image ${f} ${grayscale} ${scale} 5 ${file_destination}
-        ;;
-        ${PATH_OPERATION_MOSAIC_10})
-            create_mosaic_image ${f} ${grayscale} ${scale} 10 ${file_destination}
-        ;;
-        ${PATH_OPERATION_MOSAIC_15})
-            create_mosaic_image ${f} ${grayscale} ${scale} 15 ${file_destination}
-        ;;
-        ${PATH_OPERATION_MOSAIC_20})
-            create_mosaic_image ${f} ${grayscale} ${scale} 20 ${file_destination}
-        ;;
-        ${PATH_OPERATION_MOSAIC_25})
-            create_mosaic_image ${f} ${grayscale} ${scale} 25 ${file_destination}
-        ;;
-
-        *)
-            echo "some kind of error"
-        exit 1
-    esac
-}
-
-for d in ${destinations};
+# argument parsing
+ERROR=false
+for i in "$@"
 do
-    # convert <img_in> -set colorspace Gray -separate -average <img_out>
-    grayscale=''
-    tmp=$d
-    if [[ $tmp =~ ^.*_grayscale$ ]];
-    then
-        grayscale='-set colorspace Gray -separate -average'
-    fi
-    scale=''
-    tmp=$d
-    if [[ $tmp =~ ^.*_[0-9][0-9]*.*$ ]];
-    then
-        percentage=$(sed 's/^.*_\([0-9][0-9]*\).*$/\1/g' <<< $tmp)
-        scale="-scale ${percentage}%"
-    fi
-
-    for o in ${operations};
-    do
-        if [ "${d}" != "${PATH_ORIGINAL}" ] || [ "${o}" != "${PATH_OPERATION_THUMBNAIL}" ];
-        then
-            echo "Start converting for ${d}${o}"
-
-            for f in ${files};
-            do
-                filename=$(sed 's/^.*\(\/[^\/]*\)$/\1/g' <<< ${f})
-
-                assert_dir ${d}${o}
-
-                file_destination=${d}${o}${filename}
-
-                distribute_image_operation ${filename} ${o} ${grayscale} ${scale} ${file_destination}
-            done
-        fi
-    done
+case ${i} in
+    "--force")
+        FORCE=1
+        shift
+    ;;
+    "--rgb")
+        RGB=1
+        shift
+    ;;
+    "--no-grayscale")
+        GRAYSCALE=0
+        shift
+    ;;
+    *)
+        echo "Unknown option"
+        exit 1
+    ;;
+esac
 done
 
-#    convert <img_in> -set colorspace Gray -separate -average <img_out>
-#    echo ${f}
+
+# argument tests
+if [ ${GRAYSCALE} -eq 0 ] && [ ${RGB} -eq 0 ]
+then
+    echo "Nothing to do."
+    exit 1
+fi
+
+if [ ${FORCE} -eq 0 ] && ( ( [ ${GRAYSCALE} -eq 1 ] && [ -d ${DESTINATION_PATH_RGB} ]) || ([ ${RGB} -eq 1 ] && [ -d ${DESTINATION_PATH_RGB} ] ) )
+then
+    echo "Destination path exists."
+    exit 1
+fi
+
+
+
+# helper functions for image creation
+get_filename_from_path () {
+    sed 's/^.*\/\([^\/]*\)$/\1/g' <<< "$1"
+}
+destination_create_name() {
+    sed "s|${IMAGES_PATH}|${DESTINATION_PATH_RGB}|g" <<< "$1"
+}
+
+destination_create_name_grayscale() {
+    sed "s|${IMAGES_PATH}|${DESTINATION_PATH_GRAYSCALE}|g" <<< "$1"
+}
+
+destination_create_name_operation() {
+    path=$1
+    operation=$2
+    parameter=$3
+
+    echo "${path}/${operation}_${parameter}"
+}
+
+
+# assert needed directories
+if [ ${RGB} -eq 1 ];
+then
+    original_dir="${DESTINATION_PATH_RGB}/original"
+    echo "assert directory ${original_dir}"
+    mkdir -p ${original_dir}
+
+    blurred_03_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'blur' '03' )
+    echo "assert directory ${blurred_03_dir}"
+    mkdir -p ${blurred_03_dir}
+
+    blurred_06_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'blur' '06' )
+    echo "assert directory ${blurred_06_dir}"
+    mkdir -p ${blurred_06_dir}
+
+    mosaic_05_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '05' )
+    echo "assert directory ${mosaic_05_dir}"
+    mkdir -p ${mosaic_05_dir}
+
+    mosaic_10_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' 10 )
+    echo "assert directory ${mosaic_10_dir}"
+    mkdir -p ${mosaic_10_dir}
+fi
+if [ ${GRAYSCALE} -eq 1 ];
+then
+    original_dir="${DESTINATION_PATH_GRAYSCALE}/original"
+    echo "assert directory ${original_dir}"
+    mkdir -p ${original_dir}
+
+    blurred_03_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'blur' '03' )
+    echo "assert directory ${blurred_03_dir}"
+    mkdir -p ${blurred_03_dir}
+
+    blurred_06_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'blur' '06' )
+    echo "assert directory ${blurred_06_dir}"
+    mkdir -p ${blurred_06_dir}
+
+    mosaic_05_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '05' )
+    echo "assert directory ${mosaic_05_dir}"
+    mkdir -p ${mosaic_05_dir}
+
+    mosaic_10_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' 10 )
+    echo "assert directory ${mosaic_10_dir}"
+    mkdir -p ${mosaic_10_dir}
+fi
+
+num_of_files=$(find "${IMAGES_PATH}" -type f -iname "*.ppm" | wc -l)
+i=0
+for f in $(find "${IMAGES_PATH}" -type f -iname "*.ppm");
+do
+    i=$(( $i + 1 ));
+
+    if [ $(( $i % 10 )) -eq 0 ] || [ ${i} -eq ${num_of_files} ];
+    then
+        echo "Converting images ${i}/${num_of_files}..."
+    fi
+
+    if [ ${RGB} -eq 1 ];
+    then
+        filename=$(get_filename_from_path ${f})
+
+        path="${DESTINATION_PATH_RGB}/original"
+        d="${path}/${filename}"
+        convert ${f} -adaptive-resize ${SCALE}% ${d}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'blur' '03')
+        d="${path}/${filename}"
+        convert ${f} -adaptive-resize ${SCALE}% -gaussian-blur 0x3 ${d}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'blur' '06')
+        d="${path}/${filename}"
+        convert ${f} -adaptive-resize ${SCALE}% -gaussian-blur 0x6 ${d}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '05')
+        d="${path}/${filename}"
+        convert ${f} -adaptive-resize ${SCALE}% -scale 20% -scale 500% ${d}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '10')
+        d="${path}/${filename}"
+        convert ${f} -adaptive-resize ${SCALE}% -scale 10% -scale 1000% ${d}
+    fi
+
+    if [ ${GRAYSCALE} -eq 1 ];
+    then
+        ppm_name=$(get_filename_from_path ${f})
+        pgm_name=$(sed 's/.ppm$/.pgm$/g' <<< "$ppm_name")  # ImageMagick is sensitive to file suffix
+
+        path="${DESTINATION_PATH_GRAYSCALE}/original"
+        d="${path}/${pgm_name}"
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% ${d}
+        mv ${d} ${path}/${ppm_name}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'blur' '03')
+        d="${path}/${pgm_name}"
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -gaussian-blur 0x3 ${d}
+        mv ${d} ${path}/${ppm_name}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'blur' '06')
+        d="${path}/${pgm_name}"
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -gaussian-blur 0x6 ${d}
+        mv ${d} ${path}/${ppm_name}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '05')
+        d="${path}/${pgm_name}"
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 20% -scale 500% ${d}
+        mv ${d} ${path}/${ppm_name}
+
+        path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '10')
+        d="${path}/${pgm_name}"
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 10% -scale 1000% ${d}
+        mv ${d} ${path}/${ppm_name}
+    fi
+done;
