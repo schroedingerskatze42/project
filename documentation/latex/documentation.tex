@@ -249,7 +249,7 @@ convert <input_file.ppm> \
     -average \
     -scale 12.5\% \
     -gaussian-blur 0x3 \
-    <output_file.ppm>
+    <output_file.pgm>; mv <output_file.pgm> <output_file.ppm>
 
 # convert test data:  gaussian-blur (sigma = 6)
 convert <input_file.ppm> \
@@ -258,7 +258,7 @@ convert <input_file.ppm> \
     -average \
     -scale 12.5\% \
     -gaussian-blur 0x6 \
-    <output_file.ppm>
+    <output_file.pgm>; mv <output_file.pgm> <output_file.ppm>
 
 # convert test data:  pixelization (edge length = 5px)
 convert <input_file.ppm> \
@@ -268,7 +268,7 @@ convert <input_file.ppm> \
     -scale 12.5\% \
     -scale $(( bc <<< "scale=100;100/5" ))\% \
     -scale 500\% \
-    <output_file.ppm>
+    <output_file.pgm>; mv <output_file.pgm> <output_file.ppm>
 
 # convert test data:  pixelization (edge length = 10px)
 convert <input_file.ppm> \
@@ -278,9 +278,14 @@ convert <input_file.ppm> \
     -scale 12.5\% \
     -scale $(( bc <<< "scale=100;100/10" ))\% \
     -scale 1000\% \
-    <output_file.ppm>
+    <output_file.pgm>; mv <output_file.pgm> <output_file.ppm>
 \end{lstlisting}
 \end{minipage}
+
+
+
+
+
 
 
 \subsection{Paragraphs}
