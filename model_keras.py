@@ -9,7 +9,6 @@ from PIL import Image
 from loss import gradient_importance
 
 
-
 def construct():
     input_img = Input(shape=(224, 224, 1))
 

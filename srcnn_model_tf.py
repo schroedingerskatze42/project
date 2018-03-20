@@ -58,12 +58,8 @@ class SRCNN(object):
         self.image_width = image_width
         self.label_height = label_height
         self.label_width = label_width
-
         self.batch_size = batch_size
-        # self.batch_size = 1
-
         self.c_dim = c_dim
-
         self.checkpoint_dir = checkpoint_dir
         self.sample_dir = sample_dir
         self.build_model()
@@ -137,25 +133,18 @@ class SRCNN(object):
         # self.loss = l.gradient_importance(self.labels, self.pred)
 
         # Loss function (MSE)
-        self.loss = tf.reduce_mean(tf.square(self.labels - self.pred))
+        self.loss = tf.reduce_mean(self.labels - self.pred)
 
         self.saver = tf.train.Saver()
 
     def train(self, config):
 
-        def f2(seq):
-            # order preserving
-            checked = []
-            for e in seq:
-                if e not in checked:
-                    checked.append(e)
-            return checked
+        train_data, train_label = data_reader.read_images_from_directory()
 
-        train_data, train_label = data_reader.read_images_from_directory(
-            source="test_data/input/", target="test_data/output/")
+        train_data = np.reshape(train_data, [-1, 96, 64, 1])
+        train_label = np.reshape(train_label, [-1, 96, 64, 1])
 
-        train_data = np.reshape(train_data, [-1, 224, 224, 1])
-        train_label = np.reshape(train_label, [-1, 224, 224, 1])
+        # Bilder bis hierhin okay!
 
         # Stochastic gradient descent with the standard backpropagation
         self.train_op = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(self.loss)
@@ -187,12 +176,20 @@ class SRCNN(object):
                                            feed_dict={self.images: batch_images, self.labels: batch_labels})
 
                     if counter % 10 == 0:
-                        print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: [%.8f]" \
-                              % ((ep + 1), counter, time.time() - start_time, err))
-                        # print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: " \
-                        #       % ((ep + 1), counter, time.time() - start_time))
+                        print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: [%.8f]" % (
+                            (ep + 1), counter, time.time() - start_time, err))
 
-                    if counter % 10 == 0:
+                        test_input = batch_images[:1]
+                        test_result = self.sess.run(self.pred, feed_dict={self.images: test_input})
+                        print("test_result:")
+                        print(test_result)
+                        test_result = test_result.reshape(96, 64)
+                        test_result = test_result * 255
+                        print("test_result_2:")
+                        print(test_result)
+                        Image.fromarray(test_result).show()
+
+                    if counter % 100 == 0:
                         self.save(config.checkpoint_dir, counter)
 
         else:
@@ -213,15 +210,11 @@ class SRCNN(object):
             img.show()
 
     def model(self):
-        print("model_images: ", self.images)
         conv1 = tf.nn.relu(
             tf.nn.conv2d(self.images, self.weights['w1'], strides=[1, 1, 1, 1], padding='VALID') + self.biases['b1'])
-        print("model_conv1: ", conv1)
         conv2 = tf.nn.relu(
             tf.nn.conv2d(conv1, self.weights['w2'], strides=[1, 1, 1, 1], padding='VALID') + self.biases['b2'])
-        print("model_conv2: ", conv2)
         conv3 = tf.nn.conv2d(conv2, self.weights['w3'], strides=[1, 1, 1, 1], padding='VALID') + self.biases['b3']
-        print("model_conv3: ", conv3)
         return conv3
 
     def model_1(self):
