@@ -12,6 +12,7 @@ try:
 except:
     xrange = range
 
+
 # THE MODEL TO BE IMPLEMENTED
 #
 # input_img = Input(shape=(*target_size, 1))
@@ -133,10 +134,10 @@ class SRCNN(object):
         self.pred = self.model_2()
 
         # new try
-        self.loss = l.gradient_importance(self.labels, self.pred)
+        # self.loss = l.gradient_importance(self.labels, self.pred)
 
         # Loss function (MSE)
-        # self.loss = tf.reduce_mean(tf.square(self.labels - self.pred))
+        self.loss = tf.reduce_mean(tf.square(self.labels - self.pred))
 
         self.saver = tf.train.Saver()
 
@@ -150,19 +151,16 @@ class SRCNN(object):
                     checked.append(e)
             return checked
 
-        train_data, train_label = data_reader.read_images_from_directory()
+        train_data, train_label = data_reader.read_images_from_directory(
+            source="test_data/input/", target="test_data/output/")
 
-        # maybe move data manipulation to reader?
-
-        train_data = np.divide(train_data, 255)
-        train_data = np.reshape(train_data, [-1, 96, 64, 1])
-        train_label = np.divide(train_label, 255)
-        train_label = np.reshape(train_label, [-1, 96, 64, 1])
+        train_data = np.reshape(train_data, [-1, 224, 224, 1])
+        train_label = np.reshape(train_label, [-1, 224, 224, 1])
 
         # Stochastic gradient descent with the standard backpropagation
-        # self.train_op = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(self.loss)
+        self.train_op = tf.train.GradientDescentOptimizer(config.learning_rate).minimize(self.loss)
 
-        self.train_op = tf.train.AdadeltaOptimizer(config.learning_rate).minimize(self.loss)
+        # self.train_op = tf.train.AdadeltaOptimizer(config.learning_rate).minimize(self.loss)
 
         self.sess.run(tf.global_variables_initializer())
 
@@ -189,12 +187,12 @@ class SRCNN(object):
                                            feed_dict={self.images: batch_images, self.labels: batch_labels})
 
                     if counter % 10 == 0:
-                        # print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: [%.8f]" \
-                        #       % ((ep + 1), counter, time.time() - start_time, err))
-                        print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: " \
-                              % ((ep + 1), counter, time.time() - start_time))
+                        print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: [%.8f]" \
+                              % ((ep + 1), counter, time.time() - start_time, err))
+                        # print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: " \
+                        #       % ((ep + 1), counter, time.time() - start_time))
 
-                    if counter % 50 == 0:
+                    if counter % 10 == 0:
                         self.save(config.checkpoint_dir, counter)
 
         else:
@@ -202,10 +200,15 @@ class SRCNN(object):
 
             train_data = train_data[:1]
 
+            print(train_data)
+            tst = train_data.reshape(224, 224) * 255
+            tst = Image.fromarray(tst)
+            tst.show()
+
             result = self.pred.eval({self.images: train_data})
             result = np.multiply(result, 255)
-            result = result.reshape(96, 64)
-            print(f2(result.flatten()))
+            result = result.reshape(224, 224)
+            print(result)
             img = Image.fromarray(result)
             img.show()
 
@@ -233,26 +236,36 @@ class SRCNN(object):
         conv_4 = tf.nn.relu(
             tf.nn.conv2d(conv_3, self.weights_1['w4'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b4'])
         upsample_1 = tf.nn.conv2d_transpose(conv_4, filter=self.weights_1['up1'],
-                                            output_shape=[self.batch_size, 48, 32, 128], strides=[1, 2, 2, 1], padding='SAME')
+                                            output_shape=[self.batch_size, 48, 32, 128], strides=[1, 2, 2, 1],
+                                            padding='SAME')
         conv_5 = tf.nn.relu(
             tf.nn.conv2d(upsample_1, self.weights_1['w5'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b5'])
         upsample_2 = tf.nn.conv2d_transpose(conv_5, filter=self.weights_1['up2'],
-                                            output_shape=[self.batch_size, 96, 64, 128], strides=[1, 2, 2, 1], padding='SAME')
+                                            output_shape=[self.batch_size, 96, 64, 128], strides=[1, 2, 2, 1],
+                                            padding='SAME')
         conv_6 = tf.nn.sigmoid(
             tf.nn.conv2d(upsample_2, self.weights_1['w6'], strides=[1, 1, 1, 1], padding='SAME') + self.biases_1['b6'])
         return conv_6
 
     def model_2(self):
-        conv_1 = tf.layers.conv2d(self.images, filters=64, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME', use_bias=True)
+        conv_1 = tf.layers.conv2d(self.images, filters=64, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME',
+                                  use_bias=True)
         max_pool_1 = tf.layers.max_pooling2d(conv_1, pool_size=[2, 2], strides=[2, 2], padding='SAME')
-        conv_2 = tf.layers.conv2d(max_pool_1, filters=64, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME', use_bias=True)
+        conv_2 = tf.layers.conv2d(max_pool_1, filters=64, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME',
+                                  use_bias=True)
         max_pool_2 = tf.layers.max_pooling2d(conv_2, pool_size=[2, 2], strides=[2, 2], padding='SAME')
-        conv_3 = tf.layers.conv2d(max_pool_2, filters=128, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME', use_bias=True)
-        conv_4 = tf.layers.conv2d(conv_3, filters=128, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME', use_bias=True)
-        upsample_1 = tf.layers.conv2d_transpose(conv_4, filters=128, kernel_size=[2, 2], strides=[2, 2], padding='SAME', use_bias=True)
-        conv_5 = tf.layers.conv2d(upsample_1, filters=64, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME', use_bias=True)
-        upsample_2 = tf.layers.conv2d_transpose(conv_5, filters=64, kernel_size=[2, 2], strides=[2, 2], padding='SAME', use_bias=True)
-        conv_6 = tf.layers.conv2d(upsample_2, filters=1, kernel_size=[3, 3], activation=tf.nn.sigmoid, padding='SAME', use_bias=True)
+        conv_3 = tf.layers.conv2d(max_pool_2, filters=128, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME',
+                                  use_bias=True)
+        conv_4 = tf.layers.conv2d(conv_3, filters=128, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME',
+                                  use_bias=True)
+        upsample_1 = tf.layers.conv2d_transpose(conv_4, filters=128, kernel_size=[2, 2], strides=[2, 2], padding='SAME',
+                                                use_bias=True)
+        conv_5 = tf.layers.conv2d(upsample_1, filters=64, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME',
+                                  use_bias=True)
+        upsample_2 = tf.layers.conv2d_transpose(conv_5, filters=64, kernel_size=[2, 2], strides=[2, 2], padding='SAME',
+                                                use_bias=True)
+        conv_6 = tf.layers.conv2d(upsample_2, filters=1, kernel_size=[3, 3], activation=tf.nn.sigmoid, padding='SAME',
+                                  use_bias=True)
         return conv_6
 
     def save(self, checkpoint_dir, step):
