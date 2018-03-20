@@ -147,8 +147,9 @@ Wert annimmt.
 1.4.1 Gradientenabstieg (Gradient Descent)
 
 Um die soeben eingeführte Kostenfunktion zu minimieren, wird ein Verfahren verwendet, das als Gradientenabstieg (engl.
-gradient descent) bezeichnet wird. Zur Veranschaulichung des Problems soll nun eine Funktion zweier Variablen, die
-minimiert werden soll, betrachtet werden.
+gradient descent) bezeichnet wird. Neben dem hier vorgestellten Verfahren existieren noch viele weitere Methoden, die
+zur Lösung dieses Optimierungs- bzw. Minimierungsproblems verwendet werden können.
+Zur Veranschaulichung des Problems soll nun eine Funktion zweier Variablen, die minimiert werden soll, betrachtet werden.
 
 docu_img_17
 
@@ -165,7 +166,16 @@ Der Gradient wird dann folgendermaßen definiert:
 
 docu_img_19
 
+Durch die Verwendung dieses mathematischen Objekts kann die vorherige Gleichung (s. docu_img_18) formuliert werden als:
 
+docu_img_20
+
+Wird die Veränderung der Variablen (Gewichte) nun so gewählt, dass sie dem Inversen des Gradienten multipliziert mit
+einem kleinen, positiven Faktor (der Lernrate) entspricht, kann sichergestellt, dass sich dem Minimum der Funktion
+genähert wird.
+
+Dieses Vorgehen wird mehrfach - genau genommen für jeden Batchlauf - wiederholt, bis die dadurch erzielte Näherung den
+Ansprüchen an die Genauigkeit genügt.
 
 1.5 Convolutional Networks
 

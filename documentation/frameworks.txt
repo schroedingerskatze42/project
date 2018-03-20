@@ -1,0 +1,46 @@
+1 Frameworks
+
+Im Umfeld des Machine Learnings sind zahlreiche Frameworks für verschiedene Plattformen und verschiedene Sprachen zu
+finden. Diese sind auf unterschiedlichen Abstraktionsebenen angesiedelt und dementsprechend unterschiedlich komplex
+in der Verwendung.
+Je höher ein Framework dabei angesiedelt, desto einfacher ist es üblicherweise zu bedienen, bietet dem Anwender aber
+dafür nur sehr stark eingeschränkte Möglichkeiten. Frameworks hingegen, die auf einem niedrigen Level operieren, bieten
+dem Anwender sehr detaillierte und komplexe Möglichkeiten, den gesamtem Programmfluss zu beeinflussen, sind dadurch aber
+auch deutlich komplexer zu verwenden.
+Die Frameworks sind insbesondere darauf ausgerichtet, eine Implementation für die konkreten mathematischen Berechnungen
+und Modelle zu bieten, die darüber hinaus auch hinsichtlich der Performance optimiert worden sind.
+
+Zu nennen wären beispielsweise die nachfolgenden drei Frameworks:
+
+1.) Scikit-Learn [http://scikit-learn.org/stable/]
+2.) Keras [https://keras.io/]
+3.) TensorFlow [https://www.tensorflow.org/]
+
+Diese Aufzählung ist nicht vollständig und stellt lediglich einige Repräsentanten dar.
+
+1.1 Scikit-Learn
+
+Scikit-Learn stellt einen simplen Einstieg in die Welt des Machine Learnings dar und hält den Großteil der eigentlichen
+Komplexität vor dem Anwender verborgen. Scikit-Learn baut im Wesentlichen auf NumPy [http://www.numpy.org/] und
+SciPy [https://www.scipy.org/] auf und bietet eine Reihe von einfach zu verwendenden Werkzeugen, die für die Analyse und
+Auswertung von Daten genutzt werden können.
+
+1.2 Keras
+
+Ähnlich wie Scikit-Learn stellt Keras ebenfalls ein Framework dar, das auf einer verhältnismäßig hohen Ebene operiert.
+Die Besonderheit besteht dabei darin, dass Keras eine Schnittstelle zu komplexeren Frameworks wie beispielsweise
+TensorFlow oder Theano bereitstellt. Damit eignet Keras sich insbesondere für das schnelle und einfache Entwickeln von
+Prototypen.
+
+1.3 TensorFlow
+
+Von den beiden zuvor genannten Frameworks kann TensorFlow abgegrenzt werden. TensorFlow bietet eine Reihe von
+verschieden komplexen APIs, die dem Anwender Zugang zu verschiedenen Leveln ermöglichen. Die Architektur des Frameworks
+kann mit Hilfe der nachfolgenden Grafik verdeutlicht werden:
+
+docu_img_21
+
+Wie Keras und Scikit-Learn bietet auch TensorFlow die Möglichkeit, Verfahren zu verwenden, die leicht zu bedienen sind
+und somit keine tiefgehenden Kenntnisse voraussetzen. Darüber hinaus ist es allerdings auch möglich, eigene Modelle und
+Strukturen von Grund auf selbst zu definieren und so direkten Einfluss auf das Lernen, Validieren und Vorhersehen zu
+nehmen.
