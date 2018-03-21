@@ -1,7 +1,7 @@
-facescrub
+Angriff von Gesichtsverfälschungen mithilfe von _Convolutional Neural Networks_ (CNN)
 =========
 
-Download dataset from http://vintage.winklerbros.net/facescrub.html
+Das Repository hält verschiedene Implementierungen eines CNNs bereit, welche dazu verwendet werden können, Verfahren zur Gesichtsverfälschung (engl. face obfuscation)
 
 simply rum `python download.py`, all images are downloaded under `download`.
 

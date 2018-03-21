@@ -36,8 +36,8 @@ from six.moves import xrange
 from sklearn.model_selection import train_test_split
 from at_imagecompairision import tf_ssim, tf_ms_ssim
 
-IMAGE_WIDTH = 64
-IMAGE_HEIGHT = 96
+IMAGE_WIDTH = 48
+IMAGE_HEIGHT = 48
 NUM_CHANNELS = 1
 PIXEL_DEPTH = 255
 
@@ -180,7 +180,7 @@ def main(_):
         return x
 
 
-    def model_2(data):
+    def model_layers(data):
         conv_1 = tf.layers.conv2d(data, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
         max_pool_1 = tf.layers.max_pooling2d(conv_1, pool_size=[2, 2], strides=[2, 2], padding='SAME')
         conv_2 = tf.layers.conv2d(max_pool_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
@@ -227,12 +227,12 @@ def main(_):
     # training step using the {feed_dict} argument to the Run() call below.
     train_data_node = tf.placeholder(
         np.float32,
-        shape=(BATCH_SIZE, IMAGE_HEIGHT, IMAGE_WIDTH, NUM_CHANNELS)
+        shape=(BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS)
     )
 
-    train_labels_node = tf.placeholder(tf.float32, shape=(BATCH_SIZE, IMAGE_HEIGHT, IMAGE_WIDTH, NUM_CHANNELS))
+    train_labels_node = tf.placeholder(tf.float32, shape=(BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS))
 
-    eval_data = tf.placeholder(np.float32, shape=(EVAL_BATCH_SIZE, IMAGE_HEIGHT, IMAGE_WIDTH, NUM_CHANNELS))
+    eval_data = tf.placeholder(np.float32, shape=(EVAL_BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS))
 
     # The variables below hold all the trainable weights. They are passed an
     # initial value which will be assigned when we call:
@@ -249,7 +249,7 @@ def main(_):
     conv8_weights = at_generate_weights(256, 1)
 
     # Training computation: logits + cross-entropy loss.
-    logits = model_2(train_data_node)
+    logits = model_layers(train_data_node)
 
     loss = tf.reduce_mean(tf.square(train_labels_node - logits))
     # loss = 1 - tf_ssim(train_labels_node, logits)
@@ -257,13 +257,13 @@ def main(_):
     batch = tf.Variable(0, dtype=np.float32)
 
     # Decay once per epoch, using an exponential schedule starting at 0.01.
-    learning_rate = 0.05
-        # tf.train.exponential_decay(
-        # 0.30,  # Base learning rate.
-        # batch * BATCH_SIZE,  # Current index into the dataset.
-        # train_size,  # Decay step.
-        # 0.95,  # Decay rate.
-        # staircase=True)
+    # learning_rate = 0.05
+    learning_rate = tf.train.exponential_decay(
+        0.01,  # Base learning rate.
+        batch * BATCH_SIZE,  # Current index into the dataset.
+        train_size,  # Decay step.
+        0.95,  # Decay rate.
+        staircase=True)
 
     optimizer = tf.train.MomentumOptimizer(learning_rate, 0.01).minimize(loss, global_step=batch)
 
@@ -271,7 +271,7 @@ def main(_):
     train_prediction = logits
 
     # Predictions for the test and validation, which we'll compute less often.
-    eval_prediction = model_2(eval_data)
+    eval_prediction = model_layers(eval_data)
 
     # Small utility function to evaluate a data set by feeding batches of data to
     # {eval_data} and pulling the results from {eval_predictions}.
@@ -281,7 +281,7 @@ def main(_):
         size = data.shape[0]
         if size < EVAL_BATCH_SIZE:
             raise ValueError("batch size for evals larger than dataset: %d" % size)
-        predictions = np.ndarray(shape=(size, 96, 64, 1), dtype=np.float32)
+        predictions = np.ndarray(shape=(size, IMAGE_WIDTH, IMAGE_HEIGHT, 1), dtype=np.float32)
         for begin in xrange(0, size, EVAL_BATCH_SIZE):
             end = begin + EVAL_BATCH_SIZE
             if end <= size:
@@ -312,7 +312,7 @@ def main(_):
         # if os.path.isfile('./model.ckpt')
         # saver.restore(sess, './model_2.ckpt')
         # else:
-        range = int(num_epochs * train_size) // BATCH_SIZE
+        range = 500  # int(num_epochs * train_size) // BATCH_SIZE
         for step in xrange(range):
             print('Step: %d/%d; Duration: %ds' % (step + 1, range, time.time() - start_time))
             start_time = time.time()
@@ -331,16 +331,22 @@ def main(_):
             # Run the optimizer to update weights.
             sess.run(optimizer, feed_dict=feed_dict)
 
-            save_path = saver.save(sess, './model_2.ckpt')
+            save_path = saver.save(sess, './.checkpoints/model_layers.ckpt')
             print("Model saved in path: %s" % save_path)
         #
         # test_error = error_rate(eval_in_batches(test_data, sess), test_labels)
         # print('Test error: %.1f%%' % test_error)
 
-        prediction = eval_in_batches(test_data, sess)[0]
-        img = np.array(np.multiply(prediction.reshape(96, 64), 255), dtype=np.int)
+        predictions = eval_in_batches(test_data, sess)
+        img = np.array(test_data[0].reshape([48, 48]), dtype=np.int)
         print(img)
-        cv2.imwrite('foo.ppm', img)
+        cv2.imwrite('test_data.ppm', img)
+
+        img = np.array(np.multiply(predictions[0].reshape([48, 48]), 255), dtype=np.int)
+        print(img)
+        cv2.imwrite('result.ppm', img)
+
+        print(img.shape)
         exit(1)
 
         # if FLAGS.self_test:
