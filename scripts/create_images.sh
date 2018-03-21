@@ -147,11 +147,12 @@ do
 
         path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '05')
         d="${path}/${filename}"
-        convert ${f} -adaptive-resize ${SCALE}% -scale 20% -scale 500% ${d}
+        convert ${f} -adaptive-resize ${SCALE}% -scale 20% -scale 500% -adaptive-resize 64x96 ${d}
 
-        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '10')
-        d="${path}/${filename}"
-        convert ${f} -adaptive-resize ${SCALE}% -scale 10% -scale 1000% ${d}
+        # dimension failure
+#        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '10')
+#        d="${path}/${filename}"
+#        convert ${f} -adaptive-resize ${SCALE}% -scale 10% -scale 1000% ${d}
     fi
 
     if [ ${GRAYSCALE} -eq 1 ];
@@ -176,12 +177,13 @@ do
 
         path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '05')
         d="${path}/${pgm_name}"
-        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 20% -scale 500% ${d}
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 20% -scale 500% -adaptive-resize 64x96 ${d}
         mv ${d} ${path}/${ppm_name}
 
-        path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '10')
-        d="${path}/${pgm_name}"
-        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 10% -scale 1000% ${d}
-        mv ${d} ${path}/${ppm_name}
+        # dimension failure
+#        path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '10')
+#        d="${path}/${pgm_name}"
+#        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 10% -scale 1000% -adaptive-resize 64x96 ${d}
+#        mv ${d} ${path}/${ppm_name}
     fi
 done;
