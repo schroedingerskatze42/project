@@ -3,8 +3,8 @@ __pycache__/
 .DS_Store
 checkpoint
 enhancer
-keras_checkpoints
 test_data
 test_data_updated
 testimages
 MNIST-data
+

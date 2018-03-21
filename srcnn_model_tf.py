@@ -1,4 +1,4 @@
-import data_reader
+import data_reader_2 as data_reader
 import time
 import os
 import numpy as np
