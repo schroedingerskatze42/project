@@ -10,7 +10,7 @@ from loss import gradient_importance
 
 
 def construct():
-    input_img = Input(shape=(224, 224, 1))
+    input_img = Input(shape=(96, 64, 1))
 
     x = Conv2D(256, (3, 3), activation='relu', padding='same')(input_img)
     x = MaxPooling2D((2, 2), padding='same')(x)
@@ -28,25 +28,30 @@ def construct():
     x = Conv2D(1, (3, 3), activation='sigmoid', padding='same')(x)
 
     model = Model(input_img, x)
-    model.compile(optimizer='adadelta', loss=gradient_importance)
-    # model.compile(optimizer='adadelta', loss=losses.mean_absolute_error)
+    # model.compile(optimizer='adadelta', loss=gradient_importance)
+    model.compile(optimizer='adadelta', loss=losses.mean_absolute_error)
 
-    train_data, train_label = data_reader.read_images_from_directory(source='test_data_updated/input/',
-                                                                     target='test_data_updated/output/')
+    train_data, train_label = data_reader.read_images_from_directory(
+        source='testimages/blur_03/', target='testimages/original/')
+    # source='test_data_updated/input/', target='test_data_updated/output/')
 
-    train_data = np.reshape(train_data, [-1, 224, 224, 1])
-    train_label = np.reshape(train_label, [-1, 224, 224, 1])
+    # train_data = np.reshape(train_data, [-1, 224, 224, 1])
+    # train_label = np.reshape(train_label, [-1, 224, 224, 1])
+
+    train_data = np.reshape(train_data, [-1, 96, 64, 1])
+    train_label = np.reshape(train_label, [-1, 96, 64, 1])
 
     test_img = train_data[:1]
 
-    print_image_on_batch_end = LambdaCallback(
-        on_batch_end=lambda epoch, logs: Image.fromarray(
-            np.multiply(model.predict(test_img).reshape([224, 224]), 255)).show())
+    save_image_on_epoch_end = LambdaCallback(
+        on_epoch_end=lambda epoch, logs: Image.fromarray(
+            np.multiply(model.predict(test_img).reshape([96, 64]), 255)).convert('RGB').save(
+            'results_keras/blur_03/ep%2d.ppm' % epoch))
 
-    filepath = "keras_checkpoints/weights_images_updated_{epoch:02d}_2.hdf5"
+    filepath = "keras_checkpoints/blur_03/weights_{epoch:02d}.hdf5"
     checkpointer = ModelCheckpoint(filepath=filepath, verbose=1)
 
-    model.fit(x=train_data, y=train_label, batch_size=32, epochs=4,
-              callbacks=[print_image_on_batch_end, checkpointer])
+    model.fit(x=train_data, y=train_label, batch_size=32, epochs=10,
+              callbacks=[save_image_on_epoch_end, checkpointer])
 
     return model
