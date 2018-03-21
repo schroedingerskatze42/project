@@ -91,9 +91,9 @@ then
     echo "assert directory ${mosaic_05_dir}"
     mkdir -p ${mosaic_05_dir}
 
-    mosaic_10_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' 10 )
-    echo "assert directory ${mosaic_10_dir}"
-    mkdir -p ${mosaic_10_dir}
+#    mosaic_10_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' 10 )
+#    echo "assert directory ${mosaic_10_dir}"
+#    mkdir -p ${mosaic_10_dir}
 fi
 if [ ${GRAYSCALE} -eq 1 ];
 then
@@ -113,9 +113,9 @@ then
     echo "assert directory ${mosaic_05_dir}"
     mkdir -p ${mosaic_05_dir}
 
-    mosaic_10_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' 10 )
-    echo "assert directory ${mosaic_10_dir}"
-    mkdir -p ${mosaic_10_dir}
+#    mosaic_10_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' 10 )
+#    echo "assert directory ${mosaic_10_dir}"
+#    mkdir -p ${mosaic_10_dir}
 fi
 
 num_of_files=$(find "${IMAGES_PATH}" -type f -iname "*.ppm" | wc -l)
@@ -147,7 +147,7 @@ do
 
         path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '05')
         d="${path}/${filename}"
-        convert ${f} -adaptive-resize ${SCALE}% -scale 20% -scale 500% -adaptive-resize 64x96 ${d}
+        convert ${f} -adaptive-resize ${SCALE}% -scale 20% -scale 500% -resize "64x96^" -gravity center -crop 64x96+0+0 ${d}
 
         # dimension failure
 #        path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'mosaic' '10')
@@ -177,7 +177,7 @@ do
 
         path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'mosaic' '05')
         d="${path}/${pgm_name}"
-        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 20% -scale 500% -adaptive-resize 64x96 ${d}
+        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% -scale 20% -scale 500% -resize "64x96^" -gravity center -crop 64x96+0+0 ${d}
         mv ${d} ${path}/${ppm_name}
 
         # dimension failure
