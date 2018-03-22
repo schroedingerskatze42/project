@@ -46,7 +46,7 @@ def construct():
 
     save_image_on_epoch_end = LambdaCallback(
         on_epoch_end=lambda epoch, logs: Image.fromarray(
-            np.multiply(model.predict(test_img).reshape([224, 224]), 255)).convert('RGB').save(
+            np.multiply(model.predict(test_img).reshape([96, 64]), 255)).convert('RGB').save(
             'results_keras/mosaic_05/ep%2d.ppm' % epoch))
 
     filepath = "keras_checkpoints/mosaic_05/weights_{epoch:02d}.hdf5"

@@ -1,4 +1,4 @@
-from lib import data_reader_2 as data_reader
+from lib import read_images_from_directory_2
 import time
 import os
 import numpy as np
@@ -132,13 +132,15 @@ class SRCNN(object):
         # self.loss = l.gradient_importance(self.labels, self.pred)
 
         # Loss function (MSE)
-        self.loss = tf.reduce_mean(self.labels - self.pred)
+        self.loss = tf.reduce_mean(tf.square(self.labels - self.pred))
 
         self.saver = tf.train.Saver()
 
     def train(self, config):
 
-        train_data, train_label = data_reader.read_images_from_directory()
+        train_data, train_label = read_images_from_directory_2(
+            source='databases/colorferet_testimages/grayscale/mosaic_05/',
+            target='databases/colorferet_testimages/original/')
 
         train_data = np.reshape(train_data, [-1, 96, 64, 1])
         train_label = np.reshape(train_label, [-1, 96, 64, 1])
