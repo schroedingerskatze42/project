@@ -1,9 +1,8 @@
-import data_reader_2 as data_reader
+from lib import data_reader_2 as data_reader
 import time
 import os
 import numpy as np
 from PIL import Image
-import loss as l
 
 import tensorflow as tf
 

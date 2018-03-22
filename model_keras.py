@@ -5,7 +5,7 @@ from keras import losses
 import numpy as np
 from PIL import Image
 
-from lib import read_images_from_directory
+from lib import read_images_from_directory_2
 from lib import gradient_importance
 
 
@@ -31,8 +31,9 @@ def construct():
     model.compile(optimizer='adadelta', loss=gradient_importance)
     # model.compile(optimizer='adadelta', loss=losses.mean_absolute_error)
 
-    train_data, train_label = read_images_from_directory(
-        source='testimages/blur_03/', target='testimages/original/')
+    train_data, train_label = read_images_from_directory_2(
+        source='databases/colorferet_testimages/grayscale/mosaic_05/',
+        target='databases/colorferet_testimages/original/')
     # source='test_data_updated/input/', target='test_data_updated/output/')
 
     # train_data = np.reshape(train_data, [-1, 224, 224, 1])
@@ -51,7 +52,7 @@ def construct():
     filepath = "keras_checkpoints/mosaic_05/weights_{epoch:02d}.hdf5"
     checkpointer = ModelCheckpoint(filepath=filepath, verbose=1)
 
-    model.fit(x=train_data, y=train_label, batch_size=32, epochs=3,
+    model.fit(x=train_data, y=train_label, batch_size=32, epochs=10,
               callbacks=[save_image_on_epoch_end, checkpointer])
 
     return model

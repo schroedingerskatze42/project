@@ -3,19 +3,13 @@ import os
 import numpy as np
 from PIL import Image
 
-IMAGE_SOURCE = 'images_50_grayscale/'
+__all__ = ['read_images_from_directory_2']
+
+IMAGE_SOURCE = 'databases/colorferet_testimages/'
 
 PATH_ORIGINAL = IMAGE_SOURCE + 'original/'
-PATH_BLURRED_03 = IMAGE_SOURCE + 'blurred_03/'
-PATH_BLURRED_06 = IMAGE_SOURCE + 'blurred_06/'
-PATH_BLURRED_09 = IMAGE_SOURCE + 'blurred_09/'
-PATH_BLURRED_12 = IMAGE_SOURCE + 'blurred_12/'
-PATH_BLURRED_15 = IMAGE_SOURCE + 'blurred_15/'
-PATH_MOSAIC_05 = IMAGE_SOURCE + 'mosaic_05/'
-PATH_MOSAIC_10 = IMAGE_SOURCE + 'mosaic_10/'
-PATH_MOSAIC_15 = IMAGE_SOURCE + 'mosaic_15/'
-PATH_MOSAIC_20 = IMAGE_SOURCE + 'mosaic_20/'
-PATH_MOSAIC_25 = IMAGE_SOURCE + 'mosaic_25/'
+PATH_BLURRED_03 = IMAGE_SOURCE + 'grayscale/blur_03/'
+PATH_MOSAIC_05 = IMAGE_SOURCE + 'grayscale/mosaic_05/'
 
 IMAGE_WIDTH = 64
 IMAGE_HEIGHT = 96
@@ -28,7 +22,7 @@ def image_path_to_array(path):
         return np.asarray(img) / 255
 
 
-def read_images_from_directory(source=PATH_BLURRED_03, target=PATH_ORIGINAL):
+def read_images_from_directory_2(source=PATH_BLURRED_03, target=PATH_ORIGINAL):
     X = []
     y = []
 
