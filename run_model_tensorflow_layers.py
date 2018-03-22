@@ -11,6 +11,7 @@ from six.moves import xrange
 from sklearn.model_selection import train_test_split
 
 from lib import tf_ssim
+from lib import read_images_from_directory
 
 IMAGE_WIDTH = 48
 IMAGE_HEIGHT = 48
@@ -20,7 +21,7 @@ PIXEL_DEPTH = 255
 VALIDATION_SIZE = 50  # Size of the validation set.
 SEED = 66478  # Set to None for random seed.
 BATCH_SIZE = 64
-NUM_EPOCHS = 1
+NUM_EPOCHS = 4
 EVAL_BATCH_SIZE = 64
 EVAL_FREQUENCY = 1  # Number of steps between evaluations.
 
@@ -44,101 +45,23 @@ def at_generate_biases(channels):
     return tf.Variable(tf.zeros([channels], dtype=np.float32))
 
 
+def model_layers(data):
+    conv_1 = tf.layers.conv2d(data, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+    max_pool_1 = tf.layers.max_pooling2d(conv_1, pool_size=[2, 2], strides=[2, 2], padding='SAME')
+    conv_2 = tf.layers.conv2d(max_pool_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+    max_pool_2 = tf.layers.max_pooling2d(conv_2, pool_size=[2, 2], strides=[2, 2], padding='SAME')
+    conv_3 = tf.layers.conv2d(max_pool_2, filters=512, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+    conv_4 = tf.layers.conv2d(conv_3, filters=512, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+    upsample_1 = tf.layers.conv2d_transpose(conv_4, filters=512, kernel_size=[2, 2], strides=[2, 2], padding='SAME')
+    conv_5 = tf.layers.conv2d(upsample_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
+    upsample_2 = tf.layers.conv2d_transpose(conv_5, filters=256, kernel_size=[2, 2], strides=[2, 2], padding='SAME')
+    conv_6 = tf.layers.conv2d(upsample_2, filters=1, kernel_size=[3, 3], activation=tf.nn.sigmoid, padding='SAME')
+    return conv_6
+
+
 def main(_):
-    # Model Definition
-    def model(data):
-        """The Model definition."""
-        x = tf.nn.conv2d(
-            data,
-            conv1_weights,
-            strides=[1, 1, 1, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.max_pool(
-            tf.nn.relu(tf.nn.bias_add(x, conv1_biases)),
-            ksize=[1, 2, 2, 1],
-            strides=[1, 2, 2, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.conv2d(
-            x,
-            conv2_weights,
-            strides=[1, 1, 1, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.max_pool(
-            tf.nn.relu(tf.nn.bias_add(x, conv2_biases)),
-            ksize=[1, 2, 2, 1],
-            strides=[1, 2, 2, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.conv2d(
-            x,
-            conv3_weights,
-            strides=[1, 1, 1, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.conv2d(
-            x,
-            conv4_weights,
-            strides=[1, 1, 1, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.conv2d_transpose(
-            x,
-            conv5_weights,
-            output_shape=[64, 48, 32, 512],
-            strides=[1, 2, 2, 1],
-            padding='SAME',
-            name='foo'
-        )
-
-        x = tf.nn.conv2d(
-            x,
-            conv6_weights,
-            strides=[1, 1, 1, 1],
-            padding='SAME'
-        )
-
-        x = tf.nn.conv2d_transpose(
-            x,
-            conv7_weights,
-            output_shape=[64, 96, 64, 256],
-            strides=[1, 2, 2, 1],
-            padding='SAME',
-            name='bar'
-        )
-
-        x = tf.nn.conv2d(
-            x,
-            conv8_weights,
-            strides=[1, 1, 1, 1],
-            padding='SAME'
-        )
-
-        return x
-
-    def model_layers(data):
-        conv_1 = tf.layers.conv2d(data, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
-        max_pool_1 = tf.layers.max_pooling2d(conv_1, pool_size=[2, 2], strides=[2, 2], padding='SAME')
-        conv_2 = tf.layers.conv2d(max_pool_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
-        max_pool_2 = tf.layers.max_pooling2d(conv_2, pool_size=[2, 2], strides=[2, 2], padding='SAME')
-        conv_3 = tf.layers.conv2d(max_pool_2, filters=512, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
-        conv_4 = tf.layers.conv2d(conv_3, filters=512, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
-        upsample_1 = tf.layers.conv2d_transpose(conv_4, filters=512, kernel_size=[2, 2], strides=[2, 2], padding='SAME')
-        conv_5 = tf.layers.conv2d(upsample_1, filters=256, kernel_size=[3, 3], activation=tf.nn.relu, padding='SAME')
-        upsample_2 = tf.layers.conv2d_transpose(conv_5, filters=256, kernel_size=[2, 2], strides=[2, 2], padding='SAME')
-        conv_6 = tf.layers.conv2d(upsample_2, filters=1, kernel_size=[3, 3], activation=tf.nn.sigmoid, padding='SAME')
-        return conv_6
-
     # Extract data into np arrays.
-    X, y = data_reader.read_images_from_directory()
+    X, y = read_images_from_directory()
 
     train_data, test_data, train_labels, test_labels = train_test_split(X, y, test_size=64/len(X))
 
@@ -163,20 +86,6 @@ def main(_):
 
     eval_data = tf.placeholder(np.float32, shape=(EVAL_BATCH_SIZE, IMAGE_WIDTH, IMAGE_HEIGHT, NUM_CHANNELS))
 
-    # The variables below hold all the trainable weights. They are passed an
-    # initial value which will be assigned when we call:
-    # {tf.global_variables_initializer().run()}
-    conv1_weights = at_generate_weights(NUM_CHANNELS, 256)
-    conv1_biases = at_generate_biases(256)
-    conv2_weights = at_generate_weights(256, 256)
-    conv2_biases = at_generate_biases(256)
-    conv3_weights = at_generate_weights(256, 512)
-    conv4_weights = at_generate_weights(512, 512)
-    conv5_weights = at_generate_weights(512, 512)
-    conv6_weights = at_generate_weights(512, 512)
-    conv7_weights = at_generate_weights(256, 512)
-    conv8_weights = at_generate_weights(256, 1)
-
     # Training computation: logits + cross-entropy loss.
     logits = model_layers(train_data_node)
 
@@ -186,18 +95,15 @@ def main(_):
     batch = tf.Variable(0, dtype=np.float32)
 
     # Decay once per epoch, using an exponential schedule starting at 0.01.
-    # learning_rate = 0.05
-    learning_rate = tf.train.exponential_decay(
-        0.01,  # Base learning rate.
-        batch * BATCH_SIZE,  # Current index into the dataset.
-        train_size,  # Decay step.
-        0.95,  # Decay rate.
-        staircase=True)
+    learning_rate = 0.05
+    # learning_rate = tf.train.exponential_decay(
+    #     0.01,  # Base learning rate.
+    #     batch * BATCH_SIZE,  # Current index into the dataset.
+    #     train_size,  # Decay step.
+    #     0.95,  # Decay rate.
+    #     staircase=True)
 
     optimizer = tf.train.MomentumOptimizer(learning_rate, 0.01).minimize(loss, global_step=batch)
-
-    # Predictions for the current training mini batch.
-    train_prediction = logits
 
     # Predictions for the test and validation, which we'll compute less often.
     eval_prediction = model_layers(eval_data)
@@ -241,9 +147,9 @@ def main(_):
         # if os.path.isfile('./model.ckpt')
         # saver.restore(sess, './model_2.ckpt')
         # else:
-        range = 500  # int(num_epochs * train_size) // BATCH_SIZE
+        range = int(NUM_EPOCHS * train_size) // BATCH_SIZE
         for step in xrange(range):
-            print('Step: %d/%d; Duration: %ds' % (step + 1, range, time.time() - start_time))
+            print('Step: %d/%d' % (step + 1, range))
             start_time = time.time()
 
             # Compute the offset of the current minibatch in the data.
@@ -258,19 +164,21 @@ def main(_):
                          train_labels_node: batch_labels}
 
             # Run the optimizer to update weights.
+            tf.estimator.EstimatorSpec(mode=tf.estimator.ModeKeys.TRAIN, loss=loss, train_op=optimizer)
             sess.run(optimizer, feed_dict=feed_dict)
 
-            save_path = saver.save(sess, './checkpoints/model_layers.ckpt')
-            print("Model saved in path: %s" % save_path)
+            print('Duration: %ds' % int(time.time() - start_time))
 
-        predictions = eval_in_batches(test_data, sess)
-        img = np.array(test_data[0].reshape([48, 48]), dtype=np.int)
-        print(img)
-        cv2.imwrite('test_data.ppm', img)
+            if 0 == step % 10:
+                if 0 == step % 500:
+                    save_path = saver.save(sess, './checkpoints/model_layers_%d.ckpt' % int(step / 500))
+                    print("Model saved in path: %s" % save_path)
 
-        img = np.array(np.multiply(predictions[0].reshape([48, 48]), 255), dtype=np.int)
-        print(img)
-        cv2.imwrite('result.ppm', img)
+                # write result image
+                predictions = eval_in_batches(test_data, sess)
+                img = np.array(np.multiply(predictions[0].reshape([48, 48]), 255), dtype=np.int)
+                filename = './results_tensorflow/result_%d.ppm' % int(step / 10)
+                cv2.imwrite(filename, img)
 
 
 if __name__ == '__main__':

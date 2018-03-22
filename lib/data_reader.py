@@ -22,20 +22,11 @@ def image_path_to_array(path):
 def read_images_from_directory(target=PATH_BLURRED_03):
     X = []
     y = []
-    files = os.listdir(PATH_ORIGINAL)
-    num_of_files = len(files)
 
-    i = 0
     for filename in os.listdir(PATH_ORIGINAL):
-        if i == 3000:
-            return X, y
         if filename.endswith('.ppm'):
-            i += 1
             X.append(image_path_to_array(os.path.join(target, filename)))
             y.append(image_path_to_array(os.path.join(PATH_ORIGINAL, filename)))
-
-            if 0 == i % 100:
-                print('Loading files (%d/%d)' % (i, num_of_files))
 
     return X, y
 
