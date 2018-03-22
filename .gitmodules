@@ -1,6 +1,3 @@
-[submodule "models"]
-	path = models
-	url = https://github.com/tensorflow/models
 [submodule "facescrub"]
 	path = facescrub
 	url = git@github.com:faceteam/facescrub.git
