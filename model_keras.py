@@ -2,11 +2,11 @@ from keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D
 from keras.models import Model
 from keras.callbacks import LambdaCallback, ModelCheckpoint
 from keras import losses
-import data_reader_2 as data_reader
 import numpy as np
 from PIL import Image
 
-from loss import gradient_importance
+from lib import read_images_from_directory
+from lib import gradient_importance
 
 
 def construct():
@@ -31,10 +31,9 @@ def construct():
     model.compile(optimizer='adadelta', loss=gradient_importance)
     # model.compile(optimizer='adadelta', loss=losses.mean_absolute_error)
 
-    train_data, train_label = data_reader.read_images_from_directory(
-        # source='testimages/blur_06/', target='testimages/original/')
-        # source='test_data_updated/input/', target='test_data_updated/output/')
-        source='testimages/50_grayscale/mosaic_05/', target='testimages/50_grayscale/original/')
+    train_data, train_label = read_images_from_directory(
+        source='testimages/blur_03/', target='testimages/original/')
+    # source='test_data_updated/input/', target='test_data_updated/output/')
 
     # train_data = np.reshape(train_data, [-1, 224, 224, 1])
     # train_label = np.reshape(train_label, [-1, 224, 224, 1])

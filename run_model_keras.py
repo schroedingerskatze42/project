@@ -1,5 +1,5 @@
 import model_keras
-import data_reader_2 as data_reader
+from lib import read_images_from_directory
 import numpy as np
 from PIL import Image
 
