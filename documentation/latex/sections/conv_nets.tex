@@ -257,8 +257,8 @@ erkennen und somit verarbeiten zu können.
 Dabei liegen den Convolutional Networks im Wesentlichen drei Ideen zugrunde:
 
 \begin{enumerate}
-    \item{Local receptive field}
-    \item{Shared weights}
+    \item{Local Receptive Field}
+    \item{Shared Weights}
     \item{Pooling}
 \end{enumerate}
 
@@ -266,9 +266,9 @@ Dabei liegen den Convolutional Networks im Wesentlichen drei Ideen zugrunde:
 
 Diese Bestandteile sollen nun nachfolgend einzeln genauer betrachtet werden.
 
-\textnormal{\paragraph{Local receptive field}}
+\textnormal{\paragraph{Local Receptive Field}}
 
-Für das Verständnis des lokalen rezeptiven Felds (\textit{local receptive field}) empfiehlt es sich, die Input-Neuronen des
+Für das Verständnis des lokalen rezeptiven Felds (\textit{Local Receptive Field}) empfiehlt es sich, die Input-Neuronen des
 Convolutional Networks nicht als vertikale Linie von Neuronen, sondern vielmehr in den Dimensionen des Bildes, das von
 dem Netzwerk betrachtet werden soll, zu visualisieren. Werden beispielsweise Bilder der Größe 28x28 Pixel betrachtet
 entspräche das dem nachfolgenden Input-Layer:
@@ -307,15 +307,15 @@ Auf diese Art und Weise entsteht das erste Hidden-Layer dessen Größe selbstver
 des Input-Layers. Geht man von einem Input-Bild der Größe 28x28 Pixel und einem lokalen rezeptiven Feld der Größe 5x5
 Pixel aus, so folgt daraus ein erstes Hidden-Layer der Größe 24x24 Pixel.
 
-\textnormal{\paragraph{Shared weights}}
+\textnormal{\paragraph{Shared Weights}}
 
 Jedes Neuron des Hidden-Layers verfügt wie üblich über einen Bias und - im Falle eines lokalen rezeptiven Felds der
-Größe 5x5 Pixel - über 5x5 Gewichte. Die Besonderheit besteht nun darin, dass diese Gewichte und Bias für ALLE Neuronen
-des Hidden-Layers gleich gelten. Inhaltlich hat dies zur Folge, dass ein konkretes Hidden-Layer genau eine konkrete
+Größe 5x5 Pixel - über 5x5 Gewichte. Die Besonderheit besteht nun darin, dass diese Gewichte und Bias für \textit{alle}
+Neuronen des Hidden-Layers gleich gelten. Inhaltlich hat dies zur Folge, dass ein konkretes Hidden-Layer genau eine konkrete
 \textit{Auffälligkeit} extrahiert. Solch eine konkrete \textit{Auffälligkeit} könnte beispielsweise eine vertikale oder horizontale
 Linie sein, die durch die Verwendung des lokalen rezeptiven Felds, das sich über das Bild bewegt, an beliebigen
 Positionen aufgespürt werden kann. Üblicherweise reicht es nicht aus, nur eine \textit{Auffälligkeit} aufzuspüren. Aus diesem
-Grund besteht ein einziges Layer häufig aus mehreren parallelen feature maps (TODO: Begriff einführen)).
+Grund besteht ein einziges Layer häufig aus mehreren parallelen Feature Maps.
 
 So könnte ein einziges Hidden-Layer beispielsweise die nachfolgende Form haben, durch das dann drei verschiedene
 Auffälligkeiten extrahiert werden würden:
@@ -327,9 +327,9 @@ Auffälligkeiten extrahiert werden würden:
     \label{fig:filter-layers}
 \end{figure}
 
-Ein weiterer wesentlicher Vorteil bei der Verwendung von \textit{shared weights} besteht darin, dass die Anzahl der zu
+Ein weiterer wesentlicher Vorteil bei der Verwendung von \textit{Shared Weights} besteht darin, dass die Anzahl der zu
 trainierenden Variablen um ein Vielfaches verringert wird, wodurch ein schnelleres Lernen ermöglicht werden kann.
-Eine einzige feature map (TODO) würde bei den bisher betrachteten Dimensionen durch 5x5 = 25 Gewichte und einen Bias,
+Eine einzige Feature Map würde bei den bisher betrachteten Dimensionen durch 5x5 = 25 Gewichte und einen Bias,
 also insgesamt 26 Parameter definiert werden. Selbst wenn ein Hidden-Layer aus 20 features maps bestünde, so würde dies
 im Ergebnis zu \textit{nur} 20x26 = 520 Parametern führen.
 Wird ein fully connected Layer bestehend aus 30 Neuronen und das gleiche Input-Layer wie zuvor betrachtet, so folgt
