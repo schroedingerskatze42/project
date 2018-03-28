@@ -1,19 +1,11 @@
 
-CNNs:
-https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/
-http://cs231n.github.io/convolutional-networks/
-https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/
-http://deeplearning.net/tutorial/lenet.html
-https://deeplearning4j.org/convolutionalnetwork.html
-
-NNs:
-http://neuralnetworksanddeeplearning.com/chap1.html
-http://neuralnetworksanddeeplearning.com/
-http://www.deeplearningbook.org/
-
-
-
 \section{Neuronale Netze}
+
+
+
+Die nachfolgenden Ausführungen und Graphiken zum Schaffen eines grundlegenden Verständnisses des Machine Learnings
+basieren im wesentlichen auf dem E-Book "Neural Networks and Deep Learning"\footnote{Michael Nielsen, Neural Networks and Deep Learning.\newline
+(http://neuralnetworksanddeeplearning.com/index.html)}.
 
 Im Rahmen des maschinellen Lernens stellen die sogenannten neuronalen Netze einen elementaren Ansatz dar,
 der in vielen weiteren Modellen Verwendung findet. Neuronale Netze wie das maschinelle Lernen an sich
@@ -61,7 +53,7 @@ Dies kann anhand des nachfolgenden Bilds verdeutlicht werden:
         1 \quad \text{if } \sum \omega_i x_i > \text{ threshold}
       \end{cases}
     \]
-    \caption{Formel zur Schwellwertberechnung.}
+    \caption{Berechnung des Outputs.}
     \label{fig:neuron-three-way}
 \end{figure}
 
@@ -95,7 +87,7 @@ werden als:
             1 \quad \text{if } \sum \omega \cdot x + b > 0
           \end{dcases}
     \]
-    \caption{Berechnung Schwellwertfunktion.}
+    \caption{Berechnung des Outputs bei Verwendung eines Bias.}
     \label{fig:bias-calculation}
 \end{figure}
 
@@ -186,7 +178,7 @@ error} (MSE) bezeichnet.
     \[ C(w, b) \equiv
           \frac{1}{2n}\displaystyle\sum_{x}{\parallel y(x) - a\parallel^2}
     \]
-    \caption{Lern-Funktion.}
+    \caption{Mean Squared Error (MSE).}
     \label{fig:learn-function}
 \end{figure}
 
@@ -202,6 +194,13 @@ gradient descent}) bezeichnet wird. Neben dem hier vorgestellten Verfahren exist
 zur Lösung dieses Optimierungs- bzw. Minimierungsproblems verwendet werden können.
 Zur Veranschaulichung des Problems soll nun eine Funktion zweier Variablen, die minimiert werden soll, betrachtet werden.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{docu_img_17}
+    \caption{Darstellung des Gradientenabstieg bei einer Funktion in Abhängigkeit von zwei Variablen.}
+    \label{fig:gradient-decent-3d}
+\end{figure}
+
 Dieses Problem könnte selbstverständlich durch Verfahren der Analysis gelöst werden. In der Realität ist die Anzahl der
 Variablen jedoch um ein Vielfaches höher, sodass diese Verfahren nicht mehr effizient angewandt werden können.
 
@@ -211,31 +210,33 @@ so gilt für den Funktionswert \textit{C}:
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.9\textwidth]{docu_img_17}
-    \caption{3D Darstellung des Gradientenabstiegs.}
-    \label{fig:gradient-decent-3d}
+    \[ \Delta C \approx
+          \frac{\delta C}{\delta v_1} \Delta v_1 + \frac{\delta C}{\delta v_2} \Delta v_2
+    \]
+    \caption{Veränderung des Funktionswerts.}
+    \label{fig:gradient-decent-definition}
 \end{figure}
 
 Der Gradient wird dann folgendermaßen definiert:
 
 \begin{figure}[h]
     \centering
-    \[ \Delta C \approx
-          \frac{\delta C}{\delta v_1} \Delta v_1 + \frac{\delta C}{\delta v_2} \Delta v_2
+    \[ \nabla C \equiv
+        (\frac{\delta C}{\delta v_1},\frac{\delta C}{\delta v_2})^T
     \]
-    \caption{Gradientendefinition.}
-    \label{fig:gradient-decent-definition}
+    \caption{Definition des Gradienten}
+    \label{fig:gradient-decent-definition-2}
 \end{figure}
 
 Durch die Verwendung dieses mathematischen Objekts kann die vorherige Gleichung\textsuperscript{\ref{fig:gradient-decent-definition}} formuliert werden als:
 
 \begin{figure}[h]
     \centering
-    \[ \nabla C \equiv
-        (\frac{\delta C}{\delta v_1},\frac{\delta C}{\delta v_2})^T
+    \[ \delta C \approx
+        \nabla C \cdot \delta v
     \]
-    \caption{Perzeptron}
-    \label{fig:gradient-decent-defition-2}
+    \caption{Veränderung des Funktionswerts durch Gradienten ausgedrückt}
+    \label{fig:gradient-decent-definition-3}
 \end{figure}
 
 Wird die Veränderung der Variablen (Gewichte) nun so gewählt, dass sie dem Inversen des Gradienten multipliziert mit
@@ -377,6 +378,6 @@ Demnach sähe ein sehr simples convolutional Netzwerk beispielsweise folgenderma
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_16}
-    \caption{Vollstäniges \textit{Convolutional Network mit Klassifizierungs-Ausgabe.}}
+    \caption{Vollständiges \textit{Convolutional Network mit Klassifizierungs-Ausgabe.}}
     \label{fig:convoultional-newtork}
 \end{figure}
