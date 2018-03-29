@@ -31,12 +31,12 @@ Das Thema Machine Learning erfährt derzeit einen unfassbar großen Hype. Infolg
 Forschungsarbeiten und Projekte, die sich mit der Verarbeitung von Bildern beschäftigen. Insbesondere fällt dabei auf,
 dass die Qualität des Ergebnisses maßgeblich von der Qualität und insbesondere auch der Masse der Traininsdaten abhängt.
 Projekte, die sich mit vergleichbaren Thematiken befassten, haben beispielsweise mit mehreren hunderttausend Datensätzen
-trainiert. Die Anzahl der in diesem Projekt verwendeten Datensätze beläuft sich auf etwa knapp 2500 Bilder, was
+trainiert. Die Anzahl der in diesem Projekt verwendeten Datensätze beläuft sich auf etwa knapp 2.500 Bilder, was
 offensichtlich eine deutlich kleinere Größenordnung ist.
 Ein weiterer entscheidender Parameter ist die Anzahl der Epochen. Eine Epoche meint dabei, dass jeder Datensatz der
 Trainingsdaten einmal betrachtet worden ist. Durch eine Erhöhung der Anzahl der Epochen ist es möglich, das zu trainierende
 Modell präziser auf die Daten abzustimmen - dabei gilt es jedoch zu beachten, dass zu viele Epochen dazu führen können,
-dass es zu einem sogenannten "Overfitting" kommt und das Modell "zu gut" an die Traininsdaten angepasst wird, so dass
+dass es zum \textit{Overfitting} kommt und das Modell ``zu gut'' an die Traininsdaten angepasst wird, so dass
 über unbekannte Datensätze deutlich fehlerbehaftete Aussagen getroffen werden können.
 
 \subsection{Beschaffung von entsprechenden Daten und deren Aufbereitung}
@@ -56,7 +56,7 @@ Verarbeitung von Bildern sowie dem Bearbeiten von Literatur, konnte ein tieferge
 Prinzipien des Machine Learnings und insbesondere auch neuronale Netze erlangt werden.
 Darüber hinaus konnten auch Erfahrungen im Umgang mit weit verbreiteten Frameworks, die im wissenschaftlichen Bereich und
 in der Bildverarbeitung verwendet werden, gesammelt werden. Dazu zählen insbesondere NumPy\footnote{NumPy, NumPy.\newline(http://www.numpy.org/)}.
-Da im Rahmen der Veranstaltung "Soft Computing" bereits erste Berührungspunkte verzeichnet werden konnten, bestand der
+Da im Rahmen der Veranstaltung ``Soft Computing'' bereits erste Berührungspunkte verzeichnet werden konnten, bestand der
 Wunsch dies noch zu vertiefen und sich auf einer niedrigeren Ebene mit den Thematiken zu befassen. Aus diesem Grund wurde
 TensorFlow als Unterstützung gewählt, dass dem Anwender tiefere Einblicke gewährt, als es beispielsweise bei Scikit-Learn
 der Fall ist.
@@ -79,7 +79,7 @@ dem das Modell Verwendung finden konnte. Dies kann anhand des Repositorys nachvo
 
 Einen zentralen Bestandteil des Machine Learnings stellt selbstverständlich das Trainieren des entwickelten Modells dar.
 Die Schwierigkeit besteht dabei darin, dass der Lernvorgang je nach Größe, Komplexität und Umfang der Daten eine gewisse
-Zeitdauer erfordert. Konkret bedeutet das, dass eine Epoche bei einem Training des Modells mit knapp 2500 Bildern mitunter
+Zeitdauer erfordert. Konkret bedeutet das, dass eine Epoche bei einem Training des Modells mit knapp 2.500 Bildern mitunter
 2 Stunden Zeit in Anspruch genommen hat. Infolgedessen war es schwierig und zugleich zeitaufwendig zu beurteilen,
 inwieweit Änderungen an dem Modell und den Parametern, die dieses beeinflussen, zu Verbesserungen oder Verschlechterungen
 führten.
@@ -98,11 +98,29 @@ anderen Seite bleibt dem Anwender dadurch ein großer Teil der darunterliegenden
 selbstverständlich je nach Betrachtungswinkel auch einen Vorteil dar. Sobald allerdings Ergebnisse entstehen, die nicht
 dem Erwarteten entsprechen, kann es sich als durchaus schwierig herausstellen, die Ursachen dafür aufzuspüren.
 
-Nachfolgend werden zunächst die mit Keras erzielten Ergebnisse aufgelistet. Dabei repräsentiert die ersten Spalte den Input,
+Nachfolgend werden die mit Keras erzielten Ergebnisse aufgelistet. Dabei repräsentiert die ersten Spalte den Input,
 die darauffolgenden drei Spalten die Ergebnisse nach der ersten, fünften und zehnten Epoche und die letzte Spalte das
 Originalbild, das nach Möglichkeit wiederhergestellt werden sollte.
 
+\begin{figure}[!htb]
+    \begin{adjustwidth}{-2cm}{}
+        \captionof{table}{Mit \textit{Keras} erzielte Resultate.}
+        \begin{tabular}{ c | c | c | c | c }
+            \small{Input} & \small{1. Epoche} & \small{5. Epoche} & \small{10. Epoche} & \small{Original} \\
+        \hline
+            \includegraphics[width=0.2\textwidth]{blur_03_in} &
+            \includegraphics[width=0.2\textwidth]{blur_03_ep_1} &
+            \includegraphics[width=0.2\textwidth]{blur_03_ep_5} &
+            \includegraphics[width=0.2\textwidth]{blur_03_ep_10} &
+            \includegraphics[width=0.2\textwidth]{96_64_target} \\
+        \hline
+            \includegraphics[width=0.2\textwidth]{mosaic_05_in} &
+            \includegraphics[width=0.2\textwidth]{mosaic_05_ep_1} &
+            \includegraphics[width=0.2\textwidth]{mosaic_05_ep_5} &
+            \includegraphics[width=0.2\textwidth]{mosaic_05_ep_10} &
+            \includegraphics[width=0.2\textwidth]{96_64_target} \\
+        \end{tabular}
+    \end{adjustwidth}
+\end{figure}
 
-
-
-
+\clearpage

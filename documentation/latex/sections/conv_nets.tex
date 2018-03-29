@@ -1,13 +1,10 @@
-
 \section{Neuronale Netze}
 
-
-
 Die nachfolgenden Ausführungen und Graphiken zum Schaffen eines grundlegenden Verständnisses des Machine Learnings
-basieren im wesentlichen auf dem E-Book "Neural Networks and Deep Learning"\footnote{Michael Nielsen, Neural Networks and Deep Learning.\newline
+basieren im wesentlichen auf dem E-Book ``Neural Networks and Deep Learning''\footnote{Michael Nielsen, Neural Networks and Deep Learning.\newline
 (http://neuralnetworksanddeeplearning.com/index.html)}.
 
-Im Rahmen des maschinellen Lernens stellen die sogenannten neuronalen Netze einen elementaren Ansatz dar,
+Im Rahmen des maschinellen Lernens stellen die neuronalen Netze einen elementaren Ansatz dar,
 der in vielen weiteren Modellen Verwendung findet. Neuronale Netze wie das maschinelle Lernen an sich
 stellen eine andere Herangehensweise dar, als die klassischer, deterministischer Algorithmen.
 
@@ -25,7 +22,7 @@ Dieser Ansatz wird als \textit{Soft Computing} bezeichnet.
 
 \subsection{Perzeptron}
 
-Als elementaren Bestandteil eines neuronalen Netzes dient das sogenannte \textit{Perzeptron} - dieses stellt
+Als elementaren Bestandteil eines neuronalen Netzes dient das \textit{Perzeptron} - dieses stellt
 die kleinste Einheit eines neuronalen Netztes dar und wird auch als ``künstliches Neuron'' bezeichnet.
 
 Grundsätzlich akzeptiert ein Neuron einen beliebig großen Input bestehend aus Features \textit{x1, x2, ..., xn} und
@@ -49,8 +46,8 @@ Dies kann anhand des nachfolgenden Bilds verdeutlicht werden:
     \centering
     \[ output =
       \begin{cases}
-        0 \quad \text{if } \sum \omega_i x_i \leqslant \text{ threshold}\\
-        1 \quad \text{if } \sum \omega_i x_i > \text{ threshold}
+        0 \quad \text{if } \sum \omega_i x_i \leqslant \text{ threshold (Schwellwert)}\\
+        1 \quad \text{if } \sum \omega_i x_i > \text{ threshold (Schwellwert)}
       \end{cases}
     \]
     \caption{Berechnung des Outputs.}
@@ -71,8 +68,6 @@ mehrere Perzeptrons miteinander verknüpft werden, so dass beispielsweise das na
     \caption{Mehrschichtiges neuronales Netz.}
     \label{fig:multi-layer-net}
 \end{figure}
-
-
 
 In Grafik\textsuperscript{\ref{fig:neuron-three-way}} wurde ein Schwellwert eingeführt, der überschritten werden muss, damit ein Perzeptron
 aktiviert wird. Um das Modell zu vereinheitlichen, kann der \textit{Bias} definiert werden, der den
@@ -106,7 +101,7 @@ keine stetige Änderung des Outputs zur Folge haben, sondern folgenlos bleiben k
 auf 1 oder umgekehrt stattfindet, was wiederum eine große Änderung darstellt.
 
 Die Weiterentwicklung besteht nun in einer Verfeinerung der Aktivierungsfunktion. Anstatt eine Sprungfunktion\textsuperscript{\ref{fig:step-function}} zu
-verwenden, die lediglich 0 und 1 als Funktionswert annehmen kann, wird die sogenannte Sigmoid Funktion\textsuperscript{\ref{fig:sigmoid-function}} eingeführt,
+verwenden, die lediglich 0 und 1 als Funktionswert annehmen kann, wird die Sigmoid Funktion\textsuperscript{\ref{fig:sigmoid-function}} eingeführt,
 die die folgende Form hat:
 
 \begin{figure}[h]
@@ -148,8 +143,8 @@ ein Input-Layer und ein Output-Layer sowie dazwischen beliebig viele Hidden-Laye
 ist dabei sehr naheliegend: das Input-Layer hat die gleiche Struktur wie die des Inputs und das Output-Layer hat
 entsprechend die gleiche Struktur wie der Output.
 
-Angenommen es sollen Bilder der Größe 28x28 Pixel klassifiziert werden und es gibt 10 mögliche Klassen, dann besteht das
-Input-Layer aus 28x28 = 784 Neuronen und das Output-Layer aus 10 Neuronen.
+Angenommen es sollen Bilder der Größe 28 \(\times\) 28 Pixel klassifiziert werden und es gibt 10 mögliche Klassen, dann besteht das
+Input-Layer aus 28 \(\times\) 28 = 784 Neuronen und das Output-Layer aus 10 Neuronen.
 
 Lediglich der Bereich zwischen Input- und Output-Layer - die Hidden-Layer - lässt sich nicht ohne Weiteres aus dem Input
 oder dem Output ableiten. Es gibt lediglich Heuristiken, die beim Design der Hidden-Layer angewandt werden können,
@@ -270,7 +265,7 @@ Diese Bestandteile sollen nun nachfolgend einzeln genauer betrachtet werden.
 
 Für das Verständnis des lokalen rezeptiven Felds (\textit{Local Receptive Field}) empfiehlt es sich, die Input-Neuronen des
 Convolutional Networks nicht als vertikale Linie von Neuronen, sondern vielmehr in den Dimensionen des Bildes, das von
-dem Netzwerk betrachtet werden soll, zu visualisieren. Werden beispielsweise Bilder der Größe 28x28 Pixel betrachtet
+dem Netzwerk betrachtet werden soll, zu visualisieren. Werden beispielsweise Bilder der Größe 28 \(\times\) 28 Pixel betrachtet
 entspräche das dem nachfolgenden Input-Layer:
 
 \begin{figure}[h]
@@ -304,13 +299,13 @@ folgendermaßen aus:
 \end{figure}
 
 Auf diese Art und Weise entsteht das erste Hidden-Layer dessen Größe selbstverständlich etwas kleiner ist, als die Größe
-des Input-Layers. Geht man von einem Input-Bild der Größe 28x28 Pixel und einem lokalen rezeptiven Feld der Größe 5x5
-Pixel aus, so folgt daraus ein erstes Hidden-Layer der Größe 24x24 Pixel.
+des Input-Layers. Geht man von einem Input-Bild der Größe 28 \(\times\) 28 Pixel und einem lokalen rezeptiven Feld der Größe 5 \(\times\) 5
+Pixel aus, so folgt daraus ein erstes Hidden-Layer der Größe 24 \(\times\) 24 Pixel.
 
 \textnormal{\paragraph{Shared Weights}}
 
 Jedes Neuron des Hidden-Layers verfügt wie üblich über einen Bias und - im Falle eines lokalen rezeptiven Felds der
-Größe 5x5 Pixel - über 5x5 Gewichte. Die Besonderheit besteht nun darin, dass diese Gewichte und Bias für \textit{alle}
+Größe 5 \(\times\) 5 Pixel - über 5 \(\times\) 5 Gewichte. Die Besonderheit besteht nun darin, dass diese Gewichte und Bias für \textit{alle}
 Neuronen des Hidden-Layers gleich gelten. Inhaltlich hat dies zur Folge, dass ein konkretes Hidden-Layer genau eine konkrete
 \textit{Auffälligkeit} extrahiert. Solch eine konkrete \textit{Auffälligkeit} könnte beispielsweise eine vertikale oder horizontale
 Linie sein, die durch die Verwendung des lokalen rezeptiven Felds, das sich über das Bild bewegt, an beliebigen
@@ -329,23 +324,23 @@ Auffälligkeiten extrahiert werden würden:
 
 Ein weiterer wesentlicher Vorteil bei der Verwendung von \textit{Shared Weights} besteht darin, dass die Anzahl der zu
 trainierenden Variablen um ein Vielfaches verringert wird, wodurch ein schnelleres Lernen ermöglicht werden kann.
-Eine einzige Feature Map würde bei den bisher betrachteten Dimensionen durch 5x5 = 25 Gewichte und einen Bias,
+Eine einzige Feature Map würde bei den bisher betrachteten Dimensionen durch 5 \(\times\) 5 = 25 Gewichte und einen Bias,
 also insgesamt 26 Parameter definiert werden. Selbst wenn ein Hidden-Layer aus 20 features maps bestünde, so würde dies
-im Ergebnis zu \textit{nur} 20x26 = 520 Parametern führen.
+im Ergebnis zu \textit{nur} 20 \(\times\) 26 = 520 Parametern führen.
 Wird ein fully connected Layer bestehend aus 30 Neuronen und das gleiche Input-Layer wie zuvor betrachtet, so folgt
-daraus, dass insgesamt (28 x 28) x 30 + 30 = 23550 Parameter in jedem Schritt des Lernens angepasst werden müssen.
+daraus, dass insgesamt (28 x 28) x 30 + 30 = 23.550 Parameter in jedem Schritt des Lernens angepasst werden müssen.
 
 \textnormal{\paragraph{Pooling}}
 
 Die zuvor vorgestellten Layer, die durch die Verwendung des lokalen rezeptiven Felds und gemeinsam geteilter Gewichte
 enstehen, werden gemeinhin als \textit{convolutional} Layer bezeichnet. Von diesen kann ein weiterer wesentlicher Bestandteil
-von convolutional networks abgegrenzt werden - die sogenannten \textit{pooling} Layer. Diese Art von Layer folgt für
+von convolutional networks abgegrenzt werden - die \textit{pooling} Layer. Diese Art von Layer folgt für
 gewöhnlich auf die zuvor vorgestellten \textit{convolutional} Layer und hat zur Aufgabe, die dadurch gewonnenen Informationen
 zu vereinfachen.
 Das grundsätzliche Vorgehen kann durchaus mit dem des convolutional Layers verglichen werden - auch bei den pooling
 Layers kommt ein Feld zum Einsatz, dass sich über das Ergebnis des vorherigen Schrittes bewegt. Es könnte sich
-beispielsweise um ein Feld der Größe 2x2 handeln. Dieses würde somit immer 4 Neuronen betrachten und - im Falle des
-sogenannten max-poolings (einer konkreten Ausprägung des Poolings) - das größte von ihnen auswählen.
+beispielsweise um ein Feld der Größe 2 \(\times\) 2 handeln. Dieses würde somit immer 4 Neuronen betrachten und - im Falle des
+max-poolings (einer konkreten Ausprägung des Poolings) - das größte von ihnen auswählen.
 
 Bildlich kann dies auf die folgende Art und Weise veranschaulicht werden:
 
@@ -357,7 +352,7 @@ Bildlich kann dies auf die folgende Art und Weise veranschaulicht werden:
 \end{figure}
 
 Dadurch, dass vier Neuronen auf ein Neuron projeziert werden, verringert sich die Größe bei diesem konkreten Beispiel
-von 24x24 auf 12x12. Dieses Vorgehen wird selbstverständlich auf alle feature maps des vorherigen convolutional Layers
+von 24 \(\times\) 24 auf 12 \(\times\) 12. Dieses Vorgehen wird selbstverständlich auf alle feature maps des vorherigen convolutional Layers
 angewendet, so dass das folgende Ergebnis entsteht.
 
 \begin{figure}[h]
@@ -378,6 +373,6 @@ Demnach sähe ein sehr simples convolutional Netzwerk beispielsweise folgenderma
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_16}
-    \caption{Vollständiges \textit{Convolutional Network mit Klassifizierungs-Ausgabe.}}
+    \caption{Vollständiges \textit{Convolutional Network} mit Klassifizierungs-Ausgabe.}
     \label{fig:convoultional-newtork}
 \end{figure}

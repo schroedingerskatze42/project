@@ -42,7 +42,7 @@ kann mit Hilfe der nachfolgenden Grafik verdeutlicht werden:
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.3\textwidth]{docu_img_21}
+    \includegraphics[width=0.9\textwidth]{docu_img_21}
     \caption{Architektur von TensorFlow}
     \label{fig:tf-api}
 \end{figure}
@@ -57,28 +57,28 @@ nehmen.
 In diesem Projekt wurde der Fokus insbesondere auf TensorFlow gelegt. Den elementaren Datentyp von TensorFlow stellen
 Tensoren dar. Diese sind mathematisch betrachtet eine Abstraktion von Vektoren und Matritzen. So entspricht ein Tensor
 des Typs (0, 0) beispielsweise Skalaren und Tensoren vom Typ (1, 0) Vektoren.
-Im Sinne von TensorFlow wird unter einem Tensor\footnote{TensorFlow, tf.Tensor.\newline(https://www.tensorflow.org/api_docs/python/tf/Tensor)}
-ein Platzhalter für den Output einer Operation\footnote{TensorFlow, tf.Operation.\newline(https://www.tensorflow.org/api_docs/python/tf/Operation)} verstanden.
+Im Sinne von TensorFlow wird unter einem Tensor\footnote{TensorFlow, tf.Tensor.\newline(https://www.tensorflow.org/api\_docs/python/tf/Tensor)}
+ein Platzhalter für den Output einer Operation\footnote{TensorFlow, tf.Operation.\newline(https://www.tensorflow.org/api\_docs/python/tf/Operation)} verstanden.
 Die Besonderheit besteht dabei darin, dass ein Tensor lediglich einen Platzhalter darstellt und keine konkreten Werte
 repräsentiert. Der Tensor repräsentiert vielmehr eine Berechnungsvorschrift, nach der sein Output zu berechnen ist.
 Auf diese Art und Weise können mehrere Operationen miteinander verkettet werden, die jeweils einen Tensor als Input und
-Output haben. Dadurch entsteht ein Graph\footnote{TensorFlow, tf.Graph.\newline(https://www.tensorflow.org/api_docs/python/tf/Graph)},
-der demnach eine komplette Berechnung repräsentiert. Sobald diese Berechnung im Rahmen einer Session\footnote{TensorFlow, tf.Session.\newline(https://www.tensorflow.org/api_docs/python/tf/Session)}
+Output haben. Dadurch entsteht ein Graph\footnote{TensorFlow, tf.Graph.\newline(https://www.tensorflow.org/api\_docs/python/tf/Graph)},
+der demnach eine komplette Berechnung repräsentiert. Sobald diese Berechnung im Rahmen einer Session\footnote{TensorFlow, tf.Session.\newline(https://www.tensorflow.org/api\_docs/python/tf/Session)}
 ausgeführt wird, \textit{fließt} der Input durch den zuvor definierten Graphen, so dass schlussendlich ein Output
 produziert wird.
 
-TensorFlow macht demnach starken Gebrauch des \texit{DataFlow-Paradigmas}\footnote{Wikipedia, Dataflow programming.\newline(https://en.wikipedia.org/wiki/Dataflow_programming)},
+TensorFlow macht demnach starken Gebrauch des \textit{DataFlow-Paradigmas}\footnote{Wikipedia, Dataflow programming.\newline(https://en.wikipedia.org/wiki/Dataflow\_programming)},
 wodurch insbesondere die Parallelisierung von Berechnungen erheblich begünstigt wird.
 
 Das Zusammenspiel von Graphen und Sessions kann anhand der nachfolgenden Graphik verdeutlicht werden:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{docu_img_22}
+    \includegraphics[width=0.5\textwidth]{docu_img_22}
     \caption{Exemplarischer \textit{Dataflow}.}
     \label{fig:tf-api}
 \end{figure}
-
+\par
 Da im Rahmen des Projekts auf einige Probleme bei der Verwendung von TensorFlow gestoßen wurde, wurde parallel zum
 Betrieb von TensorFlow versucht, das Modell mit Keras nachzubauen. Keras ist etwas abstrakter als TensorFlow und bietet
 dem Anwender so weniger Konfigurationsmöglichkeiten, wodurch andererseits auch eigene Fehler ausgeschlossen oder eliminiert

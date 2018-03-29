@@ -41,7 +41,7 @@ german]{article}
 }
 \usepackage{listings}
 \usepackage{float}
-
+\usepackage{changepage}
 \input{structure.tex} % Include the structure.tex file which specified the document structure and layout
 
 \hyphenation{Fortran hy-phen-ation} % Specify custom hyphenation points in words with dashes where you would like hyphenation to occur, or alternatively, don't put any dashes in a word to stop hyphenation altogether
@@ -137,11 +137,13 @@ german]{article}
 
 \input{sections/report.tex}
 
+\input{sections/fazit.tex}
+
 \newpage
 
 \listoffigures % Print the list of figures
 
-%\listoftables % Print the list of tables
+\listoftables % Print the list of tables
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
