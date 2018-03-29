@@ -47,9 +47,9 @@ def construct():
     save_image_on_epoch_end = LambdaCallback(
         on_epoch_end=lambda epoch, logs: Image.fromarray(
             np.multiply(model.predict(test_img).reshape([96, 64]), 255)).convert('RGB').save(
-            'results_keras/mosaic_05/ep%2d.ppm' % epoch))
+            'keras_results/images/mosaic_05/ep%2d.ppm' % epoch))
 
-    filepath = "keras_checkpoints/mosaic_05/weights_{epoch:02d}.hdf5"
+    filepath = "keras_results/checkpoints/mosaic_05/weights_{epoch:02d}.hdf5"
     checkpointer = ModelCheckpoint(filepath=filepath, verbose=1)
 
     model.fit(x=train_data, y=train_label, batch_size=32, epochs=10,
