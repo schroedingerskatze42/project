@@ -13,15 +13,15 @@ TensorFlow is an open-source software library for dataflow programming across a 
 ## Techniques used
 
 ### Pixelization (mosaic technique)
-![Original Image](https://github.com/nobYsDarling/project/raw/master/documentation/images/introduction_mosaic_original.jpg "Original Image")
-![Pixelization edge length 5px](https://github.com/nobYsDarling/project/raw/master/documentation/images/introduction_mosaic_5.jpg "Pixelization edge length 5px")
-![Pixelization edge length 10px](https://github.com/nobYsDarling/project/raw/master/documentation/images/introduction_mosaic_10.jpg "Pixelization edge length 10px")
+![Original Image](https://github.com/nobYsDarling/project/raw/master/documentation/Figures/introduction_mosaic_original.jpg "Original Image")
+![Pixelization edge length 5px](https://github.com/nobYsDarling/project/raw/master/documentation/Figures/introduction_mosaic_5.jpg "Pixelization edge length 5px")
+![Pixelization edge length 10px](https://github.com/nobYsDarling/project/raw/master/documentation/Figures/introduction_mosaic_10.jpg "Pixelization edge length 10px")
 
 
 ### Gaussian Blur
-![Original Image](https://github.com/nobYsDarling/project/raw/master/documentation/images/introduction_blur_original.jpg "Original Image")
-![sigma = 3](https://github.com/nobYsDarling/project/raw/master/documentation/images/introduction_blur_sigma_3.jpg "sigma = 3")
-![sigma = 6](https://github.com/nobYsDarling/project/raw/master/documentation/images/introduction_blur_sigma_6.jpg "sigma = 6")
+![Original Image](https://github.com/nobYsDarling/project/raw/master/documentation/Figures/introduction_blur_original.jpg "Original Image")
+![sigma = 3](https://github.com/nobYsDarling/project/raw/master/documentation/Figures/introduction_blur_sigma_3.jpg "sigma = 3")
+![sigma = 6](https://github.com/nobYsDarling/project/raw/master/documentation/Figures/introduction_blur_sigma_6.jpg "sigma = 6")
 
 
 ## Create test data and run
