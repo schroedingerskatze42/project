@@ -28,7 +28,7 @@ die kleinste Einheit eines neuronalen Netztes dar und wird auch als ``künstlich
 Grundsätzlich akzeptiert ein Neuron einen beliebig großen Input bestehend aus Features \textit{x1, x2, ..., xn} und
 berechnet daraus ein Ergebnis.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{docu_img_01}
     \caption{Perzeptron}
@@ -42,7 +42,7 @@ Output liefert, hängt dann davon ab, ob die gewichtete Summe der Eingangsgröß
 
 Dies kann anhand der nachfolgenden Formel verdeutlicht werden:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ output =
       \begin{cases}
@@ -62,7 +62,7 @@ Das gezeigte Modell ist augenscheinlich sehr simpel und noch sehr weit von dem e
 Netz bezeichnet werden würde. Es ist allerdings ohne Weiteres denkbar, das gezeigte Model komplexer zu gestalten, indem
 mehrere Perzeptrons miteinander verknüpft werden, so dass beispielsweise das nachfolgende Netzwerk entstehen könnte:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{docu_img_03}
     \caption{Mehrschichtiges neuronales Netz.}
@@ -74,7 +74,7 @@ aktiviert wird. Um das Modell zu vereinheitlichen, kann der \textit{Bias} defini
 negativen Schwellwert darstellt. Durch diese Maßnahme kann die Aktivierungsfunktion des Perzeptrons dann geschrieben
 werden als:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ output =
           \begin{dcases}
@@ -86,7 +86,7 @@ werden als:
     \label{fig:bias-calculation}
 \end{figure}
 
-Inhaltlich kann der Bias als ein Maß verstanden werden, aus dem hervorgeht, wie \texit{leicht} ein Perzeptron aktiviert
+Inhaltlich kann der Bias als ein Maß verstanden werden, aus dem hervorgeht, wie \textit{leicht} ein Perzeptron aktiviert
 werden kann. Nimmt der Bias einen großen Wert an, so kann das Perzeptron einen Wert von 1 annehmen, auch wenn das
 Produkt aus den Gewichten und den Eingangsgrößen einen negativen Wert annimmt. Gleiches gilt selbstverständlich auch für
 einen kleinen Bias, der zur Folge hat, dass ein Perzeptron träger reagiert.
@@ -104,7 +104,7 @@ Die Weiterentwicklung besteht nun in einer Verfeinerung der Aktivierungsfunktion
 verwenden, die lediglich 0 und 1 als Funktionswert annehmen kann, wird die Sigmoid Funktion\textsuperscript{\ref{fig:sigmoid-function}} eingeführt,
 die die folgende Form hat:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ \sigma(z) \equiv
           \frac{1}{1+e^{-z}}
@@ -117,7 +117,7 @@ Der entscheidende Unterschied kann an den beiden nachfolgenden Grafiken verdeutl
 der entsprechenden Funktion darstellen:
 
 \captionsetup[subfigure]{labelformat=empty, labelsep=none}
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=0.9\textwidth]{docu_img_06}
@@ -151,7 +151,7 @@ oder dem Output ableiten. Es gibt lediglich Heuristiken, die beim Design der Hid
 allerdings keine konkreten Regeln, die befolgt werden müssen. Diese Struktur kann anhand des nachfolgenden Bilds
 verdeutlicht werden, bei dem - um die Übersichtlichkeit zu wahren - das Input-Layer etwas komprimiert dargestellt wird:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_08}
     \caption{Hidden-Layer Darstellung.}
@@ -168,7 +168,7 @@ Erwartungswert und tatsächlichem Wert möglichst gering sind. Es sind grundsät
 denkbar, eine, die jedoch eine breite Verwendeung findet, ist die quadratische Kosten-Funktion - auch als \textit{mean squared
 error} (MSE) bezeichnet.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ C(w, b) \equiv
           \frac{1}{2n}\displaystyle\sum_{x}{\parallel y(x) - a\parallel^2}
@@ -189,7 +189,7 @@ gradient descent}) bezeichnet wird. Neben dem hier vorgestellten Verfahren exist
 zur Lösung dieses Optimierungs- bzw. Minimierungsproblems verwendet werden können.
 Zur Veranschaulichung des Problems soll nun eine Funktion zweier Variablen, die minimiert werden soll, betrachtet werden.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_17}
     \caption{Darstellung des Gradientenabstieg bei einer Funktion in Abhängigkeit von zwei Variablen.}
@@ -203,7 +203,7 @@ Zur Visualisierung der grundlegenden Idee des Gradientenabstiegs kann sich ein B
 in Richtung eines Tals bewegt. Bewegt man den Ball etwas in Richtung \textit{v1} und etwas in Richtung \textit{v2}
 so gilt für den Funktionswert \textit{C}:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ \Delta C \approx
           \frac{\delta C}{\delta v_1} \Delta v_1 + \frac{\delta C}{\delta v_2} \Delta v_2
@@ -214,7 +214,7 @@ so gilt für den Funktionswert \textit{C}:
 
 Der Gradient wird dann folgendermaßen definiert:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ \nabla C \equiv
         (\frac{\delta C}{\delta v_1},\frac{\delta C}{\delta v_2})^T
@@ -225,7 +225,7 @@ Der Gradient wird dann folgendermaßen definiert:
 
 Durch die Verwendung dieses mathematischen Objekts kann die vorherige Gleichung\textsuperscript{\ref{fig:gradient-decent-definition}} formuliert werden als:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \[ \delta C \approx
         \nabla C \cdot \delta v
@@ -268,7 +268,7 @@ Convolutional Networks nicht als vertikale Linie von Neuronen, sondern vielmehr 
 dem Netzwerk betrachtet werden soll, zu visualisieren. Werden beispielsweise Bilder der Größe 28 \(\times\) 28 Pixel betrachtet
 entspräche das dem nachfolgenden Input-Layer:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{docu_img_10}
     \caption{Feld von Inputneuronen.}
@@ -280,7 +280,7 @@ nachfolgenden Hidden-Layers verbunden werden, besteht die Besonderheit nun darin
 mit einem kleinen Bereich des Inputs verbunden wird. Dieses Vorgehen kann anhand des folgenden Bildes veranschaulicht
 werden:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_11}
     \caption{Convolution-Prozess, Schritt 1.}
@@ -288,10 +288,10 @@ werden:
 \end{figure}
 
 Dieses lokale rezeptive Feld wird dann gemäß der Konfiguration über das Input-Bild \textit{bewegt}, so dass alle Input-Neuronen
-besucht werden. Demnach sähe der zweite Schritt - unter der Annahme, dass das Feld immer um ein Pixel verschoben wird -
+besucht werden. Demnach sähe der zweite Schritt - unter der Annahme, dass das Feld immer um ein Pixel verschoben wird
 folgendermaßen aus:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_12}
     \caption{Convolution-Prozess, Schritt 2.}
@@ -315,7 +315,7 @@ Grund besteht ein einziges Layer häufig aus mehreren parallelen Feature Maps.
 So könnte ein einziges Hidden-Layer beispielsweise die nachfolgende Form haben, durch das dann drei verschiedene
 Auffälligkeiten extrahiert werden würden:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_13}
     \caption{Drei Filterschichten.}
@@ -344,7 +344,7 @@ max-poolings (einer konkreten Ausprägung des Poolings) - das größte von ihnen
 
 Bildlich kann dies auf die folgende Art und Weise veranschaulicht werden:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_14}
     \caption{Maxpooling Prozess.}
@@ -355,7 +355,7 @@ Dadurch, dass vier Neuronen auf ein Neuron projeziert werden, verringert sich di
 von 24 \(\times\) 24 auf 12 \(\times\) 12. Dieses Vorgehen wird selbstverständlich auf alle feature maps des vorherigen convolutional Layers
 angewendet, so dass das folgende Ergebnis entsteht.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_15}
     \caption{Convolution Prozess.}
@@ -370,7 +370,7 @@ Netzen orientieren sich Input- und Output-Layer an der Struktur des Inputs bzw. 
 abwechselnd convolutional und pooling Layer, die grundsätzlich beliebig oft hintereinander geschaltet werden können.
 Demnach sähe ein sehr simples convolutional Netzwerk beispielsweise folgendermaßen aus:
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{docu_img_16}
     \caption{Vollständiges \textit{Convolutional Network} mit Klassifizierungs-Ausgabe.}
