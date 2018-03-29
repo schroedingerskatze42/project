@@ -16,21 +16,21 @@ Diese Technologien werden von
 öffentlichen Medien, wie Privatpersonen verwendet. In der Vergangenheit
 gab es den Fall eines Kinderschänders, der verfälschte Gesichtsbilder von sich veröffentlichte. Er verwendete dabei
 ein Verfahren, das Pixel um einen zentralen Punkt zu einer Spirale rotiert. Behörden war es damals möglich, diese
-Form der Gesichtsverfälschung, der Informationsverlust im Vergleich zu den Verfahren, die in dieser Arbeit behandelt
+Form der Gesichtsverfälschung, deren Informationsverlust im Vergleich zu den Verfahren, die in dieser Arbeit behandelt
 werden, gering ist, aufzuheben und das Gesicht weitgehends wiederherzustellen.
 \footnote{Wikipedia, ``Christopher Paul Neil''.\newline(https://en.wikipedia.org/wiki/Christopher\_Paul\_Neil)}
 Motiviert unter anderem dadurch,
 stellt diese Arbeit eine Grundlagenanalyse dar, in wie weit CNNs dafür verwendet werden können sehr viel verbreitetere,
 aber destruktive Obfuscation-Verfahren anzugreifen.
 
-Maßgablich kommen beim Verfälschen zwei Verfahren zum Einsatz\textsuperscript{\ref{fn:protecting_privacy}}:
+Maßgeblich kommen beim Verfälschen zwei Verfahren zum Einsatz\textsuperscript{\ref{fn:protecting_privacy}}:
 ``Weichzeichnen'' (Gaussian Blur)\footnote{Wikipedia, Gaussian Blur.\newline(https://en.wikipedia.org/wiki/Gaussian\_blur)}
  und ``Verpixelung'' (Pixelization)\footnote{Wikipedia, Pixelization.\newline(https://en.wikipedia.org/wiki/Pixelization)\label{label:pixelization}}.
 
 
 \subsection{Weichzeichnen}
-Der gaußscher Weichzeichner oder Gaussian smoothing, beschreibt ein Verfahren, mit dem der Kontrast von Bildern
-verrinngert wird. Damit wird der Verlust von Detailinformationen erreicht. Die mathematische Formel, nach der die
+Der gaußsche Weichzeichner oder \textit{Gaussian Smoothing}, beschreibt ein Verfahren, mit dem der Kontrast von Bildern
+verringert wird. Damit wird der Verlust von Detailinformationen erreicht. Die mathematische Formel, nach der die
 Transformation funktioniert, lautet:
 
 \parskip\baselineskip
@@ -78,7 +78,7 @@ Auch Mosaic-Verfahren, meint eine Menge an Verfahren, die die Auflösung von Bil
 verringern, um Detailinformationen zu verbergen. Hierfür wird der unkenntlich zu machende Bereich in gleichmäßige
 Unterbereiche aufgeteilt und deren resultierender Farbwert aus den Pixeln des Ursprungsbildes gemittelt. Bei dieser
 Verfahrensfamilie gibt es eine Vielzahl an Variationen, die sich in Größe und Form der Unterbereiche und dem genauen
-Algorithmus, der verwendet wird, um die Unterbereiche unkenntlich zu machen.
+Algorithmus, der verwendet wird, um die Unterbereiche unkenntlich zu machen, unterscheidet.
 
 \begin{figure}[h]
     \centering

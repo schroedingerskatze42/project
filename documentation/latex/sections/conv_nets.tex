@@ -9,16 +9,16 @@ der in vielen weiteren Modellen Verwendung findet. Neuronale Netze wie das masch
 stellen eine andere Herangehensweise dar, als die klassischer, deterministischer Algorithmen.
 
 Anstatt dem System eine eindeutige Abfolge von Anweisungen mitzuteilen, um eine konkrete Problemstellung
-zu lösen, definiert man ein Modell und konfrontiert dieses mit verschiedenen Beispielen - die Beispiele
+zu lösen, wird ein Modell definiert und dieses mit verschiedenen Beispielen konfrontiert - die Beispiele
 sind dabei Tupel aus Eingangsgröße und erwarteter Ausgangsgröße. Die Dimensionen von Eingangs- und Ausgangsgröße
 können sich dabei gleichen, müssen es aber nicht. So können als Eingabe Bilder dienen und als
 Ausgaben konkrete Klassen, um beispielsweise Hunde von Katzen unterscheiden zu können.
 
-Anstatt nun algorithmisch zu definieren, was einen Hund von einer Katze unterscheidet, überlässt man es dem zuvor
-erstellten Modell anhand der gegebenen Eingaben und erwarteten Ausgaben, eigenständig Regeln abzuleiten, um mit
+Anstatt nun algorithmisch zu definieren, was einen Hund von einer Katze unterscheidet, wird es dem zuvor
+erstellten Modell überlassen, anhand der gegebenen Eingaben und erwarteten Ausgaben, eigenständig Regeln abzuleiten, um mit
 dessen Hilfe auch unbekannte Eingaben klassifizieren zu können.
 
-Dieser Ansatz wird als \textit{Soft Computing} bezeichnet.
+Dieser Ansatz wird auch als \textit{Soft Computing} bezeichnet.
 
 \subsection{Perzeptron}
 
@@ -40,7 +40,7 @@ produziert. Um den Output zu berechnen werden Gewichte (\textit{engl. weights}) 
 Output liefert, hängt dann davon ab, ob die gewichtete Summe der Eingangsgrößen einen zu definierenden Schwellwert
 überschreitet.
 
-Dies kann anhand des nachfolgenden Bilds verdeutlicht werden:
+Dies kann anhand der nachfolgenden Formel verdeutlicht werden:
 
 \begin{figure}[h]
     \centering
@@ -55,11 +55,11 @@ Dies kann anhand des nachfolgenden Bilds verdeutlicht werden:
 \end{figure}
 
 
-Dies ist das grundlegende Modell. Grundsätzlich kann man sich das Perzeptron als einen ``Entscheidungs-Unterstützer''
-vorstellen, der eine Entscheidung trifft, in dem er konkrete Fakten mit einem bestimmten Gewicht versieht.
+Dies ist das grundlegende Modell. Grundsätzlich kann sich das Perzeptron auch als ein ``Entscheidungs-Unterstützer''
+vorstellt werden, der eine Entscheidung trifft, in dem er konkrete Fakten mit einem bestimmten Gewicht versieht.
 
-Das gezeigte Modell ist augenscheinlich sehr simpel und noch sehr weit von dem entfernt, was man als ein neuronales
-Netz bezeichnen würde. Es ist allerdings ohne Weiteres denkbar, das gezeigte Model komplexer zu gestalten, indem
+Das gezeigte Modell ist augenscheinlich sehr simpel und noch sehr weit von dem entfernt, was als ein neuronales
+Netz bezeichnet werden würde. Es ist allerdings ohne Weiteres denkbar, das gezeigte Model komplexer zu gestalten, indem
 mehrere Perzeptrons miteinander verknüpft werden, so dass beispielsweise das nachfolgende Netzwerk entstehen könnte:
 
 \begin{figure}[h]
@@ -86,7 +86,7 @@ werden als:
     \label{fig:bias-calculation}
 \end{figure}
 
-Inhaltlich kann das Bias als ein Maß verstanden werden, aus dem hervorgeht, wie leicht ein Perzeptron aktiviert
+Inhaltlich kann der Bias als ein Maß verstanden werden, aus dem hervorgeht, wie \texit{leicht} ein Perzeptron aktiviert
 werden kann. Nimmt der Bias einen großen Wert an, so kann das Perzeptron einen Wert von 1 annehmen, auch wenn das
 Produkt aus den Gewichten und den Eingangsgrößen einen negativen Wert annimmt. Gleiches gilt selbstverständlich auch für
 einen kleinen Bias, der zur Folge hat, dass ein Perzeptron träger reagiert.
@@ -163,7 +163,7 @@ verdeutlicht werden, bei dem - um die Übersichtlichkeit zu wahren - das Input-L
 Das Lernen stellt den zentralen Ansatz von neuronalen Netzes dar. Eng im Zusammenhang mit dem Lernen steht eine
 Kosten-Funktion, die häufig auch als Verlust-Funktion bezeichnet werden kann. Diese stellt letztlich den Fehler zwischen
 dem Erwartungswert und dem tatsächlichen Wert, den das neuronale Netz berechnet, dar. Mathematisch betrachtet ist das
-grundlegende Prinzip des Lernens diese Funktion zu minimieren, also zu gewährleisten, dass die Abweichungen zwischen
+grundlegende Prinzip des Lernens, diese Funktion zu minimieren, also zu gewährleisten, dass die Abweichungen zwischen
 Erwartungswert und tatsächlichem Wert möglichst gering sind. Es sind grundsätzlich viele verschiedene Verlust-Funktionen
 denkbar, eine, die jedoch eine breite Verwendeung findet, ist die quadratische Kosten-Funktion - auch als \textit{mean squared
 error} (MSE) bezeichnet.
@@ -219,7 +219,7 @@ Der Gradient wird dann folgendermaßen definiert:
     \[ \nabla C \equiv
         (\frac{\delta C}{\delta v_1},\frac{\delta C}{\delta v_2})^T
     \]
-    \caption{Definition des Gradienten}
+    \caption{Definition des Gradienten.}
     \label{fig:gradient-decent-definition-2}
 \end{figure}
 
@@ -230,7 +230,7 @@ Durch die Verwendung dieses mathematischen Objekts kann die vorherige Gleichung\
     \[ \delta C \approx
         \nabla C \cdot \delta v
     \]
-    \caption{Veränderung des Funktionswerts durch Gradienten ausgedrückt}
+    \caption{Veränderung des Funktionswerts durch Gradienten ausgedrückt.}
     \label{fig:gradient-decent-definition-3}
 \end{figure}
 
@@ -338,7 +338,7 @@ von convolutional networks abgegrenzt werden - die \textit{pooling} Layer. Diese
 gewöhnlich auf die zuvor vorgestellten \textit{convolutional} Layer und hat zur Aufgabe, die dadurch gewonnenen Informationen
 zu vereinfachen.
 Das grundsätzliche Vorgehen kann durchaus mit dem des convolutional Layers verglichen werden - auch bei den pooling
-Layers kommt ein Feld zum Einsatz, dass sich über das Ergebnis des vorherigen Schrittes bewegt. Es könnte sich
+Layers kommt ein Feld zum Einsatz, das sich über das Ergebnis des vorherigen Schrittes bewegt. Es könnte sich
 beispielsweise um ein Feld der Größe 2 \(\times\) 2 handeln. Dieses würde somit immer 4 Neuronen betrachten und - im Falle des
 max-poolings (einer konkreten Ausprägung des Poolings) - das größte von ihnen auswählen.
 

@@ -7,18 +7,18 @@ Datenbank \textit{FaceScrub} von \textit{vintage}\footnote{vision \& interaction
 
 Die \textit{color FERET Database}\textsuperscript{\ref{footnote:color-feret}} umfasst 11.338 Gesichtsbilder von 1.208 Menschen, die in einer kontrollierten Umgebung augenommen worden sind, und
 hält neben Metadaten über Pose, Geschlecht, Ethnie und Alter auch weiterführende Daten bereit wie Augenposition und
-Kamerawinkel. Die Daten liegen im Portable Pixmap Format RGB- und im Graustufenformat homogen in einer vor Maximalauflösung von \textit{512 \(\times\) 768} Pixeln vor.
+Kamerawinkel. Die Daten liegen im Portable Pixmap Format RGB- und im Graustufenformat homogen in einer Maximalauflösung von \textit{512 \(\times\) 768} Pixeln vor.
 
 Die \textit{FaceScrub}\textsuperscript{\ref{footnote:face-scrub}} Datenbank umfasst über 100.000 Gesichtsbilder von 530 prominenten Menschen, die in einer unkontrollierten Umgebung augenommen worden sind und stellt keine
-weiteren Metadaten bereit. Die Daten liegen im JPEG-Format in einer vor Maximalauflösung von \textit{512 \(\times\) 768} Pixeln vor.
+weiteren Metadaten bereit. Die Daten liegen im JPEG-Format in einer Maximalauflösung von \textit{512 \(\times\) 768} Pixeln vor.
 
 
-Um trotz der vergleichsweise geringen Datenmenge. Vergleichbare Projekte\footnote{Richard McPherson, Rezar Shokri, Vitali Shmatikov, Defeating Image Obfuscation with Deep Learning.\newline(https://arxiv.org/pdf/1609.00408.pdf)}
-verwenden hingegen 60.000 bis 300.000 Bilder, interpretierbare Ergebnisse erzielen zu können, beschränkt sich diese Arbeit auf
+Um trotz der vergleichsweise geringen Datenmenge - vergleichbare Projekte\footnote{Richard McPherson, Rezar Shokri, Vitali Shmatikov, Defeating Image Obfuscation with Deep Learning.\newline(https://arxiv.org/pdf/1609.00408.pdf)}
+verwenden beispielsweise 60.000 bis 300.000 Bilde - interpretierbare Ergebnisse erzielen zu können, beschränkt sich diese Arbeit auf
 die Verwendung möglichst homogener Bilder unterschiedlicher Personen. Von besonderem Interesse ist hierbei die Pose des
 Abgebildeten. Die Datenbank unterscheidet Frontal- und Profilbilder sowie Bilder, in denen der Kopf um einen bestimmten
 Winkel gedreht ist. Als grundlegenden Datensatz wurde sich für die Frontalbilder entschieden, da diese mit 2.722 Bilder
-von 994 Personen den großten Teildatensatz ausmachen.
+von 994 Personen den größten Teildatensatz ausmachen.
 
 Die benötigten Testdatensätze wurde mithilfe von ImageMagick\footnote{ImageMagick Studio LLC, ImageMagick.\newline(https://www.imagemagick.org/)} in Version 6.8. aufbereitet. Um die Komplexität der
 Problemstellung weiter zu reduzieren, wurden die Bilder grauskaliert und auf 12,5\% der Ursprungsgröße skaliert, sodass
