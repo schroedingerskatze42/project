@@ -27,7 +27,7 @@ TensorFlow is an open-source software library for dataflow programming across a 
 ## Create test data and run
 Test data is currently added to this repository. Under `databases`, subsets of the colorferet database as well as the facescrub database can be found there.
 
-To recreate the test data from its `originals`, assert availability of ImageMagick in Version 7 and locate the script `create_test_images.sh` within the database folder. The script will produce test data on bases of the folder `original`.
+To recreate the test data from its `originals`, assert availability of ImageMagick in minimal Version 6 and locate the script `create_test_images.sh` within the database folder. The script will produce test data on bases of the folder `original`.
 
 ##### e.g.
 ```bash
@@ -45,7 +45,7 @@ chmod +x create_images.sh
 * `--force` override existing images
 
 #### Implementations and execution
-* `run_model_keras.py` trains and evaluates a cnn built with keras
+* `run_model_keras.py` trains and evaluates a cnn built with keras, colorferet database
 * `run_model_srcnn.py` trains and evaluates a cnn built with tensorflow, colorferet database
 * `run_model_tensorflow.py` trains and evaluates a cnn built with tensorflow, facescrub database
 
