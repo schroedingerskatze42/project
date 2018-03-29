@@ -75,10 +75,6 @@ destination_create_name_operation() {
 # assert needed directories
 if [ ${RGB} -eq 1 ];
 then
-#    original_dir="${DESTINATION_PATH_RGB}/original"
-#    echo "assert directory ${original_dir}"
-#    mkdir -p ${original_dir}
-
     blurred_03_dir=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'blur' '03' )
     echo "assert directory ${blurred_03_dir}"
     mkdir -p ${blurred_03_dir}
@@ -89,10 +85,6 @@ then
 fi
 if [ ${GRAYSCALE} -eq 1 ];
 then
-#    original_dir="${DESTINATION_PATH_GRAYSCALE}/original"
-#    echo "assert directory ${original_dir}"
-#    mkdir -p ${original_dir}
-
     blurred_03_dir=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'blur' '03' )
     echo "assert directory ${blurred_03_dir}"
     mkdir -p ${blurred_03_dir}
@@ -117,10 +109,6 @@ do
     then
         filename=$(get_filename_from_path ${f})
 
-#        path="${DESTINATION_PATH_RGB}/original"
-#        d="${path}/${filename}"
-#        convert ${f} -adaptive-resize ${SCALE}% ${d}
-
         path=$(destination_create_name_operation ${DESTINATION_PATH_RGB} 'blur' '03')
         d="${path}/${filename}"
         convert ${f} -adaptive-resize ${SCALE}% -gaussian-blur 0x3 ${d}
@@ -134,11 +122,6 @@ do
     then
         ppm_name=$(get_filename_from_path ${f})
         pgm_name=$(sed 's/.ppm$/.pgm$/g' <<< "$ppm_name")  # ImageMagick is sensitive to file suffix
-
-#        path="${DESTINATION_PATH_GRAYSCALE}/original"
-#        d="${path}/${pgm_name}"
-#        convert ${f} -set colorspace Gray -separate -average -adaptive-resize ${SCALE}% ${d}
-#        mv ${d} ${path}/${ppm_name}
 
         path=$(destination_create_name_operation ${DESTINATION_PATH_GRAYSCALE} 'blur' '03')
         d="${path}/${pgm_name}"
