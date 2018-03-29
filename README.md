@@ -49,9 +49,18 @@ chmod +x create_images.sh
 * `run_model_srcnn.py` trains and evaluates a cnn built with tensorflow, colorferet database
 * `run_model_tensorflow.py` trains and evaluates a cnn built with tensorflow, facescrub database
 
+## Documentation
+You find a `documentation.pdf` in the folder `documentation/`. You may recreate the `documentation.pdf` with LaTeX by
+executing
+
+```bash
+./pdflatex documetation.tex
+```
+
 ## Resources
  * [Keras](https://keras.io)
  * [TensorFlow](https://www.tensorflow.org)
  * [colorferet database](https://www.nist.gov/itl/iad/image-group/color-feret-database)
  * [facescrub database](http://vintage.winklerbros.net/facescrub.html)
  * [ImageMagick](https://www.imagemagick.org/script/index.php)
+ * [LaTeX](https://www.latex-project.org/)
